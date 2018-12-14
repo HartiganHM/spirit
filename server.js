@@ -43,7 +43,7 @@ const requireHTTPS = (request, response, next) => {
   next();
 };
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 4000);
 app.set('spiritKey', process.env.SPIRIT_KEY);
 
 if (environment !== 'development' && environment !== 'test') {
