@@ -1,0 +1,94 @@
+@import '../../variables.scss';
+
+.SliderTen {
+  box-sizing: border-box;
+  width: 100%;
+  border: 4px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  @include std-transition;
+
+  h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .range-container {
+    padding: 0 7px;
+  }
+
+  .slider-heading {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding: 7px;
+  }
+
+  .definition-holder {
+    display: none;
+  }
+
+  .display-definition {
+    display: block;
+  }
+
+  .definition-image {
+    width: 17px;
+    cursor: pointer;
+    opacity: .65;
+    margin-right: 5px;
+  }
+
+  .definition-image:hover {
+    opacity: 1;
+  }
+
+  .button-fair {
+    margin: 0 1px;
+    color: $grey2;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #fff;
+    display: inline-block;
+    width: 27px;
+    border-radius: 50px;
+  }
+
+  .button-fair:hover {
+    color: $purple5;
+    background-color: $purple1;
+  }
+
+  .button-active {
+    color: $purple5;
+    background-color: $purple1;
+  }
+
+  h5 {
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+
+  .slider-number {
+    width: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px auto 0;
+    color: $purple5;
+    background-color: $purple1;
+    border-radius: 40px;
+    height: 20px;
+    padding: 1px 1px 0;
+  }
+
+}
+
+.thread-connection {
+  border: 4px solid $green3;
+}

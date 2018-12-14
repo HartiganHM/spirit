@@ -1,0 +1,769 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SessionHeader tests Should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SessionHeader
+    databaseNamesArray={
+      Array [
+        "sen_h_vestibular",
+        "sen_h_proprioception",
+        "sen_h_tactile",
+        "sen_h_auditory",
+        "sen_h_visual",
+        "sen_h_intero",
+      ]
+    }
+    headings={
+      Array [
+        "Vestibular",
+        "Proprioception",
+        "Tactile",
+        "Auditory",
+        "Visual",
+        "Intero",
+      ]
+    }
+    title="Sensory Discrimination Capacities"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="session-title"
+        >
+          Sensory Discrimination Capacities
+        </h2>,
+        <div
+          className="session-header-container"
+        >
+          <div
+            className="slider-holder"
+          >
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="sen_h_vestibular"
+              sliderTitle="Vestibular"
+            />
+          </div>
+          <div
+            className="slider-holder"
+          >
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="sen_h_proprioception"
+              sliderTitle="Proprioception"
+            />
+          </div>
+          <div
+            className="slider-holder"
+          >
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="sen_h_tactile"
+              sliderTitle="Tactile"
+            />
+          </div>
+          <div
+            className="slider-holder"
+          >
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="sen_h_auditory"
+              sliderTitle="Auditory"
+            />
+          </div>
+          <div
+            className="slider-holder"
+          >
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="sen_h_visual"
+              sliderTitle="Visual"
+            />
+          </div>
+          <div
+            className="slider-holder"
+          >
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="sen_h_intero"
+              sliderTitle="Intero"
+            />
+          </div>
+        </div>,
+      ],
+      "className": "SessionHeader",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sensory Discrimination Capacities",
+          "className": "session-title",
+        },
+        "ref": null,
+        "rendered": "Sensory Discrimination Capacities",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_vestibular"
+                sliderTitle="Vestibular"
+              />
+            </div>,
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_proprioception"
+                sliderTitle="Proprioception"
+              />
+            </div>,
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_tactile"
+                sliderTitle="Tactile"
+              />
+            </div>,
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_auditory"
+                sliderTitle="Auditory"
+              />
+            </div>,
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_visual"
+                sliderTitle="Visual"
+              />
+            </div>,
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_intero"
+                sliderTitle="Intero"
+              />
+            </div>,
+          ],
+          "className": "session-header-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_vestibular"
+                sliderTitle="Vestibular"
+              />,
+              "className": "slider-holder",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "databaseName": "sen_h_vestibular",
+                "sliderTitle": "Vestibular",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_proprioception"
+                sliderTitle="Proprioception"
+              />,
+              "className": "slider-holder",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "databaseName": "sen_h_proprioception",
+                "sliderTitle": "Proprioception",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_tactile"
+                sliderTitle="Tactile"
+              />,
+              "className": "slider-holder",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "databaseName": "sen_h_tactile",
+                "sliderTitle": "Tactile",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_auditory"
+                sliderTitle="Auditory"
+              />,
+              "className": "slider-holder",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "databaseName": "sen_h_auditory",
+                "sliderTitle": "Auditory",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_visual"
+                sliderTitle="Visual"
+              />,
+              "className": "slider-holder",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "databaseName": "sen_h_visual",
+                "sliderTitle": "Visual",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_intero"
+                sliderTitle="Intero"
+              />,
+              "className": "slider-holder",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "databaseName": "sen_h_intero",
+                "sliderTitle": "Intero",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="session-title"
+          >
+            Sensory Discrimination Capacities
+          </h2>,
+          <div
+            className="session-header-container"
+          >
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_vestibular"
+                sliderTitle="Vestibular"
+              />
+            </div>
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_proprioception"
+                sliderTitle="Proprioception"
+              />
+            </div>
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_tactile"
+                sliderTitle="Tactile"
+              />
+            </div>
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_auditory"
+                sliderTitle="Auditory"
+              />
+            </div>
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_visual"
+                sliderTitle="Visual"
+              />
+            </div>
+            <div
+              className="slider-holder"
+            >
+              <Connect(OnClickOutside(SliderTen))
+                databaseName="sen_h_intero"
+                sliderTitle="Intero"
+              />
+            </div>
+          </div>,
+        ],
+        "className": "SessionHeader",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sensory Discrimination Capacities",
+            "className": "session-title",
+          },
+          "ref": null,
+          "rendered": "Sensory Discrimination Capacities",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="slider-holder"
+              >
+                <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_vestibular"
+                  sliderTitle="Vestibular"
+                />
+              </div>,
+              <div
+                className="slider-holder"
+              >
+                <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_proprioception"
+                  sliderTitle="Proprioception"
+                />
+              </div>,
+              <div
+                className="slider-holder"
+              >
+                <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_tactile"
+                  sliderTitle="Tactile"
+                />
+              </div>,
+              <div
+                className="slider-holder"
+              >
+                <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_auditory"
+                  sliderTitle="Auditory"
+                />
+              </div>,
+              <div
+                className="slider-holder"
+              >
+                <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_visual"
+                  sliderTitle="Visual"
+                />
+              </div>,
+              <div
+                className="slider-holder"
+              >
+                <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_intero"
+                  sliderTitle="Intero"
+                />
+              </div>,
+            ],
+            "className": "session-header-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_vestibular"
+                  sliderTitle="Vestibular"
+                />,
+                "className": "slider-holder",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "databaseName": "sen_h_vestibular",
+                  "sliderTitle": "Vestibular",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_proprioception"
+                  sliderTitle="Proprioception"
+                />,
+                "className": "slider-holder",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "databaseName": "sen_h_proprioception",
+                  "sliderTitle": "Proprioception",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_tactile"
+                  sliderTitle="Tactile"
+                />,
+                "className": "slider-holder",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "databaseName": "sen_h_tactile",
+                  "sliderTitle": "Tactile",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_auditory"
+                  sliderTitle="Auditory"
+                />,
+                "className": "slider-holder",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "databaseName": "sen_h_auditory",
+                  "sliderTitle": "Auditory",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_visual"
+                  sliderTitle="Visual"
+                />,
+                "className": "slider-holder",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "databaseName": "sen_h_visual",
+                  "sliderTitle": "Visual",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(OnClickOutside(SliderTen))
+                  databaseName="sen_h_intero"
+                  sliderTitle="Intero"
+                />,
+                "className": "slider-holder",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "databaseName": "sen_h_intero",
+                  "sliderTitle": "Intero",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`SessionHeader tests Should match snapshot if some props are empty arrays 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SessionHeader
+    databaseNamesArray={Array []}
+    headings={Array []}
+    title="Sensory Discrimination Capacities"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="session-title"
+        >
+          Sensory Discrimination Capacities
+        </h2>,
+        <div
+          className="session-header-container"
+        />,
+      ],
+      "className": "SessionHeader",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sensory Discrimination Capacities",
+          "className": "session-title",
+        },
+        "ref": null,
+        "rendered": "Sensory Discrimination Capacities",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+          "className": "session-header-container",
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="session-title"
+          >
+            Sensory Discrimination Capacities
+          </h2>,
+          <div
+            className="session-header-container"
+          />,
+        ],
+        "className": "SessionHeader",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sensory Discrimination Capacities",
+            "className": "session-title",
+          },
+          "ref": null,
+          "rendered": "Sensory Discrimination Capacities",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "className": "session-header-container",
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

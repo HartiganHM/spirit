@@ -1,0 +1,108 @@
+@import '../../variables.scss';
+
+.Create {
+  @include small-content;
+
+  .clinic-span {
+    margin-right: 10px;
+    @include match-h5;
+    color: $grey3;
+  }
+
+  ::placeholder {
+    font-size: 18px;
+  }
+
+  .new-clinic-form {
+    margin-top: 20px;
+  }
+
+  .add-clinic-directions {
+    @include match-p;
+    padding: 10px 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .input-clinic-name, .submit-button {
+    height: 40px;
+    margin: 10px 0;
+    border: none;
+
+  }
+
+  .input-abbreviation::placeholder {
+    font-size: 18px;
+    letter-spacing: 0px;
+    position: relative;
+    right: 12px;
+    color: $grey4;
+  }
+
+  .input-clinic-name, .input-abbreviation {
+    padding: 5px 10px;
+    color: $grey5;
+    text-align: center;
+    font-size: 20px;
+    background-color: $grey1;
+    border-bottom: 10px solid $grey2;
+  }
+
+  .input-clinic-name {
+    ::placeholder {
+      color: $grey4;
+    }
+  }
+
+  .input-abbreviation {
+    height: 80px;
+    border: none;
+    font-size: 70px;
+    padding-left: 37px;
+    letter-spacing: 30px;
+    border-bottom: 10px solid $grey2;
+  }
+
+  .submit-button {
+    background-color: $purple4;
+    cursor: pointer;
+    color: $purple5;
+    @include std-transition;
+    font-weight: 900;
+    color: #fff;
+
+  }
+
+  .submit-button:hover {
+    background-color: $purple6;
+  }
+
+  .error-message, .success-message {
+    @include match-h5;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .error-message {
+    color: #C00E0E;
+  }
+
+  .success-message {
+    color: $green4;
+  }
+
+  a.join-link {
+    text-decoration: none;
+    color: $green4;
+  }
+
+  a.join-link:hover {
+    color: $green5;
+  }
+} 

@@ -1,0 +1,915 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TreatmentPlans tests Should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TreatmentPlans />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="treatment-header-tabs"
+        >
+          <div
+            className="treatment-header treatment-header-active treatment-header-modulation"
+            onClick={[Function]}
+          >
+            <h4>
+              Sensory Modulation
+            </h4>
+          </div>
+          <div
+            className="treatment-header treatment-header-postural"
+            onClick={[Function]}
+          >
+            <h4>
+              Postural
+            </h4>
+          </div>
+          <div
+            className="treatment-header treatment-header-sensory"
+            onClick={[Function]}
+          >
+            <h4>
+              Sensory Discrimination
+            </h4>
+          </div>
+          <div
+            className="treatment-header treatment-header-social"
+            onClick={[Function]}
+          >
+            <h4>
+              Social/Emotional Development
+            </h4>
+          </div>
+          <div
+            className="treatment-header treatment-header-executive"
+            onClick={[Function]}
+          >
+            <h4>
+              Executive Functioning
+            </h4>
+          </div>
+        </div>,
+        <div
+          className="module-container"
+        >
+          <div
+            className="treatment-body"
+          >
+            <Connect(TreatmentPlanModule)
+              type="modulation_"
+            />
+          </div>
+          <div
+            className="treatment-body display-none"
+          >
+            <Connect(TreatmentPlanModule)
+              type="postural_"
+            />
+          </div>
+          <div
+            className="treatment-body display-none"
+          >
+            <Connect(TreatmentPlanModule)
+              type="sensory_discrimination_"
+            />
+          </div>
+          <div
+            className="treatment-body display-none"
+          >
+            <Connect(TreatmentPlanModule)
+              type="social_emotional_"
+            />
+          </div>
+          <div
+            className="treatment-body display-none"
+          >
+            <Connect(TreatmentPlanModule)
+              type="executive_functioning_"
+            />
+          </div>
+        </div>,
+      ],
+      "className": "TreatmentPlans",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="treatment-header treatment-header-active treatment-header-modulation"
+              onClick={[Function]}
+            >
+              <h4>
+                Sensory Modulation
+              </h4>
+            </div>,
+            <div
+              className="treatment-header treatment-header-postural"
+              onClick={[Function]}
+            >
+              <h4>
+                Postural
+              </h4>
+            </div>,
+            <div
+              className="treatment-header treatment-header-sensory"
+              onClick={[Function]}
+            >
+              <h4>
+                Sensory Discrimination
+              </h4>
+            </div>,
+            <div
+              className="treatment-header treatment-header-social"
+              onClick={[Function]}
+            >
+              <h4>
+                Social/Emotional Development
+              </h4>
+            </div>,
+            <div
+              className="treatment-header treatment-header-executive"
+              onClick={[Function]}
+            >
+              <h4>
+                Executive Functioning
+              </h4>
+            </div>,
+          ],
+          "className": "treatment-header-tabs",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": <h4>
+                Sensory Modulation
+              </h4>,
+              "className": "treatment-header treatment-header-active treatment-header-modulation",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sensory Modulation",
+              },
+              "ref": null,
+              "rendered": "Sensory Modulation",
+              "type": "h4",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": <h4>
+                Postural
+              </h4>,
+              "className": "treatment-header treatment-header-postural",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Postural",
+              },
+              "ref": null,
+              "rendered": "Postural",
+              "type": "h4",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": <h4>
+                Sensory Discrimination
+              </h4>,
+              "className": "treatment-header treatment-header-sensory",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sensory Discrimination",
+              },
+              "ref": null,
+              "rendered": "Sensory Discrimination",
+              "type": "h4",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": <h4>
+                Social/Emotional Development
+              </h4>,
+              "className": "treatment-header treatment-header-social",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Social/Emotional Development",
+              },
+              "ref": null,
+              "rendered": "Social/Emotional Development",
+              "type": "h4",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "host",
+            "props": Object {
+              "children": <h4>
+                Executive Functioning
+              </h4>,
+              "className": "treatment-header treatment-header-executive",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Executive Functioning",
+              },
+              "ref": null,
+              "rendered": "Executive Functioning",
+              "type": "h4",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="treatment-body"
+            >
+              <Connect(TreatmentPlanModule)
+                type="modulation_"
+              />
+            </div>,
+            <div
+              className="treatment-body display-none"
+            >
+              <Connect(TreatmentPlanModule)
+                type="postural_"
+              />
+            </div>,
+            <div
+              className="treatment-body display-none"
+            >
+              <Connect(TreatmentPlanModule)
+                type="sensory_discrimination_"
+              />
+            </div>,
+            <div
+              className="treatment-body display-none"
+            >
+              <Connect(TreatmentPlanModule)
+                type="social_emotional_"
+              />
+            </div>,
+            <div
+              className="treatment-body display-none"
+            >
+              <Connect(TreatmentPlanModule)
+                type="executive_functioning_"
+              />
+            </div>,
+          ],
+          "className": "module-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(TreatmentPlanModule)
+                type="modulation_"
+              />,
+              "className": "treatment-body",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "type": "modulation_",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(TreatmentPlanModule)
+                type="postural_"
+              />,
+              "className": "treatment-body display-none",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "type": "postural_",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(TreatmentPlanModule)
+                type="sensory_discrimination_"
+              />,
+              "className": "treatment-body display-none",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "type": "sensory_discrimination_",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(TreatmentPlanModule)
+                type="social_emotional_"
+              />,
+              "className": "treatment-body display-none",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "type": "social_emotional_",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(TreatmentPlanModule)
+                type="executive_functioning_"
+              />,
+              "className": "treatment-body display-none",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "type": "executive_functioning_",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="treatment-header-tabs"
+          >
+            <div
+              className="treatment-header treatment-header-active treatment-header-modulation"
+              onClick={[Function]}
+            >
+              <h4>
+                Sensory Modulation
+              </h4>
+            </div>
+            <div
+              className="treatment-header treatment-header-postural"
+              onClick={[Function]}
+            >
+              <h4>
+                Postural
+              </h4>
+            </div>
+            <div
+              className="treatment-header treatment-header-sensory"
+              onClick={[Function]}
+            >
+              <h4>
+                Sensory Discrimination
+              </h4>
+            </div>
+            <div
+              className="treatment-header treatment-header-social"
+              onClick={[Function]}
+            >
+              <h4>
+                Social/Emotional Development
+              </h4>
+            </div>
+            <div
+              className="treatment-header treatment-header-executive"
+              onClick={[Function]}
+            >
+              <h4>
+                Executive Functioning
+              </h4>
+            </div>
+          </div>,
+          <div
+            className="module-container"
+          >
+            <div
+              className="treatment-body"
+            >
+              <Connect(TreatmentPlanModule)
+                type="modulation_"
+              />
+            </div>
+            <div
+              className="treatment-body display-none"
+            >
+              <Connect(TreatmentPlanModule)
+                type="postural_"
+              />
+            </div>
+            <div
+              className="treatment-body display-none"
+            >
+              <Connect(TreatmentPlanModule)
+                type="sensory_discrimination_"
+              />
+            </div>
+            <div
+              className="treatment-body display-none"
+            >
+              <Connect(TreatmentPlanModule)
+                type="social_emotional_"
+              />
+            </div>
+            <div
+              className="treatment-body display-none"
+            >
+              <Connect(TreatmentPlanModule)
+                type="executive_functioning_"
+              />
+            </div>
+          </div>,
+        ],
+        "className": "TreatmentPlans",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="treatment-header treatment-header-active treatment-header-modulation"
+                onClick={[Function]}
+              >
+                <h4>
+                  Sensory Modulation
+                </h4>
+              </div>,
+              <div
+                className="treatment-header treatment-header-postural"
+                onClick={[Function]}
+              >
+                <h4>
+                  Postural
+                </h4>
+              </div>,
+              <div
+                className="treatment-header treatment-header-sensory"
+                onClick={[Function]}
+              >
+                <h4>
+                  Sensory Discrimination
+                </h4>
+              </div>,
+              <div
+                className="treatment-header treatment-header-social"
+                onClick={[Function]}
+              >
+                <h4>
+                  Social/Emotional Development
+                </h4>
+              </div>,
+              <div
+                className="treatment-header treatment-header-executive"
+                onClick={[Function]}
+              >
+                <h4>
+                  Executive Functioning
+                </h4>
+              </div>,
+            ],
+            "className": "treatment-header-tabs",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": <h4>
+                  Sensory Modulation
+                </h4>,
+                "className": "treatment-header treatment-header-active treatment-header-modulation",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sensory Modulation",
+                },
+                "ref": null,
+                "rendered": "Sensory Modulation",
+                "type": "h4",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <h4>
+                  Postural
+                </h4>,
+                "className": "treatment-header treatment-header-postural",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Postural",
+                },
+                "ref": null,
+                "rendered": "Postural",
+                "type": "h4",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <h4>
+                  Sensory Discrimination
+                </h4>,
+                "className": "treatment-header treatment-header-sensory",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sensory Discrimination",
+                },
+                "ref": null,
+                "rendered": "Sensory Discrimination",
+                "type": "h4",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": <h4>
+                  Social/Emotional Development
+                </h4>,
+                "className": "treatment-header treatment-header-social",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Social/Emotional Development",
+                },
+                "ref": null,
+                "rendered": "Social/Emotional Development",
+                "type": "h4",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": <h4>
+                  Executive Functioning
+                </h4>,
+                "className": "treatment-header treatment-header-executive",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Executive Functioning",
+                },
+                "ref": null,
+                "rendered": "Executive Functioning",
+                "type": "h4",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="treatment-body"
+              >
+                <Connect(TreatmentPlanModule)
+                  type="modulation_"
+                />
+              </div>,
+              <div
+                className="treatment-body display-none"
+              >
+                <Connect(TreatmentPlanModule)
+                  type="postural_"
+                />
+              </div>,
+              <div
+                className="treatment-body display-none"
+              >
+                <Connect(TreatmentPlanModule)
+                  type="sensory_discrimination_"
+                />
+              </div>,
+              <div
+                className="treatment-body display-none"
+              >
+                <Connect(TreatmentPlanModule)
+                  type="social_emotional_"
+                />
+              </div>,
+              <div
+                className="treatment-body display-none"
+              >
+                <Connect(TreatmentPlanModule)
+                  type="executive_functioning_"
+                />
+              </div>,
+            ],
+            "className": "module-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(TreatmentPlanModule)
+                  type="modulation_"
+                />,
+                "className": "treatment-body",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "type": "modulation_",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(TreatmentPlanModule)
+                  type="postural_"
+                />,
+                "className": "treatment-body display-none",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "type": "postural_",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(TreatmentPlanModule)
+                  type="sensory_discrimination_"
+                />,
+                "className": "treatment-body display-none",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "type": "sensory_discrimination_",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(TreatmentPlanModule)
+                  type="social_emotional_"
+                />,
+                "className": "treatment-body display-none",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "type": "social_emotional_",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(TreatmentPlanModule)
+                  type="executive_functioning_"
+                />,
+                "className": "treatment-body display-none",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "type": "executive_functioning_",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

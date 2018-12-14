@@ -1,0 +1,133 @@
+/******  GLOBAL CSS VARIABLES  ******/
+/***  COLORS  ***/
+/***  FONTS  ***/
+* {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  outline: none;
+  color: #6d6e71; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.3; }
+
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 10px; }
+
+p {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 900; }
+
+::placeholder {
+  opacity: .5;
+  text-align: center; }
+
+/***  MIXINS  ***/
+.UserDashboard {
+  margin: 0 auto; }
+  .UserDashboard .user-dashboard-header {
+    display: flex;
+    background-color: #5E378C;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; }
+  .UserDashboard .user-dashboard-content {
+    width: 1152px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    width: 480px; }
+  .UserDashboard .welcome-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .UserDashboard .welcome-instructions {
+    font-family: "Lato", sans-serif;
+    font-size: 16px; }
+  .UserDashboard .user-dashboard-name {
+    text-align: left;
+    margin: 3px 0 0;
+    color: #EAE5F0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px; }
+  .UserDashboard h3 {
+    margin-top: 30px; }
+  .UserDashboard h5 {
+    text-align: center; }
+  .UserDashboard .dividing-line,
+  .UserDashboard .small-dividing-line {
+    width: 675px;
+    height: 2px;
+    margin: auto;
+    background: #6d6e71; }
+  .UserDashboard .small-dividing-line {
+    width: 20px; }
+  .UserDashboard .input-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    margin: 0 auto 10px; }
+  .UserDashboard input {
+    height: 100px;
+    width: 110px;
+    background-color: #f1f2f2;
+    border: none;
+    padding: 0;
+    font-size: 50px;
+    border-bottom: 10px solid #d1d3d4;
+    text-align: center;
+    font-weight: bold; }
+  .UserDashboard ::placeholder {
+    font-size: 16px;
+    position: relative;
+    bottom: 10px; }
+  .UserDashboard button {
+    min-width: 110px;
+    height: 40px;
+    background-color: #9E87BA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out; }
+  .UserDashboard button:hover {
+    background-color: #5E378C; }
+  .UserDashboard .error-message,
+  .UserDashboard .success-message {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding: 10px; }
+  .UserDashboard .error-message {
+    color: #C00E0E; }
+  .UserDashboard .success-message {
+    color: #5cba47; }
+  .UserDashboard .clinic-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s ease-in-out; }
+  .UserDashboard .clinic-link:hover {
+    color: #BFAFD0; }
+  .UserDashboard .current-patients {
+    margin: 67px 0 -10px; }

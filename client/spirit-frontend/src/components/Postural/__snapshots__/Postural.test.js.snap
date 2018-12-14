@@ -1,0 +1,869 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Postural tests Should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Postural />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SessionHeader
+          databaseNamesArray={
+            Array [
+              "pos_h_vestibular",
+              "pos_h_proprioception",
+              "pos_h_tactile",
+              "pos_h_auditory",
+              "pos_h_visual",
+              "pos_h_intero",
+            ]
+          }
+          headings={
+            Array [
+              "Vestibular",
+              "Proprioception",
+              "Tactile",
+              "Auditory",
+              "Visual",
+              "Intero",
+            ]
+          }
+          title="Postural/Core Movement Capacities"
+        />,
+        <div
+          className="category-content"
+        >
+          <YesNoQuestions
+            databaseNamesArray={
+              Array [
+                "pos_1_outer",
+                "pos_1_inner",
+              ]
+            }
+            questionsArray={
+              Array [
+                "Outer Core",
+                "Inner Core",
+              ]
+            }
+            title="Core Development"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "pos_2_stability",
+                "pos_2_mobility",
+                "pos_2_tonic",
+                "pos_2_phasic",
+                "pos_2_muscle",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Stability",
+                "Mobility",
+                "Tonic",
+                "Phasic",
+                "Muscle Tone",
+              ]
+            }
+            title="Quality of Movement"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "pos_3_sagittal",
+                "pos_3_frontal",
+                "pos_3_transverse",
+                "pos_3_midlines",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Sagittal: Flex/Ext",
+                "Frontal: Lateral",
+                "Transverse: Rotational",
+                "Midlines of each plane",
+              ]
+            }
+            title="Planes of Movement"
+          />
+          <Connect(BodyDiagram) />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "pos_5_suck",
+                "pos_5_ocular",
+                "pos_5_antigravity",
+                "pos_5_reflex",
+                "pos_5_alignment_COG",
+                "pos_5_alignment_orient",
+                "pos_5_anticipatory",
+                "pos_5_interactive",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Suck/Swallow/Breath",
+                "Ocular within Postural Control",
+                "Antigravity Control",
+                "Reflex Integration/Sensory Motor Patterns",
+                "Alignment/COG over BOS",
+                "Alignment/Orient to Stimulus or Goal",
+                "Anticipatory Control",
+                "Interactive Oscillator and Imitative Action",
+              ]
+            }
+            title="Automatic Actions"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "pos_6_push",
+                "pos_6_bilateral",
+                "pos_6_grasp",
+                "pos_6_strength",
+                "pos_6_effortful",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Push/Pull/Reach",
+                "Bilateral Symmetrical/Bilateral Asymmetrical/Unilateral",
+                "Grasp/Release",
+                "Strength/Endurance/Flexibility/BMI",
+                "Effortful Control",
+              ]
+            }
+            title="Voluntary Actions"
+          />
+        </div>,
+      ],
+      "className": "Postural",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "databaseNamesArray": Array [
+            "pos_h_vestibular",
+            "pos_h_proprioception",
+            "pos_h_tactile",
+            "pos_h_auditory",
+            "pos_h_visual",
+            "pos_h_intero",
+          ],
+          "headings": Array [
+            "Vestibular",
+            "Proprioception",
+            "Tactile",
+            "Auditory",
+            "Visual",
+            "Intero",
+          ],
+          "title": "Postural/Core Movement Capacities",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <YesNoQuestions
+              databaseNamesArray={
+                Array [
+                  "pos_1_outer",
+                  "pos_1_inner",
+                ]
+              }
+              questionsArray={
+                Array [
+                  "Outer Core",
+                  "Inner Core",
+                ]
+              }
+              title="Core Development"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "pos_2_stability",
+                  "pos_2_mobility",
+                  "pos_2_tonic",
+                  "pos_2_phasic",
+                  "pos_2_muscle",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Stability",
+                  "Mobility",
+                  "Tonic",
+                  "Phasic",
+                  "Muscle Tone",
+                ]
+              }
+              title="Quality of Movement"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "pos_3_sagittal",
+                  "pos_3_frontal",
+                  "pos_3_transverse",
+                  "pos_3_midlines",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Sagittal: Flex/Ext",
+                  "Frontal: Lateral",
+                  "Transverse: Rotational",
+                  "Midlines of each plane",
+                ]
+              }
+              title="Planes of Movement"
+            />,
+            <Connect(BodyDiagram) />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "pos_5_suck",
+                  "pos_5_ocular",
+                  "pos_5_antigravity",
+                  "pos_5_reflex",
+                  "pos_5_alignment_COG",
+                  "pos_5_alignment_orient",
+                  "pos_5_anticipatory",
+                  "pos_5_interactive",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Suck/Swallow/Breath",
+                  "Ocular within Postural Control",
+                  "Antigravity Control",
+                  "Reflex Integration/Sensory Motor Patterns",
+                  "Alignment/COG over BOS",
+                  "Alignment/Orient to Stimulus or Goal",
+                  "Anticipatory Control",
+                  "Interactive Oscillator and Imitative Action",
+                ]
+              }
+              title="Automatic Actions"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "pos_6_push",
+                  "pos_6_bilateral",
+                  "pos_6_grasp",
+                  "pos_6_strength",
+                  "pos_6_effortful",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Push/Pull/Reach",
+                  "Bilateral Symmetrical/Bilateral Asymmetrical/Unilateral",
+                  "Grasp/Release",
+                  "Strength/Endurance/Flexibility/BMI",
+                  "Effortful Control",
+                ]
+              }
+              title="Voluntary Actions"
+            />,
+          ],
+          "className": "category-content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "pos_1_outer",
+                "pos_1_inner",
+              ],
+              "questionsArray": Array [
+                "Outer Core",
+                "Inner Core",
+              ],
+              "title": "Core Development",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "pos_2_stability",
+                "pos_2_mobility",
+                "pos_2_tonic",
+                "pos_2_phasic",
+                "pos_2_muscle",
+              ],
+              "slidersArray": Array [
+                "Stability",
+                "Mobility",
+                "Tonic",
+                "Phasic",
+                "Muscle Tone",
+              ],
+              "title": "Quality of Movement",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "pos_3_sagittal",
+                "pos_3_frontal",
+                "pos_3_transverse",
+                "pos_3_midlines",
+              ],
+              "slidersArray": Array [
+                "Sagittal: Flex/Ext",
+                "Frontal: Lateral",
+                "Transverse: Rotational",
+                "Midlines of each plane",
+              ],
+              "title": "Planes of Movement",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "pos_5_suck",
+                "pos_5_ocular",
+                "pos_5_antigravity",
+                "pos_5_reflex",
+                "pos_5_alignment_COG",
+                "pos_5_alignment_orient",
+                "pos_5_anticipatory",
+                "pos_5_interactive",
+              ],
+              "slidersArray": Array [
+                "Suck/Swallow/Breath",
+                "Ocular within Postural Control",
+                "Antigravity Control",
+                "Reflex Integration/Sensory Motor Patterns",
+                "Alignment/COG over BOS",
+                "Alignment/Orient to Stimulus or Goal",
+                "Anticipatory Control",
+                "Interactive Oscillator and Imitative Action",
+              ],
+              "title": "Automatic Actions",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "pos_6_push",
+                "pos_6_bilateral",
+                "pos_6_grasp",
+                "pos_6_strength",
+                "pos_6_effortful",
+              ],
+              "slidersArray": Array [
+                "Push/Pull/Reach",
+                "Bilateral Symmetrical/Bilateral Asymmetrical/Unilateral",
+                "Grasp/Release",
+                "Strength/Endurance/Flexibility/BMI",
+                "Effortful Control",
+              ],
+              "title": "Voluntary Actions",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SessionHeader
+            databaseNamesArray={
+              Array [
+                "pos_h_vestibular",
+                "pos_h_proprioception",
+                "pos_h_tactile",
+                "pos_h_auditory",
+                "pos_h_visual",
+                "pos_h_intero",
+              ]
+            }
+            headings={
+              Array [
+                "Vestibular",
+                "Proprioception",
+                "Tactile",
+                "Auditory",
+                "Visual",
+                "Intero",
+              ]
+            }
+            title="Postural/Core Movement Capacities"
+          />,
+          <div
+            className="category-content"
+          >
+            <YesNoQuestions
+              databaseNamesArray={
+                Array [
+                  "pos_1_outer",
+                  "pos_1_inner",
+                ]
+              }
+              questionsArray={
+                Array [
+                  "Outer Core",
+                  "Inner Core",
+                ]
+              }
+              title="Core Development"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "pos_2_stability",
+                  "pos_2_mobility",
+                  "pos_2_tonic",
+                  "pos_2_phasic",
+                  "pos_2_muscle",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Stability",
+                  "Mobility",
+                  "Tonic",
+                  "Phasic",
+                  "Muscle Tone",
+                ]
+              }
+              title="Quality of Movement"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "pos_3_sagittal",
+                  "pos_3_frontal",
+                  "pos_3_transverse",
+                  "pos_3_midlines",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Sagittal: Flex/Ext",
+                  "Frontal: Lateral",
+                  "Transverse: Rotational",
+                  "Midlines of each plane",
+                ]
+              }
+              title="Planes of Movement"
+            />
+            <Connect(BodyDiagram) />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "pos_5_suck",
+                  "pos_5_ocular",
+                  "pos_5_antigravity",
+                  "pos_5_reflex",
+                  "pos_5_alignment_COG",
+                  "pos_5_alignment_orient",
+                  "pos_5_anticipatory",
+                  "pos_5_interactive",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Suck/Swallow/Breath",
+                  "Ocular within Postural Control",
+                  "Antigravity Control",
+                  "Reflex Integration/Sensory Motor Patterns",
+                  "Alignment/COG over BOS",
+                  "Alignment/Orient to Stimulus or Goal",
+                  "Anticipatory Control",
+                  "Interactive Oscillator and Imitative Action",
+                ]
+              }
+              title="Automatic Actions"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "pos_6_push",
+                  "pos_6_bilateral",
+                  "pos_6_grasp",
+                  "pos_6_strength",
+                  "pos_6_effortful",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Push/Pull/Reach",
+                  "Bilateral Symmetrical/Bilateral Asymmetrical/Unilateral",
+                  "Grasp/Release",
+                  "Strength/Endurance/Flexibility/BMI",
+                  "Effortful Control",
+                ]
+              }
+              title="Voluntary Actions"
+            />
+          </div>,
+        ],
+        "className": "Postural",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "databaseNamesArray": Array [
+              "pos_h_vestibular",
+              "pos_h_proprioception",
+              "pos_h_tactile",
+              "pos_h_auditory",
+              "pos_h_visual",
+              "pos_h_intero",
+            ],
+            "headings": Array [
+              "Vestibular",
+              "Proprioception",
+              "Tactile",
+              "Auditory",
+              "Visual",
+              "Intero",
+            ],
+            "title": "Postural/Core Movement Capacities",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <YesNoQuestions
+                databaseNamesArray={
+                  Array [
+                    "pos_1_outer",
+                    "pos_1_inner",
+                  ]
+                }
+                questionsArray={
+                  Array [
+                    "Outer Core",
+                    "Inner Core",
+                  ]
+                }
+                title="Core Development"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "pos_2_stability",
+                    "pos_2_mobility",
+                    "pos_2_tonic",
+                    "pos_2_phasic",
+                    "pos_2_muscle",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Stability",
+                    "Mobility",
+                    "Tonic",
+                    "Phasic",
+                    "Muscle Tone",
+                  ]
+                }
+                title="Quality of Movement"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "pos_3_sagittal",
+                    "pos_3_frontal",
+                    "pos_3_transverse",
+                    "pos_3_midlines",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Sagittal: Flex/Ext",
+                    "Frontal: Lateral",
+                    "Transverse: Rotational",
+                    "Midlines of each plane",
+                  ]
+                }
+                title="Planes of Movement"
+              />,
+              <Connect(BodyDiagram) />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "pos_5_suck",
+                    "pos_5_ocular",
+                    "pos_5_antigravity",
+                    "pos_5_reflex",
+                    "pos_5_alignment_COG",
+                    "pos_5_alignment_orient",
+                    "pos_5_anticipatory",
+                    "pos_5_interactive",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Suck/Swallow/Breath",
+                    "Ocular within Postural Control",
+                    "Antigravity Control",
+                    "Reflex Integration/Sensory Motor Patterns",
+                    "Alignment/COG over BOS",
+                    "Alignment/Orient to Stimulus or Goal",
+                    "Anticipatory Control",
+                    "Interactive Oscillator and Imitative Action",
+                  ]
+                }
+                title="Automatic Actions"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "pos_6_push",
+                    "pos_6_bilateral",
+                    "pos_6_grasp",
+                    "pos_6_strength",
+                    "pos_6_effortful",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Push/Pull/Reach",
+                    "Bilateral Symmetrical/Bilateral Asymmetrical/Unilateral",
+                    "Grasp/Release",
+                    "Strength/Endurance/Flexibility/BMI",
+                    "Effortful Control",
+                  ]
+                }
+                title="Voluntary Actions"
+              />,
+            ],
+            "className": "category-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "pos_1_outer",
+                  "pos_1_inner",
+                ],
+                "questionsArray": Array [
+                  "Outer Core",
+                  "Inner Core",
+                ],
+                "title": "Core Development",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "pos_2_stability",
+                  "pos_2_mobility",
+                  "pos_2_tonic",
+                  "pos_2_phasic",
+                  "pos_2_muscle",
+                ],
+                "slidersArray": Array [
+                  "Stability",
+                  "Mobility",
+                  "Tonic",
+                  "Phasic",
+                  "Muscle Tone",
+                ],
+                "title": "Quality of Movement",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "pos_3_sagittal",
+                  "pos_3_frontal",
+                  "pos_3_transverse",
+                  "pos_3_midlines",
+                ],
+                "slidersArray": Array [
+                  "Sagittal: Flex/Ext",
+                  "Frontal: Lateral",
+                  "Transverse: Rotational",
+                  "Midlines of each plane",
+                ],
+                "title": "Planes of Movement",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "pos_5_suck",
+                  "pos_5_ocular",
+                  "pos_5_antigravity",
+                  "pos_5_reflex",
+                  "pos_5_alignment_COG",
+                  "pos_5_alignment_orient",
+                  "pos_5_anticipatory",
+                  "pos_5_interactive",
+                ],
+                "slidersArray": Array [
+                  "Suck/Swallow/Breath",
+                  "Ocular within Postural Control",
+                  "Antigravity Control",
+                  "Reflex Integration/Sensory Motor Patterns",
+                  "Alignment/COG over BOS",
+                  "Alignment/Orient to Stimulus or Goal",
+                  "Anticipatory Control",
+                  "Interactive Oscillator and Imitative Action",
+                ],
+                "title": "Automatic Actions",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "pos_6_push",
+                  "pos_6_bilateral",
+                  "pos_6_grasp",
+                  "pos_6_strength",
+                  "pos_6_effortful",
+                ],
+                "slidersArray": Array [
+                  "Push/Pull/Reach",
+                  "Bilateral Symmetrical/Bilateral Asymmetrical/Unilateral",
+                  "Grasp/Release",
+                  "Strength/Endurance/Flexibility/BMI",
+                  "Effortful Control",
+                ],
+                "title": "Voluntary Actions",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

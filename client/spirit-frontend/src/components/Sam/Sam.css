@@ -1,0 +1,95 @@
+/******  GLOBAL CSS VARIABLES  ******/
+/***  COLORS  ***/
+/***  FONTS  ***/
+* {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  outline: none;
+  color: #6d6e71; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.3; }
+
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 10px; }
+
+p {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 900; }
+
+::placeholder {
+  opacity: .5;
+  text-align: center; }
+
+/***  MIXINS  ***/
+.Sam .sam-image-holder {
+  width: 750px;
+  margin: 100px auto;
+  display: block;
+  position: relative; }
+
+.Sam .sam-session-dots {
+  background-color: #BFAFD0;
+  width: 18px;
+  height: 18px;
+  padding: 8px 6px 12px 14px;
+  margin: 10px;
+  border-radius: 100px;
+  border: 6px solid #BFAFD0;
+  position: absolute;
+  transition: all .2s ease-in-out;
+  cursor: pointer; }
+
+.Sam .sam-session-dots:hover {
+  border: 6px solid #7F60A4; }
+
+.Sam p {
+  margin: 0;
+  font-size: 18px;
+  color: #EAE5F0; }
+
+.Sam .session-dots-1 {
+  top: 280px;
+  left: 5px; }
+
+.Sam .session-dots-2 {
+  top: 283px;
+  left: 248px; }
+
+.Sam .session-dots-3 {
+  top: 283px;
+  left: 498px; }
+
+.Sam .session-dots-4 {
+  top: 130px;
+  left: 149px; }
+
+.Sam .session-dots-5 {
+  top: 125px;
+  left: 325px; }
+
+.Sam .session-dots-6 {
+  top: 129px;
+  left: 679px; }
+
+.Sam .fair-image-holder {
+  width: 525px;
+  display: block;
+  margin: 0 auto 50px; }

@@ -1,0 +1,955 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TreatmentPlanModule tests Should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TreatmentPlanModule
+    getTreatmentPlan={[Function]}
+    selectedTreatmentPlan={
+      Object {
+        "created_at": "2018-02-20T21:25:45.468Z",
+        "executive_functioning_JRC_AR_notes": null,
+        "executive_functioning_environment": null,
+        "executive_functioning_interaction": null,
+        "executive_functioning_predictability": null,
+        "executive_functioning_self_regulation": null,
+        "executive_functioning_sensory": null,
+        "executive_functioning_task": null,
+        "id": 10,
+        "modulation_JRC_AR_notes": null,
+        "modulation_environment": null,
+        "modulation_interaction": null,
+        "modulation_predictability": null,
+        "modulation_self_regulation": null,
+        "modulation_sensory": null,
+        "modulation_task": null,
+        "posture_JRC_AR_notes": null,
+        "posture_environment": null,
+        "posture_interaction": null,
+        "posture_predictability": null,
+        "posture_self_regulation": null,
+        "posture_sensory": null,
+        "posture_task": null,
+        "sensory_discrimination_JRC_AR_notes": null,
+        "sensory_discrimination_environment": null,
+        "sensory_discrimination_interaction": null,
+        "sensory_discrimination_predictability": null,
+        "sensory_discrimination_self_regulation": null,
+        "sensory_discrimination_sensory": null,
+        "sensory_discrimination_task": null,
+        "session_id": 10,
+        "social_emotional_JRC_AR_notes": null,
+        "social_emotional_environment": null,
+        "social_emotional_interaction": null,
+        "social_emotional_predictability": null,
+        "social_emotional_self_regulation": null,
+        "social_emotional_sensory": null,
+        "social_emotional_task": null,
+        "updated_at": "2018-02-20T21:25:45.468Z",
+      }
+    }
+    type="Sensory"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="treatment-rows"
+        >
+          <h4>
+            Sensory Motor
+          </h4>
+          <textarea
+            name="sensory"
+            onChange={[Function]}
+            placeholder="plan"
+            value={undefined}
+          />
+        </div>,
+        <div
+          className="treatment-rows"
+        >
+          <h4>
+            Task
+          </h4>
+          <textarea
+            name="task"
+            onChange={[Function]}
+            placeholder="plan"
+            value={undefined}
+          />
+        </div>,
+        <div
+          className="treatment-rows"
+        >
+          <h4>
+            Environment
+          </h4>
+          <textarea
+            name="environment"
+            onChange={[Function]}
+            placeholder="plan"
+            value={undefined}
+          />
+        </div>,
+        <div
+          className="treatment-rows"
+        >
+          <h4>
+            Predictability
+          </h4>
+          <textarea
+            name="predictability"
+            onChange={[Function]}
+            placeholder="plan"
+            value={undefined}
+          />
+        </div>,
+        <div
+          className="treatment-rows"
+        >
+          <h4>
+            Self-Regulation
+          </h4>
+          <textarea
+            name="self_regulation"
+            onChange={[Function]}
+            placeholder="plan"
+            value={undefined}
+          />
+        </div>,
+        <div
+          className="treatment-rows"
+        >
+          <h4>
+            Interaction
+          </h4>
+          <textarea
+            name="interaction"
+            onChange={[Function]}
+            placeholder="plan"
+            value={undefined}
+          />
+        </div>,
+        <div
+          className="treatment-rows"
+        >
+          <h4>
+            JRC/AR
+          </h4>
+          <textarea
+            name="JRC_AR_notes"
+            onChange={[Function]}
+            placeholder="plan"
+            value={undefined}
+          />
+        </div>,
+      ],
+      "className": "TreatmentPlanModule treatment-save-box",
+      "onMouseLeave": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Sensory Motor
+            </h4>,
+            <textarea
+              name="sensory"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />,
+          ],
+          "className": "treatment-rows",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sensory Motor",
+            },
+            "ref": null,
+            "rendered": "Sensory Motor",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "sensory",
+              "onChange": [Function],
+              "placeholder": "plan",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Task
+            </h4>,
+            <textarea
+              name="task"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />,
+          ],
+          "className": "treatment-rows",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Task",
+            },
+            "ref": null,
+            "rendered": "Task",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "task",
+              "onChange": [Function],
+              "placeholder": "plan",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Environment
+            </h4>,
+            <textarea
+              name="environment"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />,
+          ],
+          "className": "treatment-rows",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Environment",
+            },
+            "ref": null,
+            "rendered": "Environment",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "environment",
+              "onChange": [Function],
+              "placeholder": "plan",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Predictability
+            </h4>,
+            <textarea
+              name="predictability"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />,
+          ],
+          "className": "treatment-rows",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Predictability",
+            },
+            "ref": null,
+            "rendered": "Predictability",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "predictability",
+              "onChange": [Function],
+              "placeholder": "plan",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Self-Regulation
+            </h4>,
+            <textarea
+              name="self_regulation"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />,
+          ],
+          "className": "treatment-rows",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Self-Regulation",
+            },
+            "ref": null,
+            "rendered": "Self-Regulation",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "self_regulation",
+              "onChange": [Function],
+              "placeholder": "plan",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              Interaction
+            </h4>,
+            <textarea
+              name="interaction"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />,
+          ],
+          "className": "treatment-rows",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Interaction",
+            },
+            "ref": null,
+            "rendered": "Interaction",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "interaction",
+              "onChange": [Function],
+              "placeholder": "plan",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4>
+              JRC/AR
+            </h4>,
+            <textarea
+              name="JRC_AR_notes"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />,
+          ],
+          "className": "treatment-rows",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "JRC/AR",
+            },
+            "ref": null,
+            "rendered": "JRC/AR",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "JRC_AR_notes",
+              "onChange": [Function],
+              "placeholder": "plan",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="treatment-rows"
+          >
+            <h4>
+              Sensory Motor
+            </h4>
+            <textarea
+              name="sensory"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />
+          </div>,
+          <div
+            className="treatment-rows"
+          >
+            <h4>
+              Task
+            </h4>
+            <textarea
+              name="task"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />
+          </div>,
+          <div
+            className="treatment-rows"
+          >
+            <h4>
+              Environment
+            </h4>
+            <textarea
+              name="environment"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />
+          </div>,
+          <div
+            className="treatment-rows"
+          >
+            <h4>
+              Predictability
+            </h4>
+            <textarea
+              name="predictability"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />
+          </div>,
+          <div
+            className="treatment-rows"
+          >
+            <h4>
+              Self-Regulation
+            </h4>
+            <textarea
+              name="self_regulation"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />
+          </div>,
+          <div
+            className="treatment-rows"
+          >
+            <h4>
+              Interaction
+            </h4>
+            <textarea
+              name="interaction"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />
+          </div>,
+          <div
+            className="treatment-rows"
+          >
+            <h4>
+              JRC/AR
+            </h4>
+            <textarea
+              name="JRC_AR_notes"
+              onChange={[Function]}
+              placeholder="plan"
+              value={undefined}
+            />
+          </div>,
+        ],
+        "className": "TreatmentPlanModule treatment-save-box",
+        "onMouseLeave": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Sensory Motor
+              </h4>,
+              <textarea
+                name="sensory"
+                onChange={[Function]}
+                placeholder="plan"
+                value={undefined}
+              />,
+            ],
+            "className": "treatment-rows",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sensory Motor",
+              },
+              "ref": null,
+              "rendered": "Sensory Motor",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "sensory",
+                "onChange": [Function],
+                "placeholder": "plan",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Task
+              </h4>,
+              <textarea
+                name="task"
+                onChange={[Function]}
+                placeholder="plan"
+                value={undefined}
+              />,
+            ],
+            "className": "treatment-rows",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Task",
+              },
+              "ref": null,
+              "rendered": "Task",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "task",
+                "onChange": [Function],
+                "placeholder": "plan",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Environment
+              </h4>,
+              <textarea
+                name="environment"
+                onChange={[Function]}
+                placeholder="plan"
+                value={undefined}
+              />,
+            ],
+            "className": "treatment-rows",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Environment",
+              },
+              "ref": null,
+              "rendered": "Environment",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "environment",
+                "onChange": [Function],
+                "placeholder": "plan",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Predictability
+              </h4>,
+              <textarea
+                name="predictability"
+                onChange={[Function]}
+                placeholder="plan"
+                value={undefined}
+              />,
+            ],
+            "className": "treatment-rows",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Predictability",
+              },
+              "ref": null,
+              "rendered": "Predictability",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "predictability",
+                "onChange": [Function],
+                "placeholder": "plan",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Self-Regulation
+              </h4>,
+              <textarea
+                name="self_regulation"
+                onChange={[Function]}
+                placeholder="plan"
+                value={undefined}
+              />,
+            ],
+            "className": "treatment-rows",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Self-Regulation",
+              },
+              "ref": null,
+              "rendered": "Self-Regulation",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "self_regulation",
+                "onChange": [Function],
+                "placeholder": "plan",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                Interaction
+              </h4>,
+              <textarea
+                name="interaction"
+                onChange={[Function]}
+                placeholder="plan"
+                value={undefined}
+              />,
+            ],
+            "className": "treatment-rows",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Interaction",
+              },
+              "ref": null,
+              "rendered": "Interaction",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "interaction",
+                "onChange": [Function],
+                "placeholder": "plan",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4>
+                JRC/AR
+              </h4>,
+              <textarea
+                name="JRC_AR_notes"
+                onChange={[Function]}
+                placeholder="plan"
+                value={undefined}
+              />,
+            ],
+            "className": "treatment-rows",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "JRC/AR",
+              },
+              "ref": null,
+              "rendered": "JRC/AR",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "JRC_AR_notes",
+                "onChange": [Function],
+                "placeholder": "plan",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

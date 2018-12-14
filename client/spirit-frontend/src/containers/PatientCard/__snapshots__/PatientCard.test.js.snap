@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientCard tests Should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    abstractedName="DFXAB01"
+    getPatientConerns={[Function]}
+    id={3}
+    lastAppt="2/3/2018"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p>
+          <span>
+            Patient Id: 
+          </span>
+          DFXAB01
+           
+        </p>,
+        <p>
+          <span>
+            Last update: 
+          </span>
+          2/3/2018
+        </p>,
+        <Link
+          onClick={[Function]}
+          replace={false}
+          to="/spirit/patients/3"
+        >
+          SELECT
+        </Link>,
+      ],
+      "className": "PatientCard",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Patient Id: 
+            </span>,
+            "DFXAB01",
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Patient Id: ",
+            },
+            "ref": null,
+            "rendered": "Patient Id: ",
+            "type": "span",
+          },
+          "DFXAB01",
+          " ",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Last update: 
+            </span>,
+            "2/3/2018",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Last update: ",
+            },
+            "ref": null,
+            "rendered": "Last update: ",
+            "type": "span",
+          },
+          "2/3/2018",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "SELECT",
+          "onClick": [Function],
+          "replace": false,
+          "to": "/spirit/patients/3",
+        },
+        "ref": null,
+        "rendered": "SELECT",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            <span>
+              Patient Id: 
+            </span>
+            DFXAB01
+             
+          </p>,
+          <p>
+            <span>
+              Last update: 
+            </span>
+            2/3/2018
+          </p>,
+          <Link
+            onClick={[Function]}
+            replace={false}
+            to="/spirit/patients/3"
+          >
+            SELECT
+          </Link>,
+        ],
+        "className": "PatientCard",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Patient Id: 
+              </span>,
+              "DFXAB01",
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Patient Id: ",
+              },
+              "ref": null,
+              "rendered": "Patient Id: ",
+              "type": "span",
+            },
+            "DFXAB01",
+            " ",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Last update: 
+              </span>,
+              "2/3/2018",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Last update: ",
+              },
+              "ref": null,
+              "rendered": "Last update: ",
+              "type": "span",
+            },
+            "2/3/2018",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "SELECT",
+            "onClick": [Function],
+            "replace": false,
+            "to": "/spirit/patients/3",
+          },
+          "ref": null,
+          "rendered": "SELECT",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

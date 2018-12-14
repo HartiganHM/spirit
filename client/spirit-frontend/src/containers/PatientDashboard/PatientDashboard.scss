@@ -1,0 +1,164 @@
+@import '../../variables.scss';
+
+.PatientDashboard {
+  @include primary-content;
+
+  .pd-header-row {
+    display: flex;
+
+    h3 {
+      text-align: left;
+    }
+  }
+
+  .pd-first {
+    width: 320px;
+    margin-right: 36px;
+  }
+
+  .pd-second {
+    width: 300px;
+    margin-right: 24px;
+  }
+
+  .pd-input-row {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 320px;
+    border: none;
+    border-bottom: 5px solid $grey1;
+    margin-right: 29px;
+  }
+
+  p {
+    width: 305px;
+  }
+
+  .primary-concern-notes {
+    margin-left: 28px;
+    margin-right: 0;
+  }
+
+  .domains {
+    padding: 5px 10px 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 5px;
+    border: 5px solid $grey1;
+    background-color: $grey1;
+    color: $purple3;
+  }
+
+  .domains-true {
+    background-color: $purple3;
+    border: 5px solid $purple3;
+    color: $grey1;
+  }
+
+/*  .domains:hover {
+    background-color: $purple3;
+    border: 5px solid $purple3;
+    color: $grey1;
+  }
+*/
+  /*.domains-true:hover {
+    color: $grey1;
+  }*/
+
+  .sam-hover {
+    background-color: $grey7;
+  }
+
+  .save-primary-concern {
+    border: none;
+    background: none;
+    color: $green4;
+    cursor: pointer;
+    width: 130px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .save-primary-concern:hover {
+    color: $green5;
+  }
+
+  .select-primary-concern {
+    padding: 0 17px;
+    border: none;
+    background-color: $grey1;
+    cursor: pointer;
+  }
+
+  .select-primary-concern:hover {
+    background-color: $grey3;
+    color: $grey1;
+  }
+
+  .sam-holder {
+    position: relative;
+    width: 550px;
+    margin: auto;
+    display: block;
+  }
+
+  .sam-dots {
+    padding: 5px 10px;
+    border: 5px solid $purple3;
+    background-color: $purple3;
+    border-radius: 100px;
+    position: absolute;
+    font-weight: bold;
+    color: $purple1;
+    @include std-transition;
+  }
+
+  .sam-dot-1 {
+    top: 125px;
+    left: 2px;
+  }
+
+  .sam-dot-2 {
+    top: 127px;
+    left: 181px;
+  }
+
+  .sam-dot-3 {
+    top: 126px;
+    left: 370px;
+  }
+
+  .sam-dot-4 {
+    top: 10px;
+    left: 106px;
+  }
+
+  .sam-dot-5 {
+    top: 6px;
+    left: 239px;
+  }
+
+  .sam-dot-6 {
+    top: 9px;
+    right: 3px;
+  }
+
+  .sam-hover {
+    border: 5px solid $purple5;
+  }
+
+}
+
+
+
+
+
+
+
+
+

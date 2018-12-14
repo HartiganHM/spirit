@@ -1,0 +1,50 @@
+@import '../../variables.scss';
+
+.ConcernRow {
+
+  display: flex;
+
+  .domains {
+    opacity: 0;
+    cursor: unset;
+    @include std-transition;
+  }
+
+  .domains-true {
+    opacity: 1;
+  }
+
+  .domains-hover {
+    border: 5px solid $purple5;
+  }
+
+  .concern-left, .concern-notes {
+    width: 304px;
+    text-align: left;
+    background-color: $grey1;
+    padding: 13px 8px;
+    margin: 0 0 28px;
+  }
+
+  .concern-left {
+    margin-right: 29px;
+  }
+
+  .concern-notes {
+    margin-left: 28px;
+  }
+
+  .select-concern-button {
+    width: 130px;
+    height: 44px;
+    background-color: $grey3;
+    color: $grey1;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .select-concern-button:hover {
+    background-color: $grey4;
+  }
+}

@@ -1,0 +1,87 @@
+/******  GLOBAL CSS VARIABLES  ******/
+/***  COLORS  ***/
+/***  FONTS  ***/
+* {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  outline: none;
+  color: #6d6e71; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.3; }
+
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 10px; }
+
+p {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 900; }
+
+::placeholder {
+  opacity: .5;
+  text-align: center; }
+
+/***  MIXINS  ***/
+.Finish .complete-session-button {
+  height: 40px;
+  width: 199px;
+  background-color: #9E87BA;
+  border: none;
+  color: #fff;
+  margin: 50px auto 100px;
+  display: block;
+  cursor: pointer;
+  transition: all .2s ease-in-out; }
+
+.Finish .complete-session-button:hover {
+  background-color: #5E378C; }
+
+.Finish .finish-headings, .Finish .finish-sub-headings {
+  text-align: center; }
+
+.Finish .dividing-line {
+  width: 675px;
+  height: 2px;
+  margin: auto;
+  background: #6d6e71; }
+
+.Finish .finish-button-holder {
+  position: relative;
+  width: 875px;
+  margin: auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px; }
+  .Finish .finish-button-holder .arrow-right {
+    margin-right: 10px;
+    margin-left: 10px; }
+
+.Finish .join-link button {
+  background-color: #5cba47;
+  height: 40px;
+  border: none;
+  color: #fff;
+  padding: 0 10px;
+  cursor: pointer; }
+
+.Finish .join-link button:hover {
+  background-color: #468c41; }

@@ -1,0 +1,74 @@
+@import '../../variables.scss';
+
+.Sam {
+
+  .sam-image-holder {
+    width: 750px;
+    margin: 100px auto;
+    display: block;
+    position: relative;
+  }
+
+  .sam-session-dots {
+    background-color: $purple3;
+    width: 18px;
+    height: 18px;
+    padding: 8px 6px 12px 14px;
+    margin: 10px;
+    border-radius: 100px;
+    border: 6px solid $purple3;
+    position: absolute;
+    @include std-transition;
+    cursor: pointer;
+  }
+
+  .sam-session-dots:hover {
+    border: 6px solid $purple5;
+  }
+
+  p {
+    margin: 0;
+    font-size: 18px;
+    color: $purple1;
+  }
+
+  .sam-big-image {
+  }
+
+  .session-dots-1 {
+    top: 280px;
+    left: 5px;
+  }
+
+  .session-dots-2 {
+    top: 283px;
+    left: 248px;
+  }
+
+  .session-dots-3 {
+    top: 283px;
+    left: 498px;
+  }
+
+  .session-dots-4 {
+    top: 130px;
+    left: 149px;
+  }
+
+  .session-dots-5 {
+    top: 125px;
+    left: 325px;
+  }
+
+  .session-dots-6 {
+    top: 129px;
+    left: 679px;
+  }
+
+  .fair-image-holder {
+    width: 525px;
+    display: block;
+    margin: 0 auto 50px;
+  }
+
+}

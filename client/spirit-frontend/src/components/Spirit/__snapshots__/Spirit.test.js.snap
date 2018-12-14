@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spirit tests Should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Spirit />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="Spirit-Wordmark-with-Tagline"
+          className="homepage-wordmark"
+          src="/assets/Spirit-Homepage-Wordmark-Purple.png"
+        />,
+        <h4
+          className="homepage-brief-descriptor"
+        >
+          A clinical reasoning model for ensuring best practice in pediatric occupational therapy.
+        </h4>,
+      ],
+      "className": "Spirit",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "Spirit-Wordmark-with-Tagline",
+          "className": "homepage-wordmark",
+          "src": "/assets/Spirit-Homepage-Wordmark-Purple.png",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "A clinical reasoning model for ensuring best practice in pediatric occupational therapy.",
+          "className": "homepage-brief-descriptor",
+        },
+        "ref": null,
+        "rendered": "A clinical reasoning model for ensuring best practice in pediatric occupational therapy.",
+        "type": "h4",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="Spirit-Wordmark-with-Tagline"
+            className="homepage-wordmark"
+            src="/assets/Spirit-Homepage-Wordmark-Purple.png"
+          />,
+          <h4
+            className="homepage-brief-descriptor"
+          >
+            A clinical reasoning model for ensuring best practice in pediatric occupational therapy.
+          </h4>,
+        ],
+        "className": "Spirit",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Spirit-Wordmark-with-Tagline",
+            "className": "homepage-wordmark",
+            "src": "/assets/Spirit-Homepage-Wordmark-Purple.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "A clinical reasoning model for ensuring best practice in pediatric occupational therapy.",
+            "className": "homepage-brief-descriptor",
+          },
+          "ref": null,
+          "rendered": "A clinical reasoning model for ensuring best practice in pediatric occupational therapy.",
+          "type": "h4",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

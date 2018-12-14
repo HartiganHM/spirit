@@ -1,0 +1,35 @@
+@import '../../variables.scss';
+
+.Header {
+  background-color: $purple3;
+  padding: 7px 20px;
+  border-bottom: 5px solid $purple5;
+
+  .header-wordmark {
+    margin: 0;
+    width: 150px;
+  }
+
+  .header-welcome-user, .login-link {
+    position: absolute;
+    right: 20px;
+    top: -9px;
+    color: $white1;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+
+  .login-link:hover {
+    border-bottom: 1px solid $white1;
+    cursor: pointer;
+  }
+
+  .header-welcome-clinic {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: $white1;
+    font-weight: 400;
+  }
+}

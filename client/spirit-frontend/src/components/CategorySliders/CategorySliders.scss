@@ -1,0 +1,16 @@
+.CategorySliders {
+  width: 190px;
+  margin: 10px;
+
+  .category-title {
+    height: 72px;
+    background-color: #eee;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+}

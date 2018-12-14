@@ -1,0 +1,1005 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDashboard tests Should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserDashboard
+    patientList={
+      Array [
+        Object {
+          "abstracted_name": "INTrm5",
+          "clinic_name": "I Need Therapy",
+          "created_at": "2018-02-20T20:07:54.509Z",
+          "id": 5,
+          "ot_id": 1,
+          "updated_at": "2018-02-20T20:07:54.509Z",
+        },
+      ]
+    }
+    savePatient={[Function]}
+    user={
+      Object {
+        "admin": false,
+        "authrocket_id": "usr_0vBdVVz3RUsbR2ArDCoPvo",
+        "clinic": "I Need Therapy",
+        "clinic_abbreviation": "INT",
+        "clinic_id": 10,
+        "clinic_passcode": "utk85fmf",
+        "created_at": "2018-02-19T03:41:23.701Z",
+        "email": "sample@samplemail.com",
+        "id": 1,
+        "name": "Lee Trevino",
+        "updated_at": "2018-02-19T03:41:23.701Z",
+      }
+    }
+    wipeStoreFromUserDashboard={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="user-dashboard-header"
+        >
+          <h3
+            className="user-dashboard-name"
+          >
+            Lee Trevino - OT Dashboard
+          </h3>
+          <div>
+            <Link
+              className="clinic-link"
+              replace={false}
+              to="/spirit/users/1/create"
+            >
+              SEE CLINIC INFO
+            </Link>
+          </div>
+        </div>,
+        <div
+          className="user-dashboard-content"
+        >
+          <UNDEFINED>
+            <h3>
+              New Patients
+            </h3>
+            <div
+              className="input-holder"
+            >
+              <input
+                maxLength={1}
+                name="firstInitial"
+                onChange={[Function]}
+                placeholder="First Initial"
+                value=""
+              />
+              <input
+                maxLength={1}
+                name="lastInitial"
+                onChange={[Function]}
+                placeholder="Last Initial"
+                value=""
+              />
+              <button
+                onClick={[Function]}
+                type="submit"
+              >
+                SUBMIT
+              </button>
+            </div>
+            <h5>
+              Add NEW patient with 2 patient initials
+            </h5>
+            
+            
+            <InstructionWrapper>
+              <p
+                className="instructions"
+              >
+                Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).
+              </p>
+              <p
+                className="instructions"
+              >
+                Please keep this abstracted name in your personal patient records for future reference.
+              </p>
+            </InstructionWrapper>
+          </UNDEFINED>
+          <div>
+            <h3
+              className="current-patients"
+            >
+              Current Patients
+            </h3>
+            <Connect(Component) />
+          </div>
+        </div>,
+      ],
+      "className": "UserDashboard",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="user-dashboard-name"
+            >
+              Lee Trevino - OT Dashboard
+            </h3>,
+            <div>
+              <Link
+                className="clinic-link"
+                replace={false}
+                to="/spirit/users/1/create"
+              >
+                SEE CLINIC INFO
+              </Link>
+            </div>,
+          ],
+          "className": "user-dashboard-header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lee Trevino - OT Dashboard",
+              "className": "user-dashboard-name",
+            },
+            "ref": null,
+            "rendered": "Lee Trevino - OT Dashboard",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                className="clinic-link"
+                replace={false}
+                to="/spirit/users/1/create"
+              >
+                SEE CLINIC INFO
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "SEE CLINIC INFO",
+                "className": "clinic-link",
+                "replace": false,
+                "to": "/spirit/users/1/create",
+              },
+              "ref": null,
+              "rendered": "SEE CLINIC INFO",
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            false,
+            <UNDEFINED>
+              <h3>
+                New Patients
+              </h3>
+              <div
+                className="input-holder"
+              >
+                <input
+                  maxLength={1}
+                  name="firstInitial"
+                  onChange={[Function]}
+                  placeholder="First Initial"
+                  value=""
+                />
+                <input
+                  maxLength={1}
+                  name="lastInitial"
+                  onChange={[Function]}
+                  placeholder="Last Initial"
+                  value=""
+                />
+                <button
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  SUBMIT
+                </button>
+              </div>
+              <h5>
+                Add NEW patient with 2 patient initials
+              </h5>
+              
+              
+              <InstructionWrapper>
+                <p
+                  className="instructions"
+                >
+                  Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).
+                </p>
+                <p
+                  className="instructions"
+                >
+                  Please keep this abstracted name in your personal patient records for future reference.
+                </p>
+              </InstructionWrapper>
+            </UNDEFINED>,
+            <div>
+              <h3
+                className="current-patients"
+              >
+                Current Patients
+              </h3>
+              <Connect(Component) />
+            </div>,
+          ],
+          "className": "user-dashboard-content",
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  New Patients
+                </h3>,
+                <div
+                  className="input-holder"
+                >
+                  <input
+                    maxLength={1}
+                    name="firstInitial"
+                    onChange={[Function]}
+                    placeholder="First Initial"
+                    value=""
+                  />
+                  <input
+                    maxLength={1}
+                    name="lastInitial"
+                    onChange={[Function]}
+                    placeholder="Last Initial"
+                    value=""
+                  />
+                  <button
+                    onClick={[Function]}
+                    type="submit"
+                  >
+                    SUBMIT
+                  </button>
+                </div>,
+                <h5>
+                  Add NEW patient with 2 patient initials
+                </h5>,
+                "",
+                "",
+                <InstructionWrapper>
+                  <p
+                    className="instructions"
+                  >
+                    Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).
+                  </p>
+                  <p
+                    className="instructions"
+                  >
+                    Please keep this abstracted name in your personal patient records for future reference.
+                  </p>
+                </InstructionWrapper>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "New Patients",
+                },
+                "ref": null,
+                "rendered": "New Patients",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      maxLength={1}
+                      name="firstInitial"
+                      onChange={[Function]}
+                      placeholder="First Initial"
+                      value=""
+                    />,
+                    <input
+                      maxLength={1}
+                      name="lastInitial"
+                      onChange={[Function]}
+                      placeholder="Last Initial"
+                      value=""
+                    />,
+                    <button
+                      onClick={[Function]}
+                      type="submit"
+                    >
+                      SUBMIT
+                    </button>,
+                  ],
+                  "className": "input-holder",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "maxLength": 1,
+                      "name": "firstInitial",
+                      "onChange": [Function],
+                      "placeholder": "First Initial",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "maxLength": 1,
+                      "name": "lastInitial",
+                      "onChange": [Function],
+                      "placeholder": "Last Initial",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "SUBMIT",
+                      "onClick": [Function],
+                      "type": "submit",
+                    },
+                    "ref": null,
+                    "rendered": "SUBMIT",
+                    "type": "button",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add NEW patient with 2 patient initials",
+                },
+                "ref": null,
+                "rendered": "Add NEW patient with 2 patient initials",
+                "type": "h5",
+              },
+              "",
+              "",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className="instructions"
+                    >
+                      Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).
+                    </p>,
+                    <p
+                      className="instructions"
+                    >
+                      Please keep this abstracted name in your personal patient records for future reference.
+                    </p>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).",
+                      "className": "instructions",
+                    },
+                    "ref": null,
+                    "rendered": "Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Please keep this abstracted name in your personal patient records for future reference.",
+                      "className": "instructions",
+                    },
+                    "ref": null,
+                    "rendered": "Please keep this abstracted name in your personal patient records for future reference.",
+                    "type": "p",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": Symbol(react.fragment),
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="current-patients"
+                >
+                  Current Patients
+                </h3>,
+                <Connect(Component) />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Current Patients",
+                  "className": "current-patients",
+                },
+                "ref": null,
+                "rendered": "Current Patients",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="user-dashboard-header"
+          >
+            <h3
+              className="user-dashboard-name"
+            >
+              Lee Trevino - OT Dashboard
+            </h3>
+            <div>
+              <Link
+                className="clinic-link"
+                replace={false}
+                to="/spirit/users/1/create"
+              >
+                SEE CLINIC INFO
+              </Link>
+            </div>
+          </div>,
+          <div
+            className="user-dashboard-content"
+          >
+            <UNDEFINED>
+              <h3>
+                New Patients
+              </h3>
+              <div
+                className="input-holder"
+              >
+                <input
+                  maxLength={1}
+                  name="firstInitial"
+                  onChange={[Function]}
+                  placeholder="First Initial"
+                  value=""
+                />
+                <input
+                  maxLength={1}
+                  name="lastInitial"
+                  onChange={[Function]}
+                  placeholder="Last Initial"
+                  value=""
+                />
+                <button
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  SUBMIT
+                </button>
+              </div>
+              <h5>
+                Add NEW patient with 2 patient initials
+              </h5>
+              
+              
+              <InstructionWrapper>
+                <p
+                  className="instructions"
+                >
+                  Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).
+                </p>
+                <p
+                  className="instructions"
+                >
+                  Please keep this abstracted name in your personal patient records for future reference.
+                </p>
+              </InstructionWrapper>
+            </UNDEFINED>
+            <div>
+              <h3
+                className="current-patients"
+              >
+                Current Patients
+              </h3>
+              <Connect(Component) />
+            </div>
+          </div>,
+        ],
+        "className": "UserDashboard",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="user-dashboard-name"
+              >
+                Lee Trevino - OT Dashboard
+              </h3>,
+              <div>
+                <Link
+                  className="clinic-link"
+                  replace={false}
+                  to="/spirit/users/1/create"
+                >
+                  SEE CLINIC INFO
+                </Link>
+              </div>,
+            ],
+            "className": "user-dashboard-header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lee Trevino - OT Dashboard",
+                "className": "user-dashboard-name",
+              },
+              "ref": null,
+              "rendered": "Lee Trevino - OT Dashboard",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  className="clinic-link"
+                  replace={false}
+                  to="/spirit/users/1/create"
+                >
+                  SEE CLINIC INFO
+                </Link>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "SEE CLINIC INFO",
+                  "className": "clinic-link",
+                  "replace": false,
+                  "to": "/spirit/users/1/create",
+                },
+                "ref": null,
+                "rendered": "SEE CLINIC INFO",
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              <UNDEFINED>
+                <h3>
+                  New Patients
+                </h3>
+                <div
+                  className="input-holder"
+                >
+                  <input
+                    maxLength={1}
+                    name="firstInitial"
+                    onChange={[Function]}
+                    placeholder="First Initial"
+                    value=""
+                  />
+                  <input
+                    maxLength={1}
+                    name="lastInitial"
+                    onChange={[Function]}
+                    placeholder="Last Initial"
+                    value=""
+                  />
+                  <button
+                    onClick={[Function]}
+                    type="submit"
+                  >
+                    SUBMIT
+                  </button>
+                </div>
+                <h5>
+                  Add NEW patient with 2 patient initials
+                </h5>
+                
+                
+                <InstructionWrapper>
+                  <p
+                    className="instructions"
+                  >
+                    Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).
+                  </p>
+                  <p
+                    className="instructions"
+                  >
+                    Please keep this abstracted name in your personal patient records for future reference.
+                  </p>
+                </InstructionWrapper>
+              </UNDEFINED>,
+              <div>
+                <h3
+                  className="current-patients"
+                >
+                  Current Patients
+                </h3>
+                <Connect(Component) />
+              </div>,
+            ],
+            "className": "user-dashboard-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    New Patients
+                  </h3>,
+                  <div
+                    className="input-holder"
+                  >
+                    <input
+                      maxLength={1}
+                      name="firstInitial"
+                      onChange={[Function]}
+                      placeholder="First Initial"
+                      value=""
+                    />
+                    <input
+                      maxLength={1}
+                      name="lastInitial"
+                      onChange={[Function]}
+                      placeholder="Last Initial"
+                      value=""
+                    />
+                    <button
+                      onClick={[Function]}
+                      type="submit"
+                    >
+                      SUBMIT
+                    </button>
+                  </div>,
+                  <h5>
+                    Add NEW patient with 2 patient initials
+                  </h5>,
+                  "",
+                  "",
+                  <InstructionWrapper>
+                    <p
+                      className="instructions"
+                    >
+                      Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).
+                    </p>
+                    <p
+                      className="instructions"
+                    >
+                      Please keep this abstracted name in your personal patient records for future reference.
+                    </p>
+                  </InstructionWrapper>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "New Patients",
+                  },
+                  "ref": null,
+                  "rendered": "New Patients",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        maxLength={1}
+                        name="firstInitial"
+                        onChange={[Function]}
+                        placeholder="First Initial"
+                        value=""
+                      />,
+                      <input
+                        maxLength={1}
+                        name="lastInitial"
+                        onChange={[Function]}
+                        placeholder="Last Initial"
+                        value=""
+                      />,
+                      <button
+                        onClick={[Function]}
+                        type="submit"
+                      >
+                        SUBMIT
+                      </button>,
+                    ],
+                    "className": "input-holder",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "maxLength": 1,
+                        "name": "firstInitial",
+                        "onChange": [Function],
+                        "placeholder": "First Initial",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "maxLength": 1,
+                        "name": "lastInitial",
+                        "onChange": [Function],
+                        "placeholder": "Last Initial",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "SUBMIT",
+                        "onClick": [Function],
+                        "type": "submit",
+                      },
+                      "ref": null,
+                      "rendered": "SUBMIT",
+                      "type": "button",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Add NEW patient with 2 patient initials",
+                  },
+                  "ref": null,
+                  "rendered": "Add NEW patient with 2 patient initials",
+                  "type": "h5",
+                },
+                "",
+                "",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className="instructions"
+                      >
+                        Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).
+                      </p>,
+                      <p
+                        className="instructions"
+                      >
+                        Please keep this abstracted name in your personal patient records for future reference.
+                      </p>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).",
+                        "className": "instructions",
+                      },
+                      "ref": null,
+                      "rendered": "Each patient name is a combination of your clinic abbreviation, the patient's first and last initial, and a unique number identifier (ie CLI + AB + 10).",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Please keep this abstracted name in your personal patient records for future reference.",
+                        "className": "instructions",
+                      },
+                      "ref": null,
+                      "rendered": "Please keep this abstracted name in your personal patient records for future reference.",
+                      "type": "p",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": Symbol(react.fragment),
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3
+                    className="current-patients"
+                  >
+                    Current Patients
+                  </h3>,
+                  <Connect(Component) />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Current Patients",
+                    "className": "current-patients",
+                  },
+                  "ref": null,
+                  "rendered": "Current Patients",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

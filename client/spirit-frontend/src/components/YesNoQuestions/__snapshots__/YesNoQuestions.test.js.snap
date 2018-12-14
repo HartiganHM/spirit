@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YesNoQuestions tests should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <YesNoQuestions
+    databaseNamesArray={
+      Array [
+        "pos_1_outer",
+        "pos_1_inner",
+      ]
+    }
+    questionsArray={
+      Array [
+        "Outer Core",
+        "Inner Core",
+      ]
+    }
+    title="Core Development"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h4
+          className="category-title"
+        >
+          Core Development
+        </h4>,
+        Array [
+          <Connect(YesNo)
+            databaseName="pos_1_outer"
+            question="Outer Core"
+          />,
+          <Connect(YesNo)
+            databaseName="pos_1_inner"
+            question="Inner Core"
+          />,
+        ],
+      ],
+      "className": "YesNoQuestions",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Core Development",
+          "className": "category-title",
+        },
+        "ref": null,
+        "rendered": "Core Development",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "pos_1_outer",
+          "question": "Outer Core",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "pos_1_inner",
+          "question": "Inner Core",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4
+            className="category-title"
+          >
+            Core Development
+          </h4>,
+          Array [
+            <Connect(YesNo)
+              databaseName="pos_1_outer"
+              question="Outer Core"
+            />,
+            <Connect(YesNo)
+              databaseName="pos_1_inner"
+              question="Inner Core"
+            />,
+          ],
+        ],
+        "className": "YesNoQuestions",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Core Development",
+            "className": "category-title",
+          },
+          "ref": null,
+          "rendered": "Core Development",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "pos_1_outer",
+            "question": "Outer Core",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "pos_1_inner",
+            "question": "Inner Core",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

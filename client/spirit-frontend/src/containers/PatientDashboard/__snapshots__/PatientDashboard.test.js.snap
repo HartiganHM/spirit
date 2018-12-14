@@ -1,0 +1,1208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientDashboard tests Should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PatientDashboard
+    addConcern={[Function]}
+    currentPatient={
+      Object {
+        "abstracted_name": "INTrm5",
+        "clinic_name": "I Need Therapy",
+        "created_at": "2018-02-20T20:07:54.509Z",
+        "id": 5,
+        "ot_id": 1,
+        "updated_at": "2018-02-20T20:07:54.509Z",
+      }
+    }
+    wipeStoreFromPatientDashboard={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="pd-header-row"
+        >
+          <h3
+            className="pd-first"
+          >
+            Primary Concerns
+          </h3>
+          <h3
+            className="pd-second"
+          >
+            Domains
+          </h3>
+          <h3
+            className="pd-third"
+          >
+            Notes
+          </h3>
+        </div>,
+        <Connect(Component) />,
+        <div
+          className="pd-input-row"
+        >
+          <input
+            className="primary-concern"
+            name="concernInput"
+            onChange={[Function]}
+            placeholder="Add Concern"
+            value=""
+          />
+          <p>
+            <span
+              className="domains"
+              onClick={[Function]}
+            >
+              1
+            </span>
+            <span
+              className="domains"
+              onClick={[Function]}
+            >
+              2
+            </span>
+            <span
+              className="domains"
+              onClick={[Function]}
+            >
+              3
+            </span>
+            <span
+              className="domains"
+              onClick={[Function]}
+            >
+              4
+            </span>
+            <span
+              className="domains"
+              onClick={[Function]}
+            >
+              5
+            </span>
+            <span
+              className="domains"
+              onClick={[Function]}
+            >
+              6
+            </span>
+          </p>
+          <input
+            className="primary-concern-notes"
+            name="notesInput"
+            onChange={[Function]}
+            placeholder="Add Notes"
+            value=""
+          />
+          <button
+            className="save-primary-concern"
+            onClick={[Function]}
+          >
+            save
+          </button>
+        </div>,
+        <div
+          className="sam-holder"
+        >
+          <img
+            alt="sam-big"
+            className="sam-image"
+            src="/assets/sam-new.svg"
+          />
+          <div
+            className="sam-dot-1 sam-dots"
+          >
+            1
+          </div>
+          <div
+            className="sam-dot-2 sam-dots"
+          >
+            2
+          </div>
+          <div
+            className="sam-dot-3 sam-dots"
+          >
+            3
+          </div>
+          <div
+            className="sam-dot-4 sam-dots"
+          >
+            4
+          </div>
+          <div
+            className="sam-dot-5 sam-dots"
+          >
+            5
+          </div>
+          <div
+            className="sam-dot-6 sam-dots"
+          >
+            6
+          </div>
+        </div>,
+      ],
+      "className": "PatientDashboard",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="pd-first"
+            >
+              Primary Concerns
+            </h3>,
+            <h3
+              className="pd-second"
+            >
+              Domains
+            </h3>,
+            <h3
+              className="pd-third"
+            >
+              Notes
+            </h3>,
+          ],
+          "className": "pd-header-row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Primary Concerns",
+              "className": "pd-first",
+            },
+            "ref": null,
+            "rendered": "Primary Concerns",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Domains",
+              "className": "pd-second",
+            },
+            "ref": null,
+            "rendered": "Domains",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Notes",
+              "className": "pd-third",
+            },
+            "ref": null,
+            "rendered": "Notes",
+            "type": "h3",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="primary-concern"
+              name="concernInput"
+              onChange={[Function]}
+              placeholder="Add Concern"
+              value=""
+            />,
+            <p>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                1
+              </span>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                2
+              </span>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                3
+              </span>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                4
+              </span>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                5
+              </span>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                6
+              </span>
+            </p>,
+            <input
+              className="primary-concern-notes"
+              name="notesInput"
+              onChange={[Function]}
+              placeholder="Add Notes"
+              value=""
+            />,
+            <button
+              className="save-primary-concern"
+              onClick={[Function]}
+            >
+              save
+            </button>,
+          ],
+          "className": "pd-input-row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "primary-concern",
+              "name": "concernInput",
+              "onChange": [Function],
+              "placeholder": "Add Concern",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  1
+                </span>,
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  2
+                </span>,
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  3
+                </span>,
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  4
+                </span>,
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  5
+                </span>,
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  6
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "1",
+                  "className": "domains",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "1",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2",
+                  "className": "domains",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "2",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "3",
+                  "className": "domains",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "3",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "4",
+                  "className": "domains",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "4",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "5",
+                  "className": "domains",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "5",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "6",
+                  "className": "domains",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "6",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "primary-concern-notes",
+              "name": "notesInput",
+              "onChange": [Function],
+              "placeholder": "Add Notes",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "save",
+              "className": "save-primary-concern",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "save",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="sam-big"
+              className="sam-image"
+              src="/assets/sam-new.svg"
+            />,
+            <div
+              className="sam-dot-1 sam-dots"
+            >
+              1
+            </div>,
+            <div
+              className="sam-dot-2 sam-dots"
+            >
+              2
+            </div>,
+            <div
+              className="sam-dot-3 sam-dots"
+            >
+              3
+            </div>,
+            <div
+              className="sam-dot-4 sam-dots"
+            >
+              4
+            </div>,
+            <div
+              className="sam-dot-5 sam-dots"
+            >
+              5
+            </div>,
+            <div
+              className="sam-dot-6 sam-dots"
+            >
+              6
+            </div>,
+          ],
+          "className": "sam-holder",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "sam-big",
+              "className": "sam-image",
+              "src": "/assets/sam-new.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "1",
+              "className": "sam-dot-1 sam-dots",
+            },
+            "ref": null,
+            "rendered": "1",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "2",
+              "className": "sam-dot-2 sam-dots",
+            },
+            "ref": null,
+            "rendered": "2",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "3",
+              "className": "sam-dot-3 sam-dots",
+            },
+            "ref": null,
+            "rendered": "3",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "4",
+              "className": "sam-dot-4 sam-dots",
+            },
+            "ref": null,
+            "rendered": "4",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "5",
+              "className": "sam-dot-5 sam-dots",
+            },
+            "ref": null,
+            "rendered": "5",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "6",
+              "className": "sam-dot-6 sam-dots",
+            },
+            "ref": null,
+            "rendered": "6",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="pd-header-row"
+          >
+            <h3
+              className="pd-first"
+            >
+              Primary Concerns
+            </h3>
+            <h3
+              className="pd-second"
+            >
+              Domains
+            </h3>
+            <h3
+              className="pd-third"
+            >
+              Notes
+            </h3>
+          </div>,
+          <Connect(Component) />,
+          <div
+            className="pd-input-row"
+          >
+            <input
+              className="primary-concern"
+              name="concernInput"
+              onChange={[Function]}
+              placeholder="Add Concern"
+              value=""
+            />
+            <p>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                1
+              </span>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                2
+              </span>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                3
+              </span>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                4
+              </span>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                5
+              </span>
+              <span
+                className="domains"
+                onClick={[Function]}
+              >
+                6
+              </span>
+            </p>
+            <input
+              className="primary-concern-notes"
+              name="notesInput"
+              onChange={[Function]}
+              placeholder="Add Notes"
+              value=""
+            />
+            <button
+              className="save-primary-concern"
+              onClick={[Function]}
+            >
+              save
+            </button>
+          </div>,
+          <div
+            className="sam-holder"
+          >
+            <img
+              alt="sam-big"
+              className="sam-image"
+              src="/assets/sam-new.svg"
+            />
+            <div
+              className="sam-dot-1 sam-dots"
+            >
+              1
+            </div>
+            <div
+              className="sam-dot-2 sam-dots"
+            >
+              2
+            </div>
+            <div
+              className="sam-dot-3 sam-dots"
+            >
+              3
+            </div>
+            <div
+              className="sam-dot-4 sam-dots"
+            >
+              4
+            </div>
+            <div
+              className="sam-dot-5 sam-dots"
+            >
+              5
+            </div>
+            <div
+              className="sam-dot-6 sam-dots"
+            >
+              6
+            </div>
+          </div>,
+        ],
+        "className": "PatientDashboard",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="pd-first"
+              >
+                Primary Concerns
+              </h3>,
+              <h3
+                className="pd-second"
+              >
+                Domains
+              </h3>,
+              <h3
+                className="pd-third"
+              >
+                Notes
+              </h3>,
+            ],
+            "className": "pd-header-row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Primary Concerns",
+                "className": "pd-first",
+              },
+              "ref": null,
+              "rendered": "Primary Concerns",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Domains",
+                "className": "pd-second",
+              },
+              "ref": null,
+              "rendered": "Domains",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Notes",
+                "className": "pd-third",
+              },
+              "ref": null,
+              "rendered": "Notes",
+              "type": "h3",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="primary-concern"
+                name="concernInput"
+                onChange={[Function]}
+                placeholder="Add Concern"
+                value=""
+              />,
+              <p>
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  1
+                </span>
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  2
+                </span>
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  3
+                </span>
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  4
+                </span>
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  5
+                </span>
+                <span
+                  className="domains"
+                  onClick={[Function]}
+                >
+                  6
+                </span>
+              </p>,
+              <input
+                className="primary-concern-notes"
+                name="notesInput"
+                onChange={[Function]}
+                placeholder="Add Notes"
+                value=""
+              />,
+              <button
+                className="save-primary-concern"
+                onClick={[Function]}
+              >
+                save
+              </button>,
+            ],
+            "className": "pd-input-row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "primary-concern",
+                "name": "concernInput",
+                "onChange": [Function],
+                "placeholder": "Add Concern",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="domains"
+                    onClick={[Function]}
+                  >
+                    1
+                  </span>,
+                  <span
+                    className="domains"
+                    onClick={[Function]}
+                  >
+                    2
+                  </span>,
+                  <span
+                    className="domains"
+                    onClick={[Function]}
+                  >
+                    3
+                  </span>,
+                  <span
+                    className="domains"
+                    onClick={[Function]}
+                  >
+                    4
+                  </span>,
+                  <span
+                    className="domains"
+                    onClick={[Function]}
+                  >
+                    5
+                  </span>,
+                  <span
+                    className="domains"
+                    onClick={[Function]}
+                  >
+                    6
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "1",
+                    "className": "domains",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "1",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2",
+                    "className": "domains",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "2",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "3",
+                    "className": "domains",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "3",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "4",
+                    "className": "domains",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "4",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "5",
+                    "className": "domains",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "5",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "6",
+                    "className": "domains",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "6",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "primary-concern-notes",
+                "name": "notesInput",
+                "onChange": [Function],
+                "placeholder": "Add Notes",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "save",
+                "className": "save-primary-concern",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "save",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="sam-big"
+                className="sam-image"
+                src="/assets/sam-new.svg"
+              />,
+              <div
+                className="sam-dot-1 sam-dots"
+              >
+                1
+              </div>,
+              <div
+                className="sam-dot-2 sam-dots"
+              >
+                2
+              </div>,
+              <div
+                className="sam-dot-3 sam-dots"
+              >
+                3
+              </div>,
+              <div
+                className="sam-dot-4 sam-dots"
+              >
+                4
+              </div>,
+              <div
+                className="sam-dot-5 sam-dots"
+              >
+                5
+              </div>,
+              <div
+                className="sam-dot-6 sam-dots"
+              >
+                6
+              </div>,
+            ],
+            "className": "sam-holder",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "sam-big",
+                "className": "sam-image",
+                "src": "/assets/sam-new.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "1",
+                "className": "sam-dot-1 sam-dots",
+              },
+              "ref": null,
+              "rendered": "1",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2",
+                "className": "sam-dot-2 sam-dots",
+              },
+              "ref": null,
+              "rendered": "2",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "3",
+                "className": "sam-dot-3 sam-dots",
+              },
+              "ref": null,
+              "rendered": "3",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "4",
+                "className": "sam-dot-4 sam-dots",
+              },
+              "ref": null,
+              "rendered": "4",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "5",
+                "className": "sam-dot-5 sam-dots",
+              },
+              "ref": null,
+              "rendered": "5",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "6",
+                "className": "sam-dot-6 sam-dots",
+              },
+              "ref": null,
+              "rendered": "6",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

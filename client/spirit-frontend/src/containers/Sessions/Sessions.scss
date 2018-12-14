@@ -1,0 +1,165 @@
+@import '../../variables.scss';
+
+.Sessions {
+
+  .sessions-main-holder {
+    @include medium-content;
+  }
+
+  .session {
+    display: flex;
+    align-items: center;
+    border-bottom: 10px solid $grey1;
+  }
+
+  .session-number {
+    width: 120px;
+    font-size: 20px;
+  }
+
+  .session-date {
+    width: 290px;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+
+  .date-span {
+    color: $grey3;
+    @include match-h5;
+    font-weight: 900;
+    font-size: 16px;
+  }
+
+  .session-status {
+    margin-right: 20px;
+    width: 120px;
+    font-size: 20px;
+  }
+
+  .select-session-button {
+    position: relative;
+    top: 4px;
+    width: 100px;
+    border: none;
+    background: none;
+    color: $green4;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .select-session-button:hover {
+    color: $green5;
+  }
+
+  .join-link {
+    button {
+      width: 100px;
+      height: 40px;
+      padding: 0 10px;
+      border: none;
+      background-color: $green4;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: $green5;
+    }
+  }
+
+  .create-session-button {
+    width: 300px;
+    height: 40px;
+    margin: 30px auto;
+    display: block;
+    background-color: $purple4;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    @include std-transition;
+  }
+
+  .create-session-button:hover {
+    background-color: $purple6;
+  }
+
+  .compare-button-holder {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+    margin-right: 2px;
+    width: 30px;
+    top: 2px;
+
+  }
+
+  .compare-button-holder input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  } 
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: #f1f2f2;
+    border-radius: 50px;
+    border: 2px solid #d1d3d4;
+    box-shadow: inset 0px 0px 4px -1px rgba(0,0,0,0.77);
+    @include std-transition;
+
+  }
+
+  .compare-button-holder:hover input ~ .checkmark {
+    background-color: #d1d3d4;
+  }
+
+  .compare-button-holder input:checked ~ .checkmark {
+    background-color: #a8ed8a;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .compare-button-holder input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .button-holder {
+    height: 40px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 26px;
+  }
+
+  .compare-sessions-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    background-color: $green4;
+    font-size: 14px;
+    width: 88px;
+    border: none;
+    color: #fff;
+    @include std-transition;
+    cursor: pointer;
+  }
+
+  .compare-sessions-button:hover {
+    background-color: darken($green5, 14%);
+  }
+
+  .goals-chart {
+    @include medium-content;
+  }
+}

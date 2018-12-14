@@ -1,0 +1,67 @@
+@import '../../variables.scss';
+
+.TreatmentPlans {
+  width: 875px;
+  display: block;
+  margin: 0 auto 50px;
+
+  .treatment-header-tabs {
+    display: flex;
+  }
+
+  h4 {
+    padding: 9px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .treatment-header {
+    width: 175px;
+    background-color: $grey3;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include std-transition;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+
+  .treatment-header-modulation {
+    border-left: 0;
+  }
+
+  .treatment-header-executive {
+    border-right: 0;
+  }
+
+  .treatment-header h4 {
+    color: $grey2;
+  }
+
+  .treatment-header:hover h4 {
+    color: $grey5;
+  }
+
+  .treatment-header:hover {
+    background-color: $grey2;
+  }
+
+  .treatment-header-active {
+    background-color: $grey2;
+
+    h4 {
+      color: $grey5;
+    }
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .module-container {
+    background-color: $grey2;
+    padding: 10px;
+  }
+
+} 

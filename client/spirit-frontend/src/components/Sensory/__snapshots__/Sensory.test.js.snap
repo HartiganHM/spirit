@@ -1,0 +1,1041 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sensory tests Should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Sensory />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SessionHeader
+          databaseNamesArray={
+            Array [
+              "sen_h_vestibular",
+              "sen_h_proprioception",
+              "sen_h_tactile",
+              "sen_h_auditory",
+              "sen_h_visual",
+              "sen_h_intero",
+            ]
+          }
+          headings={
+            Array [
+              "Vestibular",
+              "Proprioception",
+              "Tactile",
+              "Auditory",
+              "Visual",
+              "Intero",
+            ]
+          }
+          title="Sensory Discrimination Capacities"
+        />,
+        <div
+          className="category-content"
+        >
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "sen_1_ability",
+                "sen_1_match",
+                "sen_1_classification",
+                "sen_1_spatial",
+                "sen_1_figure",
+                "sen_1_inferences",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Ability to Recognize",
+                "Match",
+                "Classification",
+                "Spatial Organization",
+                "Figure Ground Perception",
+                "Inferences and Abstractions (logic)",
+              ]
+            }
+            title="Sensory Discrimination / Perceptual Skills"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "sen_2_initiation",
+                "sen_2_imitation",
+                "sen_2_affordance",
+                "sen_2_generativity",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Initiation",
+                "Imitation (mimic or emulate?)",
+                "Affordance-based (obvious, imitative or expands?)",
+                "Generativity",
+              ]
+            }
+            title="Ideation"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "sen_3_sequencing",
+                "sen_3_sequencing_gestalt",
+                "sen_3_schema_selection",
+                "sen_3_schema_expansion",
+                "sen_3_modification",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Sequencing",
+                "Sequencing/Gestalt",
+                "Schema Selection",
+                "Schema Expansion",
+                "Modification",
+              ]
+            }
+            title="Planning"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "sen_4_timing",
+                "sen_4_timing_force",
+                "sen_4_spatial",
+                "sen_4_temporal",
+                "sen_4_control",
+                "sen_4_monitoring",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Timing",
+                "Timing/Force",
+                "Spatial",
+                "Temporal",
+                "Control (Postural; FF; FB)",
+                "Monitoring",
+              ]
+            }
+            title="Execution"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "sen_5_oral",
+                "sen_5_ocular",
+                "sen_5_postural",
+                "sen_5_limb",
+                "sen_5_gross",
+                "sen_5_fine",
+                "sen_5_tool",
+                "sen_5_projected",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Oral",
+                "Ocular",
+                "Postural",
+                "Limb",
+                "Gross",
+                "Fine",
+                "Tool/Object",
+                "Projected Action Sequences",
+              ]
+            }
+            title="Skill Domain"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "sen_6_somatodyspraxia",
+                "sen_6_visual",
+                "sen_6_generalized",
+                "sen_6_bmc",
+                "sen_6_praxis",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Somatodyspraxia",
+                "Visual Dyspraxia",
+                "Generalized Dyspraxis",
+                "BMC/Balance/Sequencing/ML",
+                "Praxis on Verbal Command",
+              ]
+            }
+            title="Ayres' Factors"
+          />
+        </div>,
+      ],
+      "className": "Sensory",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "databaseNamesArray": Array [
+            "sen_h_vestibular",
+            "sen_h_proprioception",
+            "sen_h_tactile",
+            "sen_h_auditory",
+            "sen_h_visual",
+            "sen_h_intero",
+          ],
+          "headings": Array [
+            "Vestibular",
+            "Proprioception",
+            "Tactile",
+            "Auditory",
+            "Visual",
+            "Intero",
+          ],
+          "title": "Sensory Discrimination Capacities",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_1_ability",
+                  "sen_1_match",
+                  "sen_1_classification",
+                  "sen_1_spatial",
+                  "sen_1_figure",
+                  "sen_1_inferences",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Ability to Recognize",
+                  "Match",
+                  "Classification",
+                  "Spatial Organization",
+                  "Figure Ground Perception",
+                  "Inferences and Abstractions (logic)",
+                ]
+              }
+              title="Sensory Discrimination / Perceptual Skills"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_2_initiation",
+                  "sen_2_imitation",
+                  "sen_2_affordance",
+                  "sen_2_generativity",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Initiation",
+                  "Imitation (mimic or emulate?)",
+                  "Affordance-based (obvious, imitative or expands?)",
+                  "Generativity",
+                ]
+              }
+              title="Ideation"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_3_sequencing",
+                  "sen_3_sequencing_gestalt",
+                  "sen_3_schema_selection",
+                  "sen_3_schema_expansion",
+                  "sen_3_modification",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Sequencing",
+                  "Sequencing/Gestalt",
+                  "Schema Selection",
+                  "Schema Expansion",
+                  "Modification",
+                ]
+              }
+              title="Planning"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_4_timing",
+                  "sen_4_timing_force",
+                  "sen_4_spatial",
+                  "sen_4_temporal",
+                  "sen_4_control",
+                  "sen_4_monitoring",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Timing",
+                  "Timing/Force",
+                  "Spatial",
+                  "Temporal",
+                  "Control (Postural; FF; FB)",
+                  "Monitoring",
+                ]
+              }
+              title="Execution"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_5_oral",
+                  "sen_5_ocular",
+                  "sen_5_postural",
+                  "sen_5_limb",
+                  "sen_5_gross",
+                  "sen_5_fine",
+                  "sen_5_tool",
+                  "sen_5_projected",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Oral",
+                  "Ocular",
+                  "Postural",
+                  "Limb",
+                  "Gross",
+                  "Fine",
+                  "Tool/Object",
+                  "Projected Action Sequences",
+                ]
+              }
+              title="Skill Domain"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_6_somatodyspraxia",
+                  "sen_6_visual",
+                  "sen_6_generalized",
+                  "sen_6_bmc",
+                  "sen_6_praxis",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Somatodyspraxia",
+                  "Visual Dyspraxia",
+                  "Generalized Dyspraxis",
+                  "BMC/Balance/Sequencing/ML",
+                  "Praxis on Verbal Command",
+                ]
+              }
+              title="Ayres' Factors"
+            />,
+          ],
+          "className": "category-content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "sen_1_ability",
+                "sen_1_match",
+                "sen_1_classification",
+                "sen_1_spatial",
+                "sen_1_figure",
+                "sen_1_inferences",
+              ],
+              "slidersArray": Array [
+                "Ability to Recognize",
+                "Match",
+                "Classification",
+                "Spatial Organization",
+                "Figure Ground Perception",
+                "Inferences and Abstractions (logic)",
+              ],
+              "title": "Sensory Discrimination / Perceptual Skills",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "sen_2_initiation",
+                "sen_2_imitation",
+                "sen_2_affordance",
+                "sen_2_generativity",
+              ],
+              "slidersArray": Array [
+                "Initiation",
+                "Imitation (mimic or emulate?)",
+                "Affordance-based (obvious, imitative or expands?)",
+                "Generativity",
+              ],
+              "title": "Ideation",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "sen_3_sequencing",
+                "sen_3_sequencing_gestalt",
+                "sen_3_schema_selection",
+                "sen_3_schema_expansion",
+                "sen_3_modification",
+              ],
+              "slidersArray": Array [
+                "Sequencing",
+                "Sequencing/Gestalt",
+                "Schema Selection",
+                "Schema Expansion",
+                "Modification",
+              ],
+              "title": "Planning",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "sen_4_timing",
+                "sen_4_timing_force",
+                "sen_4_spatial",
+                "sen_4_temporal",
+                "sen_4_control",
+                "sen_4_monitoring",
+              ],
+              "slidersArray": Array [
+                "Timing",
+                "Timing/Force",
+                "Spatial",
+                "Temporal",
+                "Control (Postural; FF; FB)",
+                "Monitoring",
+              ],
+              "title": "Execution",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "sen_5_oral",
+                "sen_5_ocular",
+                "sen_5_postural",
+                "sen_5_limb",
+                "sen_5_gross",
+                "sen_5_fine",
+                "sen_5_tool",
+                "sen_5_projected",
+              ],
+              "slidersArray": Array [
+                "Oral",
+                "Ocular",
+                "Postural",
+                "Limb",
+                "Gross",
+                "Fine",
+                "Tool/Object",
+                "Projected Action Sequences",
+              ],
+              "title": "Skill Domain",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "sen_6_somatodyspraxia",
+                "sen_6_visual",
+                "sen_6_generalized",
+                "sen_6_bmc",
+                "sen_6_praxis",
+              ],
+              "slidersArray": Array [
+                "Somatodyspraxia",
+                "Visual Dyspraxia",
+                "Generalized Dyspraxis",
+                "BMC/Balance/Sequencing/ML",
+                "Praxis on Verbal Command",
+              ],
+              "title": "Ayres' Factors",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SessionHeader
+            databaseNamesArray={
+              Array [
+                "sen_h_vestibular",
+                "sen_h_proprioception",
+                "sen_h_tactile",
+                "sen_h_auditory",
+                "sen_h_visual",
+                "sen_h_intero",
+              ]
+            }
+            headings={
+              Array [
+                "Vestibular",
+                "Proprioception",
+                "Tactile",
+                "Auditory",
+                "Visual",
+                "Intero",
+              ]
+            }
+            title="Sensory Discrimination Capacities"
+          />,
+          <div
+            className="category-content"
+          >
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_1_ability",
+                  "sen_1_match",
+                  "sen_1_classification",
+                  "sen_1_spatial",
+                  "sen_1_figure",
+                  "sen_1_inferences",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Ability to Recognize",
+                  "Match",
+                  "Classification",
+                  "Spatial Organization",
+                  "Figure Ground Perception",
+                  "Inferences and Abstractions (logic)",
+                ]
+              }
+              title="Sensory Discrimination / Perceptual Skills"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_2_initiation",
+                  "sen_2_imitation",
+                  "sen_2_affordance",
+                  "sen_2_generativity",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Initiation",
+                  "Imitation (mimic or emulate?)",
+                  "Affordance-based (obvious, imitative or expands?)",
+                  "Generativity",
+                ]
+              }
+              title="Ideation"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_3_sequencing",
+                  "sen_3_sequencing_gestalt",
+                  "sen_3_schema_selection",
+                  "sen_3_schema_expansion",
+                  "sen_3_modification",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Sequencing",
+                  "Sequencing/Gestalt",
+                  "Schema Selection",
+                  "Schema Expansion",
+                  "Modification",
+                ]
+              }
+              title="Planning"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_4_timing",
+                  "sen_4_timing_force",
+                  "sen_4_spatial",
+                  "sen_4_temporal",
+                  "sen_4_control",
+                  "sen_4_monitoring",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Timing",
+                  "Timing/Force",
+                  "Spatial",
+                  "Temporal",
+                  "Control (Postural; FF; FB)",
+                  "Monitoring",
+                ]
+              }
+              title="Execution"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_5_oral",
+                  "sen_5_ocular",
+                  "sen_5_postural",
+                  "sen_5_limb",
+                  "sen_5_gross",
+                  "sen_5_fine",
+                  "sen_5_tool",
+                  "sen_5_projected",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Oral",
+                  "Ocular",
+                  "Postural",
+                  "Limb",
+                  "Gross",
+                  "Fine",
+                  "Tool/Object",
+                  "Projected Action Sequences",
+                ]
+              }
+              title="Skill Domain"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "sen_6_somatodyspraxia",
+                  "sen_6_visual",
+                  "sen_6_generalized",
+                  "sen_6_bmc",
+                  "sen_6_praxis",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Somatodyspraxia",
+                  "Visual Dyspraxia",
+                  "Generalized Dyspraxis",
+                  "BMC/Balance/Sequencing/ML",
+                  "Praxis on Verbal Command",
+                ]
+              }
+              title="Ayres' Factors"
+            />
+          </div>,
+        ],
+        "className": "Sensory",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "databaseNamesArray": Array [
+              "sen_h_vestibular",
+              "sen_h_proprioception",
+              "sen_h_tactile",
+              "sen_h_auditory",
+              "sen_h_visual",
+              "sen_h_intero",
+            ],
+            "headings": Array [
+              "Vestibular",
+              "Proprioception",
+              "Tactile",
+              "Auditory",
+              "Visual",
+              "Intero",
+            ],
+            "title": "Sensory Discrimination Capacities",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "sen_1_ability",
+                    "sen_1_match",
+                    "sen_1_classification",
+                    "sen_1_spatial",
+                    "sen_1_figure",
+                    "sen_1_inferences",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Ability to Recognize",
+                    "Match",
+                    "Classification",
+                    "Spatial Organization",
+                    "Figure Ground Perception",
+                    "Inferences and Abstractions (logic)",
+                  ]
+                }
+                title="Sensory Discrimination / Perceptual Skills"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "sen_2_initiation",
+                    "sen_2_imitation",
+                    "sen_2_affordance",
+                    "sen_2_generativity",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Initiation",
+                    "Imitation (mimic or emulate?)",
+                    "Affordance-based (obvious, imitative or expands?)",
+                    "Generativity",
+                  ]
+                }
+                title="Ideation"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "sen_3_sequencing",
+                    "sen_3_sequencing_gestalt",
+                    "sen_3_schema_selection",
+                    "sen_3_schema_expansion",
+                    "sen_3_modification",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Sequencing",
+                    "Sequencing/Gestalt",
+                    "Schema Selection",
+                    "Schema Expansion",
+                    "Modification",
+                  ]
+                }
+                title="Planning"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "sen_4_timing",
+                    "sen_4_timing_force",
+                    "sen_4_spatial",
+                    "sen_4_temporal",
+                    "sen_4_control",
+                    "sen_4_monitoring",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Timing",
+                    "Timing/Force",
+                    "Spatial",
+                    "Temporal",
+                    "Control (Postural; FF; FB)",
+                    "Monitoring",
+                  ]
+                }
+                title="Execution"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "sen_5_oral",
+                    "sen_5_ocular",
+                    "sen_5_postural",
+                    "sen_5_limb",
+                    "sen_5_gross",
+                    "sen_5_fine",
+                    "sen_5_tool",
+                    "sen_5_projected",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Oral",
+                    "Ocular",
+                    "Postural",
+                    "Limb",
+                    "Gross",
+                    "Fine",
+                    "Tool/Object",
+                    "Projected Action Sequences",
+                  ]
+                }
+                title="Skill Domain"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "sen_6_somatodyspraxia",
+                    "sen_6_visual",
+                    "sen_6_generalized",
+                    "sen_6_bmc",
+                    "sen_6_praxis",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Somatodyspraxia",
+                    "Visual Dyspraxia",
+                    "Generalized Dyspraxis",
+                    "BMC/Balance/Sequencing/ML",
+                    "Praxis on Verbal Command",
+                  ]
+                }
+                title="Ayres' Factors"
+              />,
+            ],
+            "className": "category-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "sen_1_ability",
+                  "sen_1_match",
+                  "sen_1_classification",
+                  "sen_1_spatial",
+                  "sen_1_figure",
+                  "sen_1_inferences",
+                ],
+                "slidersArray": Array [
+                  "Ability to Recognize",
+                  "Match",
+                  "Classification",
+                  "Spatial Organization",
+                  "Figure Ground Perception",
+                  "Inferences and Abstractions (logic)",
+                ],
+                "title": "Sensory Discrimination / Perceptual Skills",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "sen_2_initiation",
+                  "sen_2_imitation",
+                  "sen_2_affordance",
+                  "sen_2_generativity",
+                ],
+                "slidersArray": Array [
+                  "Initiation",
+                  "Imitation (mimic or emulate?)",
+                  "Affordance-based (obvious, imitative or expands?)",
+                  "Generativity",
+                ],
+                "title": "Ideation",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "sen_3_sequencing",
+                  "sen_3_sequencing_gestalt",
+                  "sen_3_schema_selection",
+                  "sen_3_schema_expansion",
+                  "sen_3_modification",
+                ],
+                "slidersArray": Array [
+                  "Sequencing",
+                  "Sequencing/Gestalt",
+                  "Schema Selection",
+                  "Schema Expansion",
+                  "Modification",
+                ],
+                "title": "Planning",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "sen_4_timing",
+                  "sen_4_timing_force",
+                  "sen_4_spatial",
+                  "sen_4_temporal",
+                  "sen_4_control",
+                  "sen_4_monitoring",
+                ],
+                "slidersArray": Array [
+                  "Timing",
+                  "Timing/Force",
+                  "Spatial",
+                  "Temporal",
+                  "Control (Postural; FF; FB)",
+                  "Monitoring",
+                ],
+                "title": "Execution",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "sen_5_oral",
+                  "sen_5_ocular",
+                  "sen_5_postural",
+                  "sen_5_limb",
+                  "sen_5_gross",
+                  "sen_5_fine",
+                  "sen_5_tool",
+                  "sen_5_projected",
+                ],
+                "slidersArray": Array [
+                  "Oral",
+                  "Ocular",
+                  "Postural",
+                  "Limb",
+                  "Gross",
+                  "Fine",
+                  "Tool/Object",
+                  "Projected Action Sequences",
+                ],
+                "title": "Skill Domain",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "sen_6_somatodyspraxia",
+                  "sen_6_visual",
+                  "sen_6_generalized",
+                  "sen_6_bmc",
+                  "sen_6_praxis",
+                ],
+                "slidersArray": Array [
+                  "Somatodyspraxia",
+                  "Visual Dyspraxia",
+                  "Generalized Dyspraxis",
+                  "BMC/Balance/Sequencing/ML",
+                  "Praxis on Verbal Command",
+                ],
+                "title": "Ayres' Factors",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

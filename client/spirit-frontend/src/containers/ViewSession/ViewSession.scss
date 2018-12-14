@@ -1,0 +1,240 @@
+@import '../../variables.scss';
+
+.ViewSession {
+  width: 1104px;
+  margin: auto;
+  padding-bottom: 50px;
+
+  .view-sam-image {
+    width: 240px;
+  }
+
+  .view-header-top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h3 {
+    text-align: center;
+    margin: 40px 0 5px;
+  }
+
+  h4 {
+    margin: 10px 0 5px;
+  }
+
+  .view-clinic {
+    text-align: right;
+
+    h4 {
+      margin: 0;
+    }
+  }
+
+  .view-patient {
+
+    h2 {
+      margin: 0;
+    }
+  }
+
+  .view-date {
+
+    h4 {
+      margin: 0;
+    }
+  }
+
+  .view-processes {
+
+    /*h3 {
+      margin: 0;
+    }*/
+  }
+
+  .view-concern {
+    display: flex;
+    align-items: center;
+  }
+
+  .view-concern-description {
+    margin: 0 20px 0 0; 
+    padding: 10px 15px;
+    background-color: $grey1;
+    width: 367px;
+  }
+
+  .view-concern-notes {
+    margin: 0 0 0 20px;
+    padding: 10px 15px;
+    background-color: $grey1;
+    width: 367px;
+  }
+
+  .view-dots {
+    background-color: $grey1;
+    padding: 5px 10px;
+    border: 4px solid $grey2;
+    border-radius: 50px;
+    margin: 0 4px;
+  }
+
+  .opacity-zero {
+    opacity: .2;
+  }
+
+  .view-processes-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .view-therapy {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .data-holder-wide {
+    width: 430px;
+    margin: 2px;
+    background-color: $grey1;
+    padding: 3px;
+
+    .text-small-wide {
+      font-size: 12px;
+      text-align: left;
+      color: $grey3;
+      margin: 0;
+    }
+  }
+
+  .data-holder {
+    width: 100px;
+    margin: 2px;
+    background-color: $grey1;
+    padding: 3px;
+
+    p {
+      font-size: 30px;
+      margin: 0;
+      text-align: center;
+    }
+
+    .text-small {
+      font-size: 12px;
+      text-align: left;
+      color: $grey3;
+      height: 30px;
+      margin: 0;
+      word-break: break-word;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .text-small-3 {
+      height: 60px;
+    }
+  }
+
+  .text-small-2 {
+    font-size: 12px;
+    text-align: left;
+    color: $grey3;
+
+  }
+
+  .view-treatment {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .treatment-plan-text {
+    padding: 3px;
+    background-color: $grey1;
+    margin: 2px;
+    width: 542px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .view-button-holder {
+    height: 40px;
+    position: relative;
+    margin: 50px 0;
+  }
+
+  .complete-session-button {
+    background-color: $green4;
+    height: 40px;
+    width: 202px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    @include std-transition;
+  }
+
+  .complete-session-button:hover {
+    background-color: $green5;
+  }
+
+  .print-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    opacity: .4;
+    @include std-transition;
+  }
+
+  .print-image:hover {
+    opacity: .8;
+  }
+}
+
+@media print {
+  @page {
+    size: landscape;
+  }
+
+  .Header, .PatientHeader, .ConcernHeader, .SessionTabs, .view-button-holder {
+    display: none;
+  }
+
+  .view-section-container {
+    page-break-inside: avoid;
+  }
+
+  .ViewSession {
+    .data-holder, .data-holder-wide {
+      border-bottom: 4px solid $grey1;
+      .text-small, .text-small-wide {
+        color: $grey3;
+        font-weight: 100;
+      }
+    }
+
+    .opacity-zero {
+      opacity: .1;
+    }
+
+    .treatment-plan-text {
+      .text-small-2 {
+        color: $grey3;
+        font-weight: 100;
+      }
+    }
+
+  }
+}
+
+
+
+
+ 

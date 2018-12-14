@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientList tests Should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    patientList={
+      Array [
+        Object {
+          "abstracted_name": "INTrm5",
+          "clinic_name": "I Need Therapy",
+          "created_at": "2018-02-20T20:07:54.509Z",
+          "id": 5,
+          "ot_id": 1,
+          "updated_at": "2018-02-20T20:07:54.509Z",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Connect(Component)
+          abstractedName="INTrm5"
+          id={5}
+          lastAppt="Feb 20, 2018"
+        />,
+      ],
+      "className": "PatientList",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "class",
+        "props": Object {
+          "abstractedName": "INTrm5",
+          "id": 5,
+          "lastAppt": "Feb 20, 2018",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Connect(Component)
+            abstractedName="INTrm5"
+            id={5}
+            lastAppt="Feb 20, 2018"
+          />,
+        ],
+        "className": "PatientList",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "class",
+          "props": Object {
+            "abstractedName": "INTrm5",
+            "id": 5,
+            "lastAppt": "Feb 20, 2018",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

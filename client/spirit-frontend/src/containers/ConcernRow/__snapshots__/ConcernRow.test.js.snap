@@ -1,0 +1,503 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConcernRow tests Should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ConcernRow
+    getConcern={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="concern-left"
+        />,
+        <p>
+          <span
+            className="domains"
+          >
+            1
+          </span>
+          <span
+            className="domains"
+          >
+            2
+          </span>
+          <span
+            className="domains"
+          >
+            3
+          </span>
+          <span
+            className="domains"
+          >
+            4
+          </span>
+          <span
+            className="domains"
+          >
+            5
+          </span>
+          <span
+            className="domains"
+          >
+            6
+          </span>
+        </p>,
+        <p
+          className="concern-notes"
+        />,
+        <Link
+          replace={false}
+          to="/spirit/concerns/undefined/sessions"
+        >
+          <button
+            className="select-concern-button"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseOut={[Function]}
+          >
+            SELECT
+          </button>
+        </Link>,
+      ],
+      "className": "ConcernRow",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "concern-left",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="domains"
+            >
+              1
+            </span>,
+            <span
+              className="domains"
+            >
+              2
+            </span>,
+            <span
+              className="domains"
+            >
+              3
+            </span>,
+            <span
+              className="domains"
+            >
+              4
+            </span>,
+            <span
+              className="domains"
+            >
+              5
+            </span>,
+            <span
+              className="domains"
+            >
+              6
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "1",
+              "className": "domains",
+            },
+            "ref": null,
+            "rendered": "1",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "2",
+              "className": "domains",
+            },
+            "ref": null,
+            "rendered": "2",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "3",
+              "className": "domains",
+            },
+            "ref": null,
+            "rendered": "3",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "4",
+              "className": "domains",
+            },
+            "ref": null,
+            "rendered": "4",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "5",
+              "className": "domains",
+            },
+            "ref": null,
+            "rendered": "5",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "6",
+              "className": "domains",
+            },
+            "ref": null,
+            "rendered": "6",
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "concern-notes",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <button
+            className="select-concern-button"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseOut={[Function]}
+          >
+            SELECT
+          </button>,
+          "replace": false,
+          "to": "/spirit/concerns/undefined/sessions",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "SELECT",
+            "className": "select-concern-button",
+            "onClick": [Function],
+            "onMouseEnter": [Function],
+            "onMouseOut": [Function],
+          },
+          "ref": null,
+          "rendered": "SELECT",
+          "type": "button",
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="concern-left"
+          />,
+          <p>
+            <span
+              className="domains"
+            >
+              1
+            </span>
+            <span
+              className="domains"
+            >
+              2
+            </span>
+            <span
+              className="domains"
+            >
+              3
+            </span>
+            <span
+              className="domains"
+            >
+              4
+            </span>
+            <span
+              className="domains"
+            >
+              5
+            </span>
+            <span
+              className="domains"
+            >
+              6
+            </span>
+          </p>,
+          <p
+            className="concern-notes"
+          />,
+          <Link
+            replace={false}
+            to="/spirit/concerns/undefined/sessions"
+          >
+            <button
+              className="select-concern-button"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseOut={[Function]}
+            >
+              SELECT
+            </button>
+          </Link>,
+        ],
+        "className": "ConcernRow",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "concern-left",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="domains"
+              >
+                1
+              </span>,
+              <span
+                className="domains"
+              >
+                2
+              </span>,
+              <span
+                className="domains"
+              >
+                3
+              </span>,
+              <span
+                className="domains"
+              >
+                4
+              </span>,
+              <span
+                className="domains"
+              >
+                5
+              </span>,
+              <span
+                className="domains"
+              >
+                6
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "1",
+                "className": "domains",
+              },
+              "ref": null,
+              "rendered": "1",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2",
+                "className": "domains",
+              },
+              "ref": null,
+              "rendered": "2",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "3",
+                "className": "domains",
+              },
+              "ref": null,
+              "rendered": "3",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "4",
+                "className": "domains",
+              },
+              "ref": null,
+              "rendered": "4",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "5",
+                "className": "domains",
+              },
+              "ref": null,
+              "rendered": "5",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "6",
+                "className": "domains",
+              },
+              "ref": null,
+              "rendered": "6",
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "concern-notes",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <button
+              className="select-concern-button"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseOut={[Function]}
+            >
+              SELECT
+            </button>,
+            "replace": false,
+            "to": "/spirit/concerns/undefined/sessions",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "SELECT",
+              "className": "select-concern-button",
+              "onClick": [Function],
+              "onMouseEnter": [Function],
+              "onMouseOut": [Function],
+            },
+            "ref": null,
+            "rendered": "SELECT",
+            "type": "button",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

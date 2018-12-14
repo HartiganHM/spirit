@@ -1,0 +1,63 @@
+@import '../../variables.scss';
+
+.SessionTabs {
+  border-top: 5px solid $purple5;
+  display: flex;
+  /*justify-content: center;*/
+  margin-bottom: 50px;
+  height: 58px;
+
+  a {
+    text-decoration: none;
+  }
+
+  /*p {
+    border: 5px solid $purple5;
+    padding: 5px 10px 15px;
+    margin: 0 auto;
+    width: 9px;
+    height: 9px;
+    color: $purple1;
+    background-color: $purple3;
+    border-radius: 50px;
+    font-size: 16px;
+    position: relative;
+  }*/
+
+  h2 {
+    @include match-h4;
+    /*margin: 8px 0 0px;*/
+    color: $purple1;
+  }
+
+  .session-tabs {
+    width: 142px;
+    margin: 0 2px 0 0;
+    background-color: $purple3;
+    text-align: center;
+    cursor: pointer;
+    height: 53px;
+    @include std-transition;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border-bottom: 5px solid $purple5;*/
+    &:hover {
+      background-color: $purple5;
+    }
+  }
+
+  .thread-connection-tab {
+    background-color: $green3;
+    h2 {
+      color: #FFF;
+    }
+    &:hover {
+      background-color: $green4;
+    }
+  }
+
+  .active {
+    background-color: $purple5;
+  }
+}

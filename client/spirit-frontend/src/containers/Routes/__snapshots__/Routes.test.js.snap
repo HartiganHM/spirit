@@ -1,0 +1,926 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes tests Should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Routes
+    getDefinitions={[Function]}
+    getUser={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Route
+          component={[Function]}
+          path="/"
+        />,
+        <Route
+          component={[Function]}
+          path="/spirit/patients"
+        />,
+        <Route
+          component={[Function]}
+          path="/spirit/concerns"
+        />,
+        <Route
+          component={[Function]}
+          path="/spirit/sessions"
+        />,
+        <Route
+          component={[Function]}
+          path="/spirit/concerns"
+        />,
+        <Route
+          component={[Function]}
+          path="/spirit/sessions"
+        />,
+        <Route
+          component={[Function]}
+          path="/spirit/sessions/:session_id"
+        />,
+        <Switch>
+          <Route
+            component={[Function]}
+            path="/spirit/sessions/:session_id/sam"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/sessions/:session_id/sensory"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/sessions/:session_id/modulation"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/sessions/:session_id/executive"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/sessions/:session_id/postural"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/sessions/:session_id/social"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/sessions/:session_id/finish"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/sessions/:session_id/view"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/concerns/:concernId/sessions"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/patients/:patient_id"
+          />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/spirit/users/:user_id/join"
+          />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/spirit/users/:user_id/create"
+          />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/spirit/users/:user_id"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/users"
+          />
+          <Route
+            component={[Function]}
+            path="/spirit/index"
+          />
+        </Switch>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/spirit/patients",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/spirit/concerns",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/spirit/sessions",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/spirit/concerns",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/spirit/sessions",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/spirit/sessions/:session_id",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/sam"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/sensory"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/modulation"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/executive"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/postural"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/social"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/finish"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/view"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/concerns/:concernId/sessions"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/patients/:patient_id"
+            />,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/spirit/users/:user_id/join"
+            />,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/spirit/users/:user_id/create"
+            />,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/spirit/users/:user_id"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/users"
+            />,
+            <Route
+              component={[Function]}
+              path="/spirit/index"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/sessions/:session_id/sam",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/sessions/:session_id/sensory",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/sessions/:session_id/modulation",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/sessions/:session_id/executive",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/sessions/:session_id/postural",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/sessions/:session_id/social",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/sessions/:session_id/finish",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/sessions/:session_id/view",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/concerns/:concernId/sessions",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/patients/:patient_id",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/spirit/users/:user_id/join",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/spirit/users/:user_id/create",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/spirit/users/:user_id",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/users",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/spirit/index",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Route
+            component={[Function]}
+            path="/"
+          />,
+          <Route
+            component={[Function]}
+            path="/spirit/patients"
+          />,
+          <Route
+            component={[Function]}
+            path="/spirit/concerns"
+          />,
+          <Route
+            component={[Function]}
+            path="/spirit/sessions"
+          />,
+          <Route
+            component={[Function]}
+            path="/spirit/concerns"
+          />,
+          <Route
+            component={[Function]}
+            path="/spirit/sessions"
+          />,
+          <Route
+            component={[Function]}
+            path="/spirit/sessions/:session_id"
+          />,
+          <Switch>
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/sam"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/sensory"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/modulation"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/executive"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/postural"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/social"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/finish"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/sessions/:session_id/view"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/concerns/:concernId/sessions"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/patients/:patient_id"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/spirit/users/:user_id/join"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/spirit/users/:user_id/create"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/spirit/users/:user_id"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/users"
+            />
+            <Route
+              component={[Function]}
+              path="/spirit/index"
+            />
+          </Switch>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/spirit/patients",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/spirit/concerns",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/spirit/sessions",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/spirit/concerns",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/spirit/sessions",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/spirit/sessions/:session_id",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Route
+                component={[Function]}
+                path="/spirit/sessions/:session_id/sam"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/sessions/:session_id/sensory"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/sessions/:session_id/modulation"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/sessions/:session_id/executive"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/sessions/:session_id/postural"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/sessions/:session_id/social"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/sessions/:session_id/finish"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/sessions/:session_id/view"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/concerns/:concernId/sessions"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/patients/:patient_id"
+              />,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/spirit/users/:user_id/join"
+              />,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/spirit/users/:user_id/create"
+              />,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/spirit/users/:user_id"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/users"
+              />,
+              <Route
+                component={[Function]}
+                path="/spirit/index"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/sessions/:session_id/sam",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/sessions/:session_id/sensory",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/sessions/:session_id/modulation",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/sessions/:session_id/executive",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/sessions/:session_id/postural",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/sessions/:session_id/social",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/sessions/:session_id/finish",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/sessions/:session_id/view",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/concerns/:concernId/sessions",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/patients/:patient_id",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/spirit/users/:user_id/join",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/spirit/users/:user_id/create",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/spirit/users/:user_id",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/users",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/spirit/index",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

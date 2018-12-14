@@ -1,0 +1,22 @@
+@import '../../variables.scss';
+
+.PatientHeader {
+  background-color: $purple6;
+
+  .patient-header-holder {
+    padding: 10px 20px 8px;
+  }
+
+  h4 {
+    margin: 0;
+    color: $purple4;
+    font-size: 14px;
+  }
+
+  .patient-header-span {
+    color: $purple1;
+    font-size: 18px;
+    margin: 0 30px 0 10px;
+  }
+
+}

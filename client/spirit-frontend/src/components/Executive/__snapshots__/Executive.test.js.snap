@@ -1,0 +1,805 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Executive tests Should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Executive />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SessionHeader
+          headings={Array []}
+          title="Executive Functioning Capacities"
+        />,
+        <div
+          className="category-content"
+        >
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "exe_1_orient",
+                "exe_1_inhibition",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Orient EYES-EARS-SELF to GOAL",
+                "Inhibition",
+              ]
+            }
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "exe_2a_working",
+                "exe_2a_shifting",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Working Memory",
+                "Shifting",
+              ]
+            }
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "exe_2b_verbal",
+                "exe_2b_spatial",
+                "exe_2b_general",
+                "exe_2b_global",
+                "exe_2b_flexibility",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Verbal",
+                "Spatial",
+                "General",
+                "Global/Local",
+                "Flexibility",
+              ]
+            }
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "exe_3_initiation",
+                "exe_3_planning",
+                "exe_3_sequencing",
+                "exe_3_monitoring",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Initiation",
+                "Planning",
+                "Sequencing",
+                "Monitoring",
+              ]
+            }
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "exe_4a_future",
+                "exe_4a_spatial",
+                "exe_4a_problem",
+                "exe_4a_reflective",
+                "exe_4a_internalized",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Future-Oriented/Goal-Directed",
+                "Spatial/Temporal Organization",
+                "Problem Solving",
+                "Reflective Thinking",
+                "Internalized Language",
+              ]
+            }
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "exe_4b_motivational",
+                "exe_4b_effortful",
+                "exe_4b_self_control",
+                "exe_4b_self_regulation",
+                "exe_4b_self_compassion",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Motivational Bias",
+                "Effortful Control",
+                "Self-Control",
+                "Self-Regulation",
+                "Self-Compassion",
+              ]
+            }
+          />
+        </div>,
+      ],
+      "className": "Executive",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "headings": Array [],
+          "title": "Executive Functioning Capacities",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_1_orient",
+                  "exe_1_inhibition",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Orient EYES-EARS-SELF to GOAL",
+                  "Inhibition",
+                ]
+              }
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_2a_working",
+                  "exe_2a_shifting",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Working Memory",
+                  "Shifting",
+                ]
+              }
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_2b_verbal",
+                  "exe_2b_spatial",
+                  "exe_2b_general",
+                  "exe_2b_global",
+                  "exe_2b_flexibility",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Verbal",
+                  "Spatial",
+                  "General",
+                  "Global/Local",
+                  "Flexibility",
+                ]
+              }
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_3_initiation",
+                  "exe_3_planning",
+                  "exe_3_sequencing",
+                  "exe_3_monitoring",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Initiation",
+                  "Planning",
+                  "Sequencing",
+                  "Monitoring",
+                ]
+              }
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_4a_future",
+                  "exe_4a_spatial",
+                  "exe_4a_problem",
+                  "exe_4a_reflective",
+                  "exe_4a_internalized",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Future-Oriented/Goal-Directed",
+                  "Spatial/Temporal Organization",
+                  "Problem Solving",
+                  "Reflective Thinking",
+                  "Internalized Language",
+                ]
+              }
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_4b_motivational",
+                  "exe_4b_effortful",
+                  "exe_4b_self_control",
+                  "exe_4b_self_regulation",
+                  "exe_4b_self_compassion",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Motivational Bias",
+                  "Effortful Control",
+                  "Self-Control",
+                  "Self-Regulation",
+                  "Self-Compassion",
+                ]
+              }
+            />,
+          ],
+          "className": "category-content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "exe_1_orient",
+                "exe_1_inhibition",
+              ],
+              "slidersArray": Array [
+                "Orient EYES-EARS-SELF to GOAL",
+                "Inhibition",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "exe_2a_working",
+                "exe_2a_shifting",
+              ],
+              "slidersArray": Array [
+                "Working Memory",
+                "Shifting",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "exe_2b_verbal",
+                "exe_2b_spatial",
+                "exe_2b_general",
+                "exe_2b_global",
+                "exe_2b_flexibility",
+              ],
+              "slidersArray": Array [
+                "Verbal",
+                "Spatial",
+                "General",
+                "Global/Local",
+                "Flexibility",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "exe_3_initiation",
+                "exe_3_planning",
+                "exe_3_sequencing",
+                "exe_3_monitoring",
+              ],
+              "slidersArray": Array [
+                "Initiation",
+                "Planning",
+                "Sequencing",
+                "Monitoring",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "exe_4a_future",
+                "exe_4a_spatial",
+                "exe_4a_problem",
+                "exe_4a_reflective",
+                "exe_4a_internalized",
+              ],
+              "slidersArray": Array [
+                "Future-Oriented/Goal-Directed",
+                "Spatial/Temporal Organization",
+                "Problem Solving",
+                "Reflective Thinking",
+                "Internalized Language",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "exe_4b_motivational",
+                "exe_4b_effortful",
+                "exe_4b_self_control",
+                "exe_4b_self_regulation",
+                "exe_4b_self_compassion",
+              ],
+              "slidersArray": Array [
+                "Motivational Bias",
+                "Effortful Control",
+                "Self-Control",
+                "Self-Regulation",
+                "Self-Compassion",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SessionHeader
+            headings={Array []}
+            title="Executive Functioning Capacities"
+          />,
+          <div
+            className="category-content"
+          >
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_1_orient",
+                  "exe_1_inhibition",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Orient EYES-EARS-SELF to GOAL",
+                  "Inhibition",
+                ]
+              }
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_2a_working",
+                  "exe_2a_shifting",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Working Memory",
+                  "Shifting",
+                ]
+              }
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_2b_verbal",
+                  "exe_2b_spatial",
+                  "exe_2b_general",
+                  "exe_2b_global",
+                  "exe_2b_flexibility",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Verbal",
+                  "Spatial",
+                  "General",
+                  "Global/Local",
+                  "Flexibility",
+                ]
+              }
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_3_initiation",
+                  "exe_3_planning",
+                  "exe_3_sequencing",
+                  "exe_3_monitoring",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Initiation",
+                  "Planning",
+                  "Sequencing",
+                  "Monitoring",
+                ]
+              }
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_4a_future",
+                  "exe_4a_spatial",
+                  "exe_4a_problem",
+                  "exe_4a_reflective",
+                  "exe_4a_internalized",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Future-Oriented/Goal-Directed",
+                  "Spatial/Temporal Organization",
+                  "Problem Solving",
+                  "Reflective Thinking",
+                  "Internalized Language",
+                ]
+              }
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "exe_4b_motivational",
+                  "exe_4b_effortful",
+                  "exe_4b_self_control",
+                  "exe_4b_self_regulation",
+                  "exe_4b_self_compassion",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Motivational Bias",
+                  "Effortful Control",
+                  "Self-Control",
+                  "Self-Regulation",
+                  "Self-Compassion",
+                ]
+              }
+            />
+          </div>,
+        ],
+        "className": "Executive",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "headings": Array [],
+            "title": "Executive Functioning Capacities",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "exe_1_orient",
+                    "exe_1_inhibition",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Orient EYES-EARS-SELF to GOAL",
+                    "Inhibition",
+                  ]
+                }
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "exe_2a_working",
+                    "exe_2a_shifting",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Working Memory",
+                    "Shifting",
+                  ]
+                }
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "exe_2b_verbal",
+                    "exe_2b_spatial",
+                    "exe_2b_general",
+                    "exe_2b_global",
+                    "exe_2b_flexibility",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Verbal",
+                    "Spatial",
+                    "General",
+                    "Global/Local",
+                    "Flexibility",
+                  ]
+                }
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "exe_3_initiation",
+                    "exe_3_planning",
+                    "exe_3_sequencing",
+                    "exe_3_monitoring",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Initiation",
+                    "Planning",
+                    "Sequencing",
+                    "Monitoring",
+                  ]
+                }
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "exe_4a_future",
+                    "exe_4a_spatial",
+                    "exe_4a_problem",
+                    "exe_4a_reflective",
+                    "exe_4a_internalized",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Future-Oriented/Goal-Directed",
+                    "Spatial/Temporal Organization",
+                    "Problem Solving",
+                    "Reflective Thinking",
+                    "Internalized Language",
+                  ]
+                }
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "exe_4b_motivational",
+                    "exe_4b_effortful",
+                    "exe_4b_self_control",
+                    "exe_4b_self_regulation",
+                    "exe_4b_self_compassion",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Motivational Bias",
+                    "Effortful Control",
+                    "Self-Control",
+                    "Self-Regulation",
+                    "Self-Compassion",
+                  ]
+                }
+              />,
+            ],
+            "className": "category-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "exe_1_orient",
+                  "exe_1_inhibition",
+                ],
+                "slidersArray": Array [
+                  "Orient EYES-EARS-SELF to GOAL",
+                  "Inhibition",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "exe_2a_working",
+                  "exe_2a_shifting",
+                ],
+                "slidersArray": Array [
+                  "Working Memory",
+                  "Shifting",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "exe_2b_verbal",
+                  "exe_2b_spatial",
+                  "exe_2b_general",
+                  "exe_2b_global",
+                  "exe_2b_flexibility",
+                ],
+                "slidersArray": Array [
+                  "Verbal",
+                  "Spatial",
+                  "General",
+                  "Global/Local",
+                  "Flexibility",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "exe_3_initiation",
+                  "exe_3_planning",
+                  "exe_3_sequencing",
+                  "exe_3_monitoring",
+                ],
+                "slidersArray": Array [
+                  "Initiation",
+                  "Planning",
+                  "Sequencing",
+                  "Monitoring",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "exe_4a_future",
+                  "exe_4a_spatial",
+                  "exe_4a_problem",
+                  "exe_4a_reflective",
+                  "exe_4a_internalized",
+                ],
+                "slidersArray": Array [
+                  "Future-Oriented/Goal-Directed",
+                  "Spatial/Temporal Organization",
+                  "Problem Solving",
+                  "Reflective Thinking",
+                  "Internalized Language",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "exe_4b_motivational",
+                  "exe_4b_effortful",
+                  "exe_4b_self_control",
+                  "exe_4b_self_regulation",
+                  "exe_4b_self_compassion",
+                ],
+                "slidersArray": Array [
+                  "Motivational Bias",
+                  "Effortful Control",
+                  "Self-Control",
+                  "Self-Regulation",
+                  "Self-Compassion",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

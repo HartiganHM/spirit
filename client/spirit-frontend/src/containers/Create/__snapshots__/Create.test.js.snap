@@ -1,0 +1,851 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create tests should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Create
+    user={
+      Object {
+        "admin": false,
+        "authrocket_id": "usr_0vBdVVz3RUsbR2ArDCoPvo",
+        "clinic": "I Need Therapy",
+        "clinic_abbreviation": "INT",
+        "clinic_id": 10,
+        "clinic_passcode": "utk85fmf",
+        "created_at": "2018-02-19T03:41:23.701Z",
+        "email": "sample@samplemail.com",
+        "id": 1,
+        "name": "Lee Trevino",
+        "updated_at": "2018-02-19T03:41:23.701Z",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <h3
+            className="current-clinic-header"
+          >
+            Your Current Clinic
+          </h3>
+          <h4>
+            <span
+              className="clinic-span"
+            >
+              You are a member of: 
+            </span>
+            I Need Therapy
+          </h4>
+          <h4>
+            <span
+              className="clinic-span"
+            >
+              Clinic Abbreviation: 
+            </span>
+            INT
+          </h4>
+          <h4>
+            <span
+              className="clinic-span"
+            >
+              Clinic Passcode: 
+            </span>
+            utk85fmf
+          </h4>
+        </div>,
+        <h3>
+          Add a New Clinic
+        </h3>,
+        <InstructionWrapper>
+          <div
+            className="instructions"
+          >
+            To add a new clinic, you must provide a clinic name and three letter abbreviation. This abbreviation will be used to abstract your patient's real name when adding them to SpIRiT©.
+          </div>
+          <div
+            className="instructions"
+          >
+            After submission, you will be provided with a passcode. This passcode will be used by other members in order to join your clinic.
+          </div>
+        </InstructionWrapper>,
+        <form
+          className="new-clinic-form"
+        >
+          <input
+            className="input-clinic-name"
+            maxLength={30}
+            name="clinicName"
+            onChange={[Function]}
+            placeholder="New Clinic Name"
+            value=""
+          />
+          <input
+            className="input-abbreviation"
+            maxLength={3}
+            name="clinicAbbreviation"
+            onChange={[Function]}
+            placeholder="Choose a 3-letter abbreviation for your clinic"
+            value=""
+          />
+          <button
+            className="submit-button"
+            onClick={[Function]}
+            type="submit"
+          >
+            SUBMIT
+          </button>
+        </form>,
+        "",
+        "",
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="join-link"
+          to="/spirit/users/1/join"
+        >
+          JOIN EXISTING CLINIC
+        </NavLink>,
+      ],
+      "className": "Create",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="current-clinic-header"
+            >
+              Your Current Clinic
+            </h3>,
+            <h4>
+              <span
+                className="clinic-span"
+              >
+                You are a member of: 
+              </span>
+              I Need Therapy
+            </h4>,
+            <h4>
+              <span
+                className="clinic-span"
+              >
+                Clinic Abbreviation: 
+              </span>
+              INT
+            </h4>,
+            <h4>
+              <span
+                className="clinic-span"
+              >
+                Clinic Passcode: 
+              </span>
+              utk85fmf
+            </h4>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Your Current Clinic",
+              "className": "current-clinic-header",
+            },
+            "ref": null,
+            "rendered": "Your Current Clinic",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="clinic-span"
+                >
+                  You are a member of: 
+                </span>,
+                "I Need Therapy",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "You are a member of: ",
+                  "className": "clinic-span",
+                },
+                "ref": null,
+                "rendered": "You are a member of: ",
+                "type": "span",
+              },
+              "I Need Therapy",
+            ],
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="clinic-span"
+                >
+                  Clinic Abbreviation: 
+                </span>,
+                "INT",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Clinic Abbreviation: ",
+                  "className": "clinic-span",
+                },
+                "ref": null,
+                "rendered": "Clinic Abbreviation: ",
+                "type": "span",
+              },
+              "INT",
+            ],
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="clinic-span"
+                >
+                  Clinic Passcode: 
+                </span>,
+                "utk85fmf",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Clinic Passcode: ",
+                  "className": "clinic-span",
+                },
+                "ref": null,
+                "rendered": "Clinic Passcode: ",
+                "type": "span",
+              },
+              "utk85fmf",
+            ],
+            "type": "h4",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add a New Clinic",
+        },
+        "ref": null,
+        "rendered": "Add a New Clinic",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="instructions"
+            >
+              To add a new clinic, you must provide a clinic name and three letter abbreviation. This abbreviation will be used to abstract your patient's real name when adding them to SpIRiT©.
+            </div>,
+            <div
+              className="instructions"
+            >
+              After submission, you will be provided with a passcode. This passcode will be used by other members in order to join your clinic.
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "To add a new clinic, you must provide a clinic name and three letter abbreviation. This abbreviation will be used to abstract your patient's real name when adding them to SpIRiT©.",
+              "className": "instructions",
+            },
+            "ref": null,
+            "rendered": "To add a new clinic, you must provide a clinic name and three letter abbreviation. This abbreviation will be used to abstract your patient's real name when adding them to SpIRiT©.",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "After submission, you will be provided with a passcode. This passcode will be used by other members in order to join your clinic.",
+              "className": "instructions",
+            },
+            "ref": null,
+            "rendered": "After submission, you will be provided with a passcode. This passcode will be used by other members in order to join your clinic.",
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="input-clinic-name"
+              maxLength={30}
+              name="clinicName"
+              onChange={[Function]}
+              placeholder="New Clinic Name"
+              value=""
+            />,
+            <input
+              className="input-abbreviation"
+              maxLength={3}
+              name="clinicAbbreviation"
+              onChange={[Function]}
+              placeholder="Choose a 3-letter abbreviation for your clinic"
+              value=""
+            />,
+            <button
+              className="submit-button"
+              onClick={[Function]}
+              type="submit"
+            >
+              SUBMIT
+            </button>,
+          ],
+          "className": "new-clinic-form",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input-clinic-name",
+              "maxLength": 30,
+              "name": "clinicName",
+              "onChange": [Function],
+              "placeholder": "New Clinic Name",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input-abbreviation",
+              "maxLength": 3,
+              "name": "clinicAbbreviation",
+              "onChange": [Function],
+              "placeholder": "Choose a 3-letter abbreviation for your clinic",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "SUBMIT",
+              "className": "submit-button",
+              "onClick": [Function],
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "SUBMIT",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+      "",
+      "",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "aria-current": "page",
+          "children": "JOIN EXISTING CLINIC",
+          "className": "join-link",
+          "to": "/spirit/users/1/join",
+        },
+        "ref": null,
+        "rendered": "JOIN EXISTING CLINIC",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <h3
+              className="current-clinic-header"
+            >
+              Your Current Clinic
+            </h3>
+            <h4>
+              <span
+                className="clinic-span"
+              >
+                You are a member of: 
+              </span>
+              I Need Therapy
+            </h4>
+            <h4>
+              <span
+                className="clinic-span"
+              >
+                Clinic Abbreviation: 
+              </span>
+              INT
+            </h4>
+            <h4>
+              <span
+                className="clinic-span"
+              >
+                Clinic Passcode: 
+              </span>
+              utk85fmf
+            </h4>
+          </div>,
+          <h3>
+            Add a New Clinic
+          </h3>,
+          <InstructionWrapper>
+            <div
+              className="instructions"
+            >
+              To add a new clinic, you must provide a clinic name and three letter abbreviation. This abbreviation will be used to abstract your patient's real name when adding them to SpIRiT©.
+            </div>
+            <div
+              className="instructions"
+            >
+              After submission, you will be provided with a passcode. This passcode will be used by other members in order to join your clinic.
+            </div>
+          </InstructionWrapper>,
+          <form
+            className="new-clinic-form"
+          >
+            <input
+              className="input-clinic-name"
+              maxLength={30}
+              name="clinicName"
+              onChange={[Function]}
+              placeholder="New Clinic Name"
+              value=""
+            />
+            <input
+              className="input-abbreviation"
+              maxLength={3}
+              name="clinicAbbreviation"
+              onChange={[Function]}
+              placeholder="Choose a 3-letter abbreviation for your clinic"
+              value=""
+            />
+            <button
+              className="submit-button"
+              onClick={[Function]}
+              type="submit"
+            >
+              SUBMIT
+            </button>
+          </form>,
+          "",
+          "",
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="join-link"
+            to="/spirit/users/1/join"
+          >
+            JOIN EXISTING CLINIC
+          </NavLink>,
+        ],
+        "className": "Create",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="current-clinic-header"
+              >
+                Your Current Clinic
+              </h3>,
+              <h4>
+                <span
+                  className="clinic-span"
+                >
+                  You are a member of: 
+                </span>
+                I Need Therapy
+              </h4>,
+              <h4>
+                <span
+                  className="clinic-span"
+                >
+                  Clinic Abbreviation: 
+                </span>
+                INT
+              </h4>,
+              <h4>
+                <span
+                  className="clinic-span"
+                >
+                  Clinic Passcode: 
+                </span>
+                utk85fmf
+              </h4>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Your Current Clinic",
+                "className": "current-clinic-header",
+              },
+              "ref": null,
+              "rendered": "Your Current Clinic",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="clinic-span"
+                  >
+                    You are a member of: 
+                  </span>,
+                  "I Need Therapy",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "You are a member of: ",
+                    "className": "clinic-span",
+                  },
+                  "ref": null,
+                  "rendered": "You are a member of: ",
+                  "type": "span",
+                },
+                "I Need Therapy",
+              ],
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="clinic-span"
+                  >
+                    Clinic Abbreviation: 
+                  </span>,
+                  "INT",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Clinic Abbreviation: ",
+                    "className": "clinic-span",
+                  },
+                  "ref": null,
+                  "rendered": "Clinic Abbreviation: ",
+                  "type": "span",
+                },
+                "INT",
+              ],
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="clinic-span"
+                  >
+                    Clinic Passcode: 
+                  </span>,
+                  "utk85fmf",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Clinic Passcode: ",
+                    "className": "clinic-span",
+                  },
+                  "ref": null,
+                  "rendered": "Clinic Passcode: ",
+                  "type": "span",
+                },
+                "utk85fmf",
+              ],
+              "type": "h4",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add a New Clinic",
+          },
+          "ref": null,
+          "rendered": "Add a New Clinic",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                className="instructions"
+              >
+                To add a new clinic, you must provide a clinic name and three letter abbreviation. This abbreviation will be used to abstract your patient's real name when adding them to SpIRiT©.
+              </div>,
+              <div
+                className="instructions"
+              >
+                After submission, you will be provided with a passcode. This passcode will be used by other members in order to join your clinic.
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "To add a new clinic, you must provide a clinic name and three letter abbreviation. This abbreviation will be used to abstract your patient's real name when adding them to SpIRiT©.",
+                "className": "instructions",
+              },
+              "ref": null,
+              "rendered": "To add a new clinic, you must provide a clinic name and three letter abbreviation. This abbreviation will be used to abstract your patient's real name when adding them to SpIRiT©.",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "After submission, you will be provided with a passcode. This passcode will be used by other members in order to join your clinic.",
+                "className": "instructions",
+              },
+              "ref": null,
+              "rendered": "After submission, you will be provided with a passcode. This passcode will be used by other members in order to join your clinic.",
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="input-clinic-name"
+                maxLength={30}
+                name="clinicName"
+                onChange={[Function]}
+                placeholder="New Clinic Name"
+                value=""
+              />,
+              <input
+                className="input-abbreviation"
+                maxLength={3}
+                name="clinicAbbreviation"
+                onChange={[Function]}
+                placeholder="Choose a 3-letter abbreviation for your clinic"
+                value=""
+              />,
+              <button
+                className="submit-button"
+                onClick={[Function]}
+                type="submit"
+              >
+                SUBMIT
+              </button>,
+            ],
+            "className": "new-clinic-form",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "input-clinic-name",
+                "maxLength": 30,
+                "name": "clinicName",
+                "onChange": [Function],
+                "placeholder": "New Clinic Name",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "input-abbreviation",
+                "maxLength": 3,
+                "name": "clinicAbbreviation",
+                "onChange": [Function],
+                "placeholder": "Choose a 3-letter abbreviation for your clinic",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "SUBMIT",
+                "className": "submit-button",
+                "onClick": [Function],
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "SUBMIT",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+        "",
+        "",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": "JOIN EXISTING CLINIC",
+            "className": "join-link",
+            "to": "/spirit/users/1/join",
+          },
+          "ref": null,
+          "rendered": "JOIN EXISTING CLINIC",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,466 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SessionsComparison tests Should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    processesData={
+      Object {
+        "executive": Array [
+          Object {
+            "dbName": "exe_1_orient",
+            "title": "Orient EYES-EARS-SELF to GOAL",
+            "values": Array [
+              "9A",
+              "10F",
+            ],
+          },
+        ],
+        "modulation": Array [
+          Object {
+            "dbName": "mod_h_vestibular",
+            "title": "Vestibular",
+            "values": Array [
+              null,
+              "7I",
+            ],
+          },
+        ],
+        "postural": Array [
+          Object {
+            "dbName": "pos_h_tactile",
+            "title": "Tactile",
+            "values": Array [
+              "2I",
+              "7A",
+            ],
+          },
+        ],
+        "sensory": Array [
+          Object {
+            "dbName": "sen_1_figure",
+            "title": "Figure Ground Perception",
+            "values": Array [
+              "6I",
+              "8I",
+            ],
+          },
+        ],
+        "social": Array [
+          Object {
+            "dbName": "soc_2_joing",
+            "title": "Joint Attention",
+            "values": Array [
+              "1R",
+              "5I",
+            ],
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          Sessions Comparison
+        </h3>,
+        <h4>
+          Modulation
+        </h4>,
+        <div
+          className="comparison-section-holder"
+        />,
+        <h4>
+          Postural
+        </h4>,
+        <div
+          className="comparison-section-holder"
+        />,
+        <h4>
+          Sensory
+        </h4>,
+        <div
+          className="comparison-section-holder"
+        />,
+        <h4>
+          Social
+        </h4>,
+        <div
+          className="comparison-section-holder"
+        />,
+        <h4>
+          Executive
+        </h4>,
+        <div
+          className="comparison-section-holder"
+        />,
+      ],
+      "className": "SessionsComparison",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sessions Comparison",
+        },
+        "ref": null,
+        "rendered": "Sessions Comparison",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Modulation",
+        },
+        "ref": null,
+        "rendered": "Modulation",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+          ],
+          "className": "comparison-section-holder",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Postural",
+        },
+        "ref": null,
+        "rendered": "Postural",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+          ],
+          "className": "comparison-section-holder",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sensory",
+        },
+        "ref": null,
+        "rendered": "Sensory",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+          ],
+          "className": "comparison-section-holder",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Social",
+        },
+        "ref": null,
+        "rendered": "Social",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+          ],
+          "className": "comparison-section-holder",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Executive",
+        },
+        "ref": null,
+        "rendered": "Executive",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+          ],
+          "className": "comparison-section-holder",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            Sessions Comparison
+          </h3>,
+          <h4>
+            Modulation
+          </h4>,
+          <div
+            className="comparison-section-holder"
+          />,
+          <h4>
+            Postural
+          </h4>,
+          <div
+            className="comparison-section-holder"
+          />,
+          <h4>
+            Sensory
+          </h4>,
+          <div
+            className="comparison-section-holder"
+          />,
+          <h4>
+            Social
+          </h4>,
+          <div
+            className="comparison-section-holder"
+          />,
+          <h4>
+            Executive
+          </h4>,
+          <div
+            className="comparison-section-holder"
+          />,
+        ],
+        "className": "SessionsComparison",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sessions Comparison",
+          },
+          "ref": null,
+          "rendered": "Sessions Comparison",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Modulation",
+          },
+          "ref": null,
+          "rendered": "Modulation",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+            ],
+            "className": "comparison-section-holder",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Postural",
+          },
+          "ref": null,
+          "rendered": "Postural",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+            ],
+            "className": "comparison-section-holder",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sensory",
+          },
+          "ref": null,
+          "rendered": "Sensory",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+            ],
+            "className": "comparison-section-holder",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Social",
+          },
+          "ref": null,
+          "rendered": "Social",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+            ],
+            "className": "comparison-section-holder",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Executive",
+          },
+          "ref": null,
+          "rendered": "Executive",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+            ],
+            "className": "comparison-section-holder",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

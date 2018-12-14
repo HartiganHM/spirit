@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+
+.Definition {
+  background-color: rgba(150,150,150, .9);
+  position: absolute;
+  top: 26px;
+  left: 0;
+  z-index: 10;
+  width: 300px;
+  padding: 10px;
+
+  .definition-title {
+    color: #fff;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .definition-body {
+    color: #fff;
+    text-align: left;
+    margin: 10px 0 0;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  hr {
+    border: 1px solid rgba(0,0,0,.2)
+  }
+ }

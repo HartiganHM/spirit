@@ -1,0 +1,185 @@
+/******  GLOBAL CSS VARIABLES  ******/
+/***  COLORS  ***/
+/***  FONTS  ***/
+* {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  outline: none;
+  color: #6d6e71; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.3; }
+
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 10px; }
+
+p {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 900; }
+
+::placeholder {
+  opacity: .5;
+  text-align: center; }
+
+/***  MIXINS  ***/
+.ViewSession {
+  width: 1104px;
+  margin: auto;
+  padding-bottom: 50px; }
+  .ViewSession .view-sam-image {
+    width: 240px; }
+  .ViewSession .view-header-top {
+    display: flex;
+    justify-content: space-between; }
+  .ViewSession h3 {
+    text-align: center;
+    margin: 40px 0 5px; }
+  .ViewSession h4 {
+    margin: 10px 0 5px; }
+  .ViewSession .view-clinic {
+    text-align: right; }
+    .ViewSession .view-clinic h4 {
+      margin: 0; }
+  .ViewSession .view-patient h2 {
+    margin: 0; }
+  .ViewSession .view-date h4 {
+    margin: 0; }
+  .ViewSession .view-processes {
+    /*h3 {
+      margin: 0;
+    }*/ }
+  .ViewSession .view-concern {
+    display: flex;
+    align-items: center; }
+  .ViewSession .view-concern-description {
+    margin: 0 20px 0 0;
+    padding: 10px 15px;
+    background-color: #f1f2f2;
+    width: 367px; }
+  .ViewSession .view-concern-notes {
+    margin: 0 0 0 20px;
+    padding: 10px 15px;
+    background-color: #f1f2f2;
+    width: 367px; }
+  .ViewSession .view-dots {
+    background-color: #f1f2f2;
+    padding: 5px 10px;
+    border: 4px solid #d1d3d4;
+    border-radius: 50px;
+    margin: 0 4px; }
+  .ViewSession .opacity-zero {
+    opacity: .2; }
+  .ViewSession .view-processes-section {
+    display: flex;
+    flex-wrap: wrap; }
+  .ViewSession .view-therapy {
+    display: flex;
+    flex-wrap: wrap; }
+  .ViewSession .data-holder-wide {
+    width: 430px;
+    margin: 2px;
+    background-color: #f1f2f2;
+    padding: 3px; }
+    .ViewSession .data-holder-wide .text-small-wide {
+      font-size: 12px;
+      text-align: left;
+      color: #a7a9ac;
+      margin: 0; }
+  .ViewSession .data-holder {
+    width: 100px;
+    margin: 2px;
+    background-color: #f1f2f2;
+    padding: 3px; }
+    .ViewSession .data-holder p {
+      font-size: 30px;
+      margin: 0;
+      text-align: center; }
+    .ViewSession .data-holder .text-small {
+      font-size: 12px;
+      text-align: left;
+      color: #a7a9ac;
+      height: 30px;
+      margin: 0;
+      word-break: break-word;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    .ViewSession .data-holder .text-small-3 {
+      height: 60px; }
+  .ViewSession .text-small-2 {
+    font-size: 12px;
+    text-align: left;
+    color: #a7a9ac; }
+  .ViewSession .view-treatment {
+    display: flex;
+    flex-wrap: wrap; }
+  .ViewSession .treatment-plan-text {
+    padding: 3px;
+    background-color: #f1f2f2;
+    margin: 2px;
+    width: 542px; }
+    .ViewSession .treatment-plan-text p {
+      margin: 0; }
+  .ViewSession .view-button-holder {
+    height: 40px;
+    position: relative;
+    margin: 50px 0; }
+  .ViewSession .complete-session-button {
+    background-color: #5cba47;
+    height: 40px;
+    width: 202px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    transition: all .2s ease-in-out; }
+  .ViewSession .complete-session-button:hover {
+    background-color: #468c41; }
+  .ViewSession .print-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    opacity: .4;
+    transition: all .2s ease-in-out; }
+  .ViewSession .print-image:hover {
+    opacity: .8; }
+
+@media print {
+  @page {
+    size: landscape; }
+  .Header, .PatientHeader, .ConcernHeader, .SessionTabs, .view-button-holder {
+    display: none; }
+  .view-section-container {
+    page-break-inside: avoid; }
+  .ViewSession .data-holder, .ViewSession .data-holder-wide {
+    border-bottom: 4px solid #f1f2f2; }
+    .ViewSession .data-holder .text-small, .ViewSession .data-holder .text-small-wide, .ViewSession .data-holder-wide .text-small, .ViewSession .data-holder-wide .text-small-wide {
+      color: #a7a9ac;
+      font-weight: 100; }
+  .ViewSession .opacity-zero {
+    opacity: .1; }
+  .ViewSession .treatment-plan-text .text-small-2 {
+    color: #a7a9ac;
+    font-weight: 100; } }

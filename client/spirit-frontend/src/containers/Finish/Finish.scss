@@ -1,0 +1,61 @@
+@import '../../variables.scss';
+
+.Finish {
+  .complete-session-button {
+    height: 40px;
+    width: 199px;
+    background-color: $purple4;
+    border: none;
+    color: #fff;
+    margin: 50px auto 100px;
+    display: block;
+    cursor: pointer;
+    @include std-transition;
+  }
+
+  .complete-session-button:hover {
+    background-color: $purple6;
+  }
+
+  .finish-headings, .finish-sub-headings {
+    text-align: center;
+  }
+
+  .dividing-line {
+    width: 675px;
+    height: 2px;
+    margin: auto;
+    background: $grey5;
+  }
+
+  .finish-button-holder {
+    position: relative;
+    width: 875px;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+
+    .arrow-right {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+
+  .join-link {
+    button {
+      background-color: $green4;
+      height: 40px;
+      border: none;
+      color: #fff;
+      padding: 0 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: $green5;
+    }
+  }
+}

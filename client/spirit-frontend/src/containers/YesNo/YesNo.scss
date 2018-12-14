@@ -1,0 +1,53 @@
+@import '../../variables.scss';
+
+.YesNo {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0;
+
+  h5 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .yes-no {
+    border: none;
+    background-color: none;
+    height: 50px;
+    margin: 0 10px;
+    width: 50px;
+    text-align: center;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+    border: 3px solid rgba(255,255,255,0);
+  }
+
+  .yes-no .yes-span, .yes-no .no-span {
+    color: $grey2;
+  }
+
+  .yes-no .yes-span:hover, .yes-no .no-span:hover {
+    color: $grey4;
+  }
+
+  .yes-no-active {
+    border: 3px solid $grey4;
+  }
+
+  .yes-no-active .yes-span, .yes-no-active .no-span {
+    color: $grey4;
+  }
+
+  .yes-span {
+    position: absolute;
+    top: 14px;
+    left: 6px;
+  }
+
+  .no-span {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+  }
+}

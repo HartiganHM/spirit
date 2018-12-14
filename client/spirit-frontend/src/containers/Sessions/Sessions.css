@@ -1,0 +1,177 @@
+/******  GLOBAL CSS VARIABLES  ******/
+/***  COLORS  ***/
+/***  FONTS  ***/
+* {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  outline: none;
+  color: #6d6e71; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.3; }
+
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 10px; }
+
+p {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 900; }
+
+::placeholder {
+  opacity: .5;
+  text-align: center; }
+
+/***  MIXINS  ***/
+.Sessions .sessions-main-holder {
+  width: 675px;
+  margin: 20px auto; }
+
+.Sessions .session {
+  display: flex;
+  align-items: center;
+  border-bottom: 10px solid #f1f2f2; }
+
+.Sessions .session-number {
+  width: 120px;
+  font-size: 20px; }
+
+.Sessions .session-date {
+  width: 290px;
+  margin-right: 20px;
+  font-size: 20px; }
+
+.Sessions .date-span {
+  color: #a7a9ac;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  font-size: 16px; }
+
+.Sessions .session-status {
+  margin-right: 20px;
+  width: 120px;
+  font-size: 20px; }
+
+.Sessions .select-session-button {
+  position: relative;
+  top: 4px;
+  width: 100px;
+  border: none;
+  background: none;
+  color: #5cba47;
+  text-decoration: none;
+  cursor: pointer; }
+
+.Sessions .select-session-button:hover {
+  color: #468c41; }
+
+.Sessions .join-link button {
+  width: 100px;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  background-color: #5cba47;
+  color: #fff;
+  cursor: pointer; }
+
+.Sessions .join-link button:hover {
+  background-color: #468c41; }
+
+.Sessions .create-session-button {
+  width: 300px;
+  height: 40px;
+  margin: 30px auto;
+  display: block;
+  background-color: #9E87BA;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: all .2s ease-in-out; }
+
+.Sessions .create-session-button:hover {
+  background-color: #5E378C; }
+
+.Sessions .compare-button-holder {
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+  margin-right: 2px;
+  width: 30px;
+  top: 2px; }
+
+.Sessions .compare-button-holder input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer; }
+
+.Sessions .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 13px;
+  width: 13px;
+  background-color: #f1f2f2;
+  border-radius: 50px;
+  border: 2px solid #d1d3d4;
+  box-shadow: inset 0px 0px 4px -1px rgba(0, 0, 0, 0.77);
+  transition: all .2s ease-in-out; }
+
+.Sessions .compare-button-holder:hover input ~ .checkmark {
+  background-color: #d1d3d4; }
+
+.Sessions .compare-button-holder input:checked ~ .checkmark {
+  background-color: #a8ed8a; }
+
+.Sessions .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+.Sessions .compare-button-holder input:checked ~ .checkmark:after {
+  display: block; }
+
+.Sessions .button-holder {
+  height: 40px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 26px; }
+
+.Sessions .compare-sessions-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  background-color: #5cba47;
+  font-size: 14px;
+  width: 88px;
+  border: none;
+  color: #fff;
+  transition: all .2s ease-in-out;
+  cursor: pointer; }
+
+.Sessions .compare-sessions-button:hover {
+  background-color: #2e5b2a; }
+
+.Sessions .goals-chart {
+  width: 675px;
+  margin: 20px auto; }

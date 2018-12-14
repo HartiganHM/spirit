@@ -1,0 +1,953 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modulation tests Should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Modulation />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SessionHeader
+          databaseNamesArray={
+            Array [
+              "mod_h_vestibular",
+              "mod_h_proprioception",
+              "mod_h_tactile",
+              "mod_h_auditory",
+              "mod_h_visual",
+              "mod_h_intero",
+            ]
+          }
+          headings={
+            Array [
+              "Vestibular",
+              "Proprioception",
+              "Tactile",
+              "Auditory",
+              "Visual",
+              "Intero",
+            ]
+          }
+          title="Modulation Capacities: Sensory Modulation to Self-Regulation"
+        />,
+        <div
+          className="category-content"
+        >
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "mod_1_defensiveness",
+                "mod_1_over",
+                "mod_1_under",
+                "mod_1_variable",
+              ]
+            }
+            reminder="* If selected, remember to make a hypothesized arousal chart."
+            reminderAsterisk={
+              Array [
+                null,
+                "*",
+                "*",
+                "*",
+                "*",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Defensiveness",
+                "Over",
+                "Under",
+                "Variable",
+              ]
+            }
+            title="Capacities"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "mod_2_attention",
+                "mod_2_action",
+                "mod_2_affect",
+                "mod_2_autonomic",
+                "mod_2_arousability",
+              ]
+            }
+            reminderAsterisk={
+              Array [
+                null,
+                null,
+                null,
+                null,
+                "*",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Attention",
+                "Action",
+                "Affect",
+                "Autonomic",
+                "Arousability",
+              ]
+            }
+            title="Capacities"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "mod_3_physiological",
+                "mod_3_sensory",
+                "mod_3_motor",
+                "mod_3_emotional",
+                "mod_3_cognitive",
+                "mod_3_social",
+                "mod_3_prosocial",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Physiological",
+                "Sensory",
+                "Motor",
+                "Emotional",
+                "Cognitive",
+                "Social",
+                "Prosocial",
+              ]
+            }
+            title="Self-Regulation"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "mod_4a_passive",
+                "mod_4a_co_regulation",
+                "mod_4a_approach",
+                "mod_4a_adaptive",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Passive",
+                "Co-Regulation",
+                "Approach",
+                "Adaptive",
+              ]
+            }
+            title="Regulatory Capacities"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "mod_4b_active",
+                "mod_4b_self_regulation",
+                "mod_4b_avoid",
+                "mod_4b_maladaptive",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Active",
+                "Self-Regulation",
+                "Avoid",
+                "Maladaptive",
+              ]
+            }
+            title="Regulatory Capacities"
+          />
+        </div>,
+      ],
+      "className": "Modulation",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "databaseNamesArray": Array [
+            "mod_h_vestibular",
+            "mod_h_proprioception",
+            "mod_h_tactile",
+            "mod_h_auditory",
+            "mod_h_visual",
+            "mod_h_intero",
+          ],
+          "headings": Array [
+            "Vestibular",
+            "Proprioception",
+            "Tactile",
+            "Auditory",
+            "Visual",
+            "Intero",
+          ],
+          "title": "Modulation Capacities: Sensory Modulation to Self-Regulation",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "mod_1_defensiveness",
+                  "mod_1_over",
+                  "mod_1_under",
+                  "mod_1_variable",
+                ]
+              }
+              reminder="* If selected, remember to make a hypothesized arousal chart."
+              reminderAsterisk={
+                Array [
+                  null,
+                  "*",
+                  "*",
+                  "*",
+                  "*",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Defensiveness",
+                  "Over",
+                  "Under",
+                  "Variable",
+                ]
+              }
+              title="Capacities"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "mod_2_attention",
+                  "mod_2_action",
+                  "mod_2_affect",
+                  "mod_2_autonomic",
+                  "mod_2_arousability",
+                ]
+              }
+              reminderAsterisk={
+                Array [
+                  null,
+                  null,
+                  null,
+                  null,
+                  "*",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Attention",
+                  "Action",
+                  "Affect",
+                  "Autonomic",
+                  "Arousability",
+                ]
+              }
+              title="Capacities"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "mod_3_physiological",
+                  "mod_3_sensory",
+                  "mod_3_motor",
+                  "mod_3_emotional",
+                  "mod_3_cognitive",
+                  "mod_3_social",
+                  "mod_3_prosocial",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Physiological",
+                  "Sensory",
+                  "Motor",
+                  "Emotional",
+                  "Cognitive",
+                  "Social",
+                  "Prosocial",
+                ]
+              }
+              title="Self-Regulation"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "mod_4a_passive",
+                  "mod_4a_co_regulation",
+                  "mod_4a_approach",
+                  "mod_4a_adaptive",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Passive",
+                  "Co-Regulation",
+                  "Approach",
+                  "Adaptive",
+                ]
+              }
+              title="Regulatory Capacities"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "mod_4b_active",
+                  "mod_4b_self_regulation",
+                  "mod_4b_avoid",
+                  "mod_4b_maladaptive",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Active",
+                  "Self-Regulation",
+                  "Avoid",
+                  "Maladaptive",
+                ]
+              }
+              title="Regulatory Capacities"
+            />,
+          ],
+          "className": "category-content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "mod_1_defensiveness",
+                "mod_1_over",
+                "mod_1_under",
+                "mod_1_variable",
+              ],
+              "reminder": "* If selected, remember to make a hypothesized arousal chart.",
+              "reminderAsterisk": Array [
+                null,
+                "*",
+                "*",
+                "*",
+                "*",
+              ],
+              "slidersArray": Array [
+                "Defensiveness",
+                "Over",
+                "Under",
+                "Variable",
+              ],
+              "title": "Capacities",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "mod_2_attention",
+                "mod_2_action",
+                "mod_2_affect",
+                "mod_2_autonomic",
+                "mod_2_arousability",
+              ],
+              "reminderAsterisk": Array [
+                null,
+                null,
+                null,
+                null,
+                "*",
+              ],
+              "slidersArray": Array [
+                "Attention",
+                "Action",
+                "Affect",
+                "Autonomic",
+                "Arousability",
+              ],
+              "title": "Capacities",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "mod_3_physiological",
+                "mod_3_sensory",
+                "mod_3_motor",
+                "mod_3_emotional",
+                "mod_3_cognitive",
+                "mod_3_social",
+                "mod_3_prosocial",
+              ],
+              "slidersArray": Array [
+                "Physiological",
+                "Sensory",
+                "Motor",
+                "Emotional",
+                "Cognitive",
+                "Social",
+                "Prosocial",
+              ],
+              "title": "Self-Regulation",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "mod_4a_passive",
+                "mod_4a_co_regulation",
+                "mod_4a_approach",
+                "mod_4a_adaptive",
+              ],
+              "slidersArray": Array [
+                "Passive",
+                "Co-Regulation",
+                "Approach",
+                "Adaptive",
+              ],
+              "title": "Regulatory Capacities",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "mod_4b_active",
+                "mod_4b_self_regulation",
+                "mod_4b_avoid",
+                "mod_4b_maladaptive",
+              ],
+              "slidersArray": Array [
+                "Active",
+                "Self-Regulation",
+                "Avoid",
+                "Maladaptive",
+              ],
+              "title": "Regulatory Capacities",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SessionHeader
+            databaseNamesArray={
+              Array [
+                "mod_h_vestibular",
+                "mod_h_proprioception",
+                "mod_h_tactile",
+                "mod_h_auditory",
+                "mod_h_visual",
+                "mod_h_intero",
+              ]
+            }
+            headings={
+              Array [
+                "Vestibular",
+                "Proprioception",
+                "Tactile",
+                "Auditory",
+                "Visual",
+                "Intero",
+              ]
+            }
+            title="Modulation Capacities: Sensory Modulation to Self-Regulation"
+          />,
+          <div
+            className="category-content"
+          >
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "mod_1_defensiveness",
+                  "mod_1_over",
+                  "mod_1_under",
+                  "mod_1_variable",
+                ]
+              }
+              reminder="* If selected, remember to make a hypothesized arousal chart."
+              reminderAsterisk={
+                Array [
+                  null,
+                  "*",
+                  "*",
+                  "*",
+                  "*",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Defensiveness",
+                  "Over",
+                  "Under",
+                  "Variable",
+                ]
+              }
+              title="Capacities"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "mod_2_attention",
+                  "mod_2_action",
+                  "mod_2_affect",
+                  "mod_2_autonomic",
+                  "mod_2_arousability",
+                ]
+              }
+              reminderAsterisk={
+                Array [
+                  null,
+                  null,
+                  null,
+                  null,
+                  "*",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Attention",
+                  "Action",
+                  "Affect",
+                  "Autonomic",
+                  "Arousability",
+                ]
+              }
+              title="Capacities"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "mod_3_physiological",
+                  "mod_3_sensory",
+                  "mod_3_motor",
+                  "mod_3_emotional",
+                  "mod_3_cognitive",
+                  "mod_3_social",
+                  "mod_3_prosocial",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Physiological",
+                  "Sensory",
+                  "Motor",
+                  "Emotional",
+                  "Cognitive",
+                  "Social",
+                  "Prosocial",
+                ]
+              }
+              title="Self-Regulation"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "mod_4a_passive",
+                  "mod_4a_co_regulation",
+                  "mod_4a_approach",
+                  "mod_4a_adaptive",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Passive",
+                  "Co-Regulation",
+                  "Approach",
+                  "Adaptive",
+                ]
+              }
+              title="Regulatory Capacities"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "mod_4b_active",
+                  "mod_4b_self_regulation",
+                  "mod_4b_avoid",
+                  "mod_4b_maladaptive",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Active",
+                  "Self-Regulation",
+                  "Avoid",
+                  "Maladaptive",
+                ]
+              }
+              title="Regulatory Capacities"
+            />
+          </div>,
+        ],
+        "className": "Modulation",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "databaseNamesArray": Array [
+              "mod_h_vestibular",
+              "mod_h_proprioception",
+              "mod_h_tactile",
+              "mod_h_auditory",
+              "mod_h_visual",
+              "mod_h_intero",
+            ],
+            "headings": Array [
+              "Vestibular",
+              "Proprioception",
+              "Tactile",
+              "Auditory",
+              "Visual",
+              "Intero",
+            ],
+            "title": "Modulation Capacities: Sensory Modulation to Self-Regulation",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "mod_1_defensiveness",
+                    "mod_1_over",
+                    "mod_1_under",
+                    "mod_1_variable",
+                  ]
+                }
+                reminder="* If selected, remember to make a hypothesized arousal chart."
+                reminderAsterisk={
+                  Array [
+                    null,
+                    "*",
+                    "*",
+                    "*",
+                    "*",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Defensiveness",
+                    "Over",
+                    "Under",
+                    "Variable",
+                  ]
+                }
+                title="Capacities"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "mod_2_attention",
+                    "mod_2_action",
+                    "mod_2_affect",
+                    "mod_2_autonomic",
+                    "mod_2_arousability",
+                  ]
+                }
+                reminderAsterisk={
+                  Array [
+                    null,
+                    null,
+                    null,
+                    null,
+                    "*",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Attention",
+                    "Action",
+                    "Affect",
+                    "Autonomic",
+                    "Arousability",
+                  ]
+                }
+                title="Capacities"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "mod_3_physiological",
+                    "mod_3_sensory",
+                    "mod_3_motor",
+                    "mod_3_emotional",
+                    "mod_3_cognitive",
+                    "mod_3_social",
+                    "mod_3_prosocial",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Physiological",
+                    "Sensory",
+                    "Motor",
+                    "Emotional",
+                    "Cognitive",
+                    "Social",
+                    "Prosocial",
+                  ]
+                }
+                title="Self-Regulation"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "mod_4a_passive",
+                    "mod_4a_co_regulation",
+                    "mod_4a_approach",
+                    "mod_4a_adaptive",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Passive",
+                    "Co-Regulation",
+                    "Approach",
+                    "Adaptive",
+                  ]
+                }
+                title="Regulatory Capacities"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "mod_4b_active",
+                    "mod_4b_self_regulation",
+                    "mod_4b_avoid",
+                    "mod_4b_maladaptive",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Active",
+                    "Self-Regulation",
+                    "Avoid",
+                    "Maladaptive",
+                  ]
+                }
+                title="Regulatory Capacities"
+              />,
+            ],
+            "className": "category-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "mod_1_defensiveness",
+                  "mod_1_over",
+                  "mod_1_under",
+                  "mod_1_variable",
+                ],
+                "reminder": "* If selected, remember to make a hypothesized arousal chart.",
+                "reminderAsterisk": Array [
+                  null,
+                  "*",
+                  "*",
+                  "*",
+                  "*",
+                ],
+                "slidersArray": Array [
+                  "Defensiveness",
+                  "Over",
+                  "Under",
+                  "Variable",
+                ],
+                "title": "Capacities",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "mod_2_attention",
+                  "mod_2_action",
+                  "mod_2_affect",
+                  "mod_2_autonomic",
+                  "mod_2_arousability",
+                ],
+                "reminderAsterisk": Array [
+                  null,
+                  null,
+                  null,
+                  null,
+                  "*",
+                ],
+                "slidersArray": Array [
+                  "Attention",
+                  "Action",
+                  "Affect",
+                  "Autonomic",
+                  "Arousability",
+                ],
+                "title": "Capacities",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "mod_3_physiological",
+                  "mod_3_sensory",
+                  "mod_3_motor",
+                  "mod_3_emotional",
+                  "mod_3_cognitive",
+                  "mod_3_social",
+                  "mod_3_prosocial",
+                ],
+                "slidersArray": Array [
+                  "Physiological",
+                  "Sensory",
+                  "Motor",
+                  "Emotional",
+                  "Cognitive",
+                  "Social",
+                  "Prosocial",
+                ],
+                "title": "Self-Regulation",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "mod_4a_passive",
+                  "mod_4a_co_regulation",
+                  "mod_4a_approach",
+                  "mod_4a_adaptive",
+                ],
+                "slidersArray": Array [
+                  "Passive",
+                  "Co-Regulation",
+                  "Approach",
+                  "Adaptive",
+                ],
+                "title": "Regulatory Capacities",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "mod_4b_active",
+                  "mod_4b_self_regulation",
+                  "mod_4b_avoid",
+                  "mod_4b_maladaptive",
+                ],
+                "slidersArray": Array [
+                  "Active",
+                  "Self-Regulation",
+                  "Avoid",
+                  "Maladaptive",
+                ],
+                "title": "Regulatory Capacities",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

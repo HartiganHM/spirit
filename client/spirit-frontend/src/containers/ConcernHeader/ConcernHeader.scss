@@ -1,0 +1,53 @@
+@import '../../variables.scss';
+
+.ConcernHeader {
+  background-color: $purple6;
+
+  .concern-header-holder {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 8px;
+  }
+
+  .domain-holder {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+  }
+
+  .domain-holder span {
+    padding: 5px 10px;
+    background-color: $purple3;
+    border: 5px solid $purple5;
+    border-radius: 100px;
+    font-weight: bold;
+    color: $purple1;
+    margin-right: 10px;
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  h4 {
+    font-size: 14px;
+    color: $purple4;
+    margin: 0 15px 0 0;
+    max-width: 455px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .concern-header-span {
+    color: $purple1;
+    font-size: 18px;
+    margin: 0 30px 0 10px;
+  }
+} 

@@ -1,0 +1,624 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategorySliders tests Should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CategorySliders
+    databaseNamesArray={
+      Array [
+        "mod_2_attention",
+        "mod_2_action",
+        "mod_2_affect",
+        "mod_2_autonomic",
+        "mod_2_arousability",
+      ]
+    }
+    reminder="* If selected, remember to make a hypothesized arousal chart."
+    reminderAsterisk={
+      Array [
+        null,
+        "*",
+        "*",
+        "*",
+        "*",
+      ]
+    }
+    slidersArray={
+      Array [
+        "Attention",
+        "Action",
+        "Affect",
+        "Autonomic",
+        "Arousability",
+      ]
+    }
+    title="Capacities"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h4
+          className="category-title"
+        >
+          Capacities
+        </h4>,
+        Array [
+          <Connect(OnClickOutside(SliderTen))
+            databaseName="mod_2_attention"
+            reminderAsterisk={null}
+            sliderTitle="Attention"
+          />,
+          <Connect(OnClickOutside(SliderTen))
+            databaseName="mod_2_action"
+            reminderAsterisk="*"
+            sliderTitle="Action"
+          />,
+          <Connect(OnClickOutside(SliderTen))
+            databaseName="mod_2_affect"
+            reminderAsterisk="*"
+            sliderTitle="Affect"
+          />,
+          <Connect(OnClickOutside(SliderTen))
+            databaseName="mod_2_autonomic"
+            reminderAsterisk="*"
+            sliderTitle="Autonomic"
+          />,
+          <Connect(OnClickOutside(SliderTen))
+            databaseName="mod_2_arousability"
+            reminderAsterisk="*"
+            sliderTitle="Arousability"
+          />,
+        ],
+        <h5
+          className="reminder-message"
+        >
+          * If selected, remember to make a hypothesized arousal chart.
+        </h5>,
+      ],
+      "className": "CategorySliders",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Capacities",
+          "className": "category-title",
+        },
+        "ref": null,
+        "rendered": "Capacities",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "mod_2_attention",
+          "reminderAsterisk": null,
+          "sliderTitle": "Attention",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "mod_2_action",
+          "reminderAsterisk": "*",
+          "sliderTitle": "Action",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "mod_2_affect",
+          "reminderAsterisk": "*",
+          "sliderTitle": "Affect",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "mod_2_autonomic",
+          "reminderAsterisk": "*",
+          "sliderTitle": "Autonomic",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "mod_2_arousability",
+          "reminderAsterisk": "*",
+          "sliderTitle": "Arousability",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "* If selected, remember to make a hypothesized arousal chart.",
+          "className": "reminder-message",
+        },
+        "ref": null,
+        "rendered": "* If selected, remember to make a hypothesized arousal chart.",
+        "type": "h5",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4
+            className="category-title"
+          >
+            Capacities
+          </h4>,
+          Array [
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="mod_2_attention"
+              reminderAsterisk={null}
+              sliderTitle="Attention"
+            />,
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="mod_2_action"
+              reminderAsterisk="*"
+              sliderTitle="Action"
+            />,
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="mod_2_affect"
+              reminderAsterisk="*"
+              sliderTitle="Affect"
+            />,
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="mod_2_autonomic"
+              reminderAsterisk="*"
+              sliderTitle="Autonomic"
+            />,
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="mod_2_arousability"
+              reminderAsterisk="*"
+              sliderTitle="Arousability"
+            />,
+          ],
+          <h5
+            className="reminder-message"
+          >
+            * If selected, remember to make a hypothesized arousal chart.
+          </h5>,
+        ],
+        "className": "CategorySliders",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Capacities",
+            "className": "category-title",
+          },
+          "ref": null,
+          "rendered": "Capacities",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "mod_2_attention",
+            "reminderAsterisk": null,
+            "sliderTitle": "Attention",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "mod_2_action",
+            "reminderAsterisk": "*",
+            "sliderTitle": "Action",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "mod_2_affect",
+            "reminderAsterisk": "*",
+            "sliderTitle": "Affect",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "mod_2_autonomic",
+            "reminderAsterisk": "*",
+            "sliderTitle": "Autonomic",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "mod_2_arousability",
+            "reminderAsterisk": "*",
+            "sliderTitle": "Arousability",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "* If selected, remember to make a hypothesized arousal chart.",
+            "className": "reminder-message",
+          },
+          "ref": null,
+          "rendered": "* If selected, remember to make a hypothesized arousal chart.",
+          "type": "h5",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`CategorySliders tests Should match the snapshot if only some props are passed in 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CategorySliders
+    databaseNamesArray={
+      Array [
+        "mod_2_attention",
+        "mod_2_action",
+        "mod_2_affect",
+        "mod_2_autonomic",
+        "mod_2_arousability",
+      ]
+    }
+    slidersArray={
+      Array [
+        "Attention",
+        "Action",
+        "Affect",
+        "Autonomic",
+        "Arousability",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        undefined,
+        Array [
+          <Connect(OnClickOutside(SliderTen))
+            databaseName="mod_2_attention"
+            reminderAsterisk={null}
+            sliderTitle="Attention"
+          />,
+          <Connect(OnClickOutside(SliderTen))
+            databaseName="mod_2_action"
+            reminderAsterisk={null}
+            sliderTitle="Action"
+          />,
+          <Connect(OnClickOutside(SliderTen))
+            databaseName="mod_2_affect"
+            reminderAsterisk={null}
+            sliderTitle="Affect"
+          />,
+          <Connect(OnClickOutside(SliderTen))
+            databaseName="mod_2_autonomic"
+            reminderAsterisk={null}
+            sliderTitle="Autonomic"
+          />,
+          <Connect(OnClickOutside(SliderTen))
+            databaseName="mod_2_arousability"
+            reminderAsterisk={null}
+            sliderTitle="Arousability"
+          />,
+        ],
+        <h5
+          className="reminder-message"
+        />,
+      ],
+      "className": "CategorySliders",
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "mod_2_attention",
+          "reminderAsterisk": null,
+          "sliderTitle": "Attention",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "mod_2_action",
+          "reminderAsterisk": null,
+          "sliderTitle": "Action",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "mod_2_affect",
+          "reminderAsterisk": null,
+          "sliderTitle": "Affect",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "mod_2_autonomic",
+          "reminderAsterisk": null,
+          "sliderTitle": "Autonomic",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "class",
+        "props": Object {
+          "databaseName": "mod_2_arousability",
+          "reminderAsterisk": null,
+          "sliderTitle": "Arousability",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "reminder-message",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "h5",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          Array [
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="mod_2_attention"
+              reminderAsterisk={null}
+              sliderTitle="Attention"
+            />,
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="mod_2_action"
+              reminderAsterisk={null}
+              sliderTitle="Action"
+            />,
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="mod_2_affect"
+              reminderAsterisk={null}
+              sliderTitle="Affect"
+            />,
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="mod_2_autonomic"
+              reminderAsterisk={null}
+              sliderTitle="Autonomic"
+            />,
+            <Connect(OnClickOutside(SliderTen))
+              databaseName="mod_2_arousability"
+              reminderAsterisk={null}
+              sliderTitle="Arousability"
+            />,
+          ],
+          <h5
+            className="reminder-message"
+          />,
+        ],
+        "className": "CategorySliders",
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "mod_2_attention",
+            "reminderAsterisk": null,
+            "sliderTitle": "Attention",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "mod_2_action",
+            "reminderAsterisk": null,
+            "sliderTitle": "Action",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "mod_2_affect",
+            "reminderAsterisk": null,
+            "sliderTitle": "Affect",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "mod_2_autonomic",
+            "reminderAsterisk": null,
+            "sliderTitle": "Autonomic",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
+          "props": Object {
+            "databaseName": "mod_2_arousability",
+            "reminderAsterisk": null,
+            "sliderTitle": "Arousability",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "reminder-message",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h5",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

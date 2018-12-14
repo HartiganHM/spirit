@@ -1,0 +1,104 @@
+/******  GLOBAL CSS VARIABLES  ******/
+/***  COLORS  ***/
+/***  FONTS  ***/
+* {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  outline: none;
+  color: #6d6e71; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.3; }
+
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 10px; }
+
+p {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 900; }
+
+::placeholder {
+  opacity: .5;
+  text-align: center; }
+
+/***  MIXINS  ***/
+.SliderTen {
+  box-sizing: border-box;
+  width: 100%;
+  border: 4px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: all .2s ease-in-out; }
+  .SliderTen h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .SliderTen h5 {
+    margin-top: 0;
+    margin-bottom: 0; }
+  .SliderTen .range-container {
+    padding: 0 7px; }
+  .SliderTen .slider-heading {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding: 7px; }
+  .SliderTen .definition-holder {
+    display: none; }
+  .SliderTen .display-definition {
+    display: block; }
+  .SliderTen .definition-image {
+    width: 17px;
+    cursor: pointer;
+    opacity: .65;
+    margin-right: 5px; }
+  .SliderTen .definition-image:hover {
+    opacity: 1; }
+  .SliderTen .button-fair {
+    margin: 0 1px;
+    color: #d1d3d4;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #fff;
+    display: inline-block;
+    width: 27px;
+    border-radius: 50px; }
+  .SliderTen .button-fair:hover {
+    color: #7F60A4;
+    background-color: #EAE5F0; }
+  .SliderTen .button-active {
+    color: #7F60A4;
+    background-color: #EAE5F0; }
+  .SliderTen h5 {
+    word-wrap: break-word;
+    overflow: hidden; }
+  .SliderTen .slider-number {
+    width: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px auto 0;
+    color: #7F60A4;
+    background-color: #EAE5F0;
+    border-radius: 40px;
+    height: 20px;
+    padding: 1px 1px 0; }
+
+.thread-connection {
+  border: 4px solid #9ed18f; }

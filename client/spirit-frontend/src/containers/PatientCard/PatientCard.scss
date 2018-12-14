@@ -1,0 +1,28 @@
+@import '../../variables.scss';
+ 
+ .PatientCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 10px solid $grey1;
+  margin-top: 10px;
+
+  p {
+    font-size: 20px;
+  }
+
+  span {
+    color: $grey3;
+    font-size: 16px;
+    margin-right: 4px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $green4;
+  }
+
+  a:hover {
+    color: $green5;
+  }
+ } 

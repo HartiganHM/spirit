@@ -1,0 +1,419 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Join tests should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Join
+    user={
+      Object {
+        "admin": false,
+        "authrocket_id": "usr_0vBdVVz3RUsbR2ArDCoPvo",
+        "clinic": "I Need Therapy",
+        "clinic_abbreviation": "INT",
+        "clinic_id": 10,
+        "clinic_passcode": "utk85fmf",
+        "created_at": "2018-02-19T03:41:23.701Z",
+        "email": "sample@samplemail.com",
+        "id": 1,
+        "name": "Lee Trevino",
+        "updated_at": "2018-02-19T03:41:23.701Z",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          Join a Clinic
+        </h3>,
+        <InstructionWrapper>
+          <div
+            className="instructions"
+          >
+            To join an existing clinic on SpIRiT©, you must use a clinic's eight digit passcode. If you do not know your clinic's passcode, please contact your SpIRiT© administrator.
+          </div>
+          <div
+            className="instructions"
+          >
+            If your clinic has not been registered, click 'CREATE NEW CLINIC' below to learn how you can add your clinic and start using SpIRiT©.
+          </div>
+        </InstructionWrapper>,
+        <form>
+          <input
+            className="input-password"
+            maxLength={8}
+            name="clinicPasscode"
+            onChange={[Function]}
+            placeholder="Enter Passcode"
+            value=""
+          />
+          <button
+            className="submit-button"
+            onClick={[Function]}
+            type="submit"
+          >
+            SUBMIT
+          </button>
+        </form>,
+        "",
+        "",
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="join-link"
+          to="/spirit/users/1/create"
+        >
+          CREATE NEW CLINIC
+        </NavLink>,
+      ],
+      "className": "Join",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Join a Clinic",
+        },
+        "ref": null,
+        "rendered": "Join a Clinic",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="instructions"
+            >
+              To join an existing clinic on SpIRiT©, you must use a clinic's eight digit passcode. If you do not know your clinic's passcode, please contact your SpIRiT© administrator.
+            </div>,
+            <div
+              className="instructions"
+            >
+              If your clinic has not been registered, click 'CREATE NEW CLINIC' below to learn how you can add your clinic and start using SpIRiT©.
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "To join an existing clinic on SpIRiT©, you must use a clinic's eight digit passcode. If you do not know your clinic's passcode, please contact your SpIRiT© administrator.",
+              "className": "instructions",
+            },
+            "ref": null,
+            "rendered": "To join an existing clinic on SpIRiT©, you must use a clinic's eight digit passcode. If you do not know your clinic's passcode, please contact your SpIRiT© administrator.",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "If your clinic has not been registered, click 'CREATE NEW CLINIC' below to learn how you can add your clinic and start using SpIRiT©.",
+              "className": "instructions",
+            },
+            "ref": null,
+            "rendered": "If your clinic has not been registered, click 'CREATE NEW CLINIC' below to learn how you can add your clinic and start using SpIRiT©.",
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="input-password"
+              maxLength={8}
+              name="clinicPasscode"
+              onChange={[Function]}
+              placeholder="Enter Passcode"
+              value=""
+            />,
+            <button
+              className="submit-button"
+              onClick={[Function]}
+              type="submit"
+            >
+              SUBMIT
+            </button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input-password",
+              "maxLength": 8,
+              "name": "clinicPasscode",
+              "onChange": [Function],
+              "placeholder": "Enter Passcode",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "SUBMIT",
+              "className": "submit-button",
+              "onClick": [Function],
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "SUBMIT",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+      "",
+      "",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "aria-current": "page",
+          "children": "CREATE NEW CLINIC",
+          "className": "join-link",
+          "to": "/spirit/users/1/create",
+        },
+        "ref": null,
+        "rendered": "CREATE NEW CLINIC",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            Join a Clinic
+          </h3>,
+          <InstructionWrapper>
+            <div
+              className="instructions"
+            >
+              To join an existing clinic on SpIRiT©, you must use a clinic's eight digit passcode. If you do not know your clinic's passcode, please contact your SpIRiT© administrator.
+            </div>
+            <div
+              className="instructions"
+            >
+              If your clinic has not been registered, click 'CREATE NEW CLINIC' below to learn how you can add your clinic and start using SpIRiT©.
+            </div>
+          </InstructionWrapper>,
+          <form>
+            <input
+              className="input-password"
+              maxLength={8}
+              name="clinicPasscode"
+              onChange={[Function]}
+              placeholder="Enter Passcode"
+              value=""
+            />
+            <button
+              className="submit-button"
+              onClick={[Function]}
+              type="submit"
+            >
+              SUBMIT
+            </button>
+          </form>,
+          "",
+          "",
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="join-link"
+            to="/spirit/users/1/create"
+          >
+            CREATE NEW CLINIC
+          </NavLink>,
+        ],
+        "className": "Join",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Join a Clinic",
+          },
+          "ref": null,
+          "rendered": "Join a Clinic",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                className="instructions"
+              >
+                To join an existing clinic on SpIRiT©, you must use a clinic's eight digit passcode. If you do not know your clinic's passcode, please contact your SpIRiT© administrator.
+              </div>,
+              <div
+                className="instructions"
+              >
+                If your clinic has not been registered, click 'CREATE NEW CLINIC' below to learn how you can add your clinic and start using SpIRiT©.
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "To join an existing clinic on SpIRiT©, you must use a clinic's eight digit passcode. If you do not know your clinic's passcode, please contact your SpIRiT© administrator.",
+                "className": "instructions",
+              },
+              "ref": null,
+              "rendered": "To join an existing clinic on SpIRiT©, you must use a clinic's eight digit passcode. If you do not know your clinic's passcode, please contact your SpIRiT© administrator.",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "If your clinic has not been registered, click 'CREATE NEW CLINIC' below to learn how you can add your clinic and start using SpIRiT©.",
+                "className": "instructions",
+              },
+              "ref": null,
+              "rendered": "If your clinic has not been registered, click 'CREATE NEW CLINIC' below to learn how you can add your clinic and start using SpIRiT©.",
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="input-password"
+                maxLength={8}
+                name="clinicPasscode"
+                onChange={[Function]}
+                placeholder="Enter Passcode"
+                value=""
+              />,
+              <button
+                className="submit-button"
+                onClick={[Function]}
+                type="submit"
+              >
+                SUBMIT
+              </button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "input-password",
+                "maxLength": 8,
+                "name": "clinicPasscode",
+                "onChange": [Function],
+                "placeholder": "Enter Passcode",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "SUBMIT",
+                "className": "submit-button",
+                "onClick": [Function],
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "SUBMIT",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+        "",
+        "",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": "CREATE NEW CLINIC",
+            "className": "join-link",
+            "to": "/spirit/users/1/create",
+          },
+          "ref": null,
+          "rendered": "CREATE NEW CLINIC",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

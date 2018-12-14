@@ -1,0 +1,80 @@
+/******  GLOBAL CSS VARIABLES  ******/
+/***  COLORS  ***/
+/***  FONTS  ***/
+* {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  outline: none;
+  color: #6d6e71; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.3; }
+
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 10px; }
+
+p {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 900; }
+
+::placeholder {
+  opacity: .5;
+  text-align: center; }
+
+/***  MIXINS  ***/
+.TreatmentPlans {
+  width: 875px;
+  display: block;
+  margin: 0 auto 50px; }
+  .TreatmentPlans .treatment-header-tabs {
+    display: flex; }
+  .TreatmentPlans h4 {
+    padding: 9px;
+    margin: 0;
+    text-align: center; }
+  .TreatmentPlans .treatment-header {
+    width: 175px;
+    background-color: #a7a9ac;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff; }
+  .TreatmentPlans .treatment-header-modulation {
+    border-left: 0; }
+  .TreatmentPlans .treatment-header-executive {
+    border-right: 0; }
+  .TreatmentPlans .treatment-header h4 {
+    color: #d1d3d4; }
+  .TreatmentPlans .treatment-header:hover h4 {
+    color: #6d6e71; }
+  .TreatmentPlans .treatment-header:hover {
+    background-color: #d1d3d4; }
+  .TreatmentPlans .treatment-header-active {
+    background-color: #d1d3d4; }
+    .TreatmentPlans .treatment-header-active h4 {
+      color: #6d6e71; }
+  .TreatmentPlans .display-none {
+    display: none; }
+  .TreatmentPlans .module-container {
+    background-color: #d1d3d4;
+    padding: 10px; }

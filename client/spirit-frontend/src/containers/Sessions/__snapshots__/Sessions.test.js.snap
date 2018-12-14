@@ -1,0 +1,1131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sessions tests Should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Sessions
+    compareSessionData={[Function]}
+    comparisonData={
+      Array [
+        Object {
+          "created": Array [
+            Object {
+              "date": "2/26/2018",
+            },
+            Object {
+              "date": "2/24/2018",
+            },
+          ],
+        },
+        Object {
+          "session_id": Array [
+            Object {
+              "id": 54,
+            },
+            Object {
+              "id": 53,
+            },
+          ],
+        },
+        Object {
+          "executive": Array [
+            Object {
+              "x": 1,
+              "y": 22,
+            },
+            Object {
+              "x": 0,
+              "y": 20,
+            },
+          ],
+        },
+        Object {
+          "modulation": Array [
+            Object {
+              "x": 1,
+              "y": 18,
+            },
+            Object {
+              "x": 0,
+              "y": 12,
+            },
+          ],
+        },
+        Object {
+          "postural": Array [
+            Object {
+              "x": 1,
+              "y": 15,
+            },
+            Object {
+              "x": 0,
+              "y": 8,
+            },
+          ],
+        },
+        Object {
+          "sensory": Array [
+            Object {
+              "x": 1,
+              "y": 28,
+            },
+            Object {
+              "x": 0,
+              "y": 22,
+            },
+          ],
+        },
+        Object {
+          "social": Array [
+            Object {
+              "x": 1,
+              "y": 18,
+            },
+            Object {
+              "x": 0,
+              "y": 13,
+            },
+          ],
+        },
+      ]
+    }
+    createSession={[Function]}
+    getSession={[Function]}
+    selectedConcern={
+      Object {
+        "created_at": "2018-02-20T20:08:19.142Z",
+        "description": "Concern 1",
+        "domain_1": true,
+        "domain_2": true,
+        "domain_3": false,
+        "domain_4": true,
+        "domain_5": false,
+        "domain_6": false,
+        "id": 5,
+        "notes": "Some notes.",
+        "patient_id": 5,
+        "updated_at": "2018-02-20T20:08:19.142Z",
+      }
+    }
+    sessions={
+      Array [
+        Object {
+          "completed": true,
+          "concern_id": 5,
+          "created_at": "2018-02-20T21:25:45.411Z",
+          "id": 10,
+          "updated_at": "2018-02-20T21:25:45.411Z",
+        },
+      ]
+    }
+    wipeStoreFromSessions={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="sessions-main-holder"
+        >
+          <h2>
+            Sessions
+          </h2>
+          <div
+            className="session"
+          >
+            <div
+              className="compare-button-holder"
+            >
+              <label
+                className="compare-button-holder"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <span
+                  className="checkmark"
+                />
+              </label>
+            </div>
+            <p
+              className="session-number"
+            >
+              Session 
+              10
+            </p>
+            <p
+              className="session-date"
+            >
+              <span
+                className="date-span"
+              >
+                Last update: 
+              </span>
+              February 20, 2018
+            </p>
+            <p
+              className="session-status"
+            >
+              Completed
+            </p>
+            <Link
+              className="join-link"
+              replace={false}
+              to="/spirit/sessions/10/view"
+            >
+              <button
+                className="session-result-button"
+                onClick={[Function]}
+              >
+                RESULTS
+              </button>
+            </Link>
+          </div>
+          <div
+            className="button-holder"
+          >
+            <button
+              className="create-session-button"
+              onClick={[Function]}
+            >
+              Create New Session
+            </button>
+          </div>
+        </div>,
+        <div>
+          <div
+            className="goals-chart"
+          >
+            <Connect(Component) />
+          </div>
+          <Connect(Component) />
+        </div>,
+      ],
+      "className": "Sessions",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Sessions
+            </h2>,
+            Array [
+              <div
+                className="session"
+              >
+                <div
+                  className="compare-button-holder"
+                >
+                  <label
+                    className="compare-button-holder"
+                  >
+                    <input
+                      checked={false}
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                    <span
+                      className="checkmark"
+                    />
+                  </label>
+                </div>
+                <p
+                  className="session-number"
+                >
+                  Session 
+                  10
+                </p>
+                <p
+                  className="session-date"
+                >
+                  <span
+                    className="date-span"
+                  >
+                    Last update: 
+                  </span>
+                  February 20, 2018
+                </p>
+                <p
+                  className="session-status"
+                >
+                  Completed
+                </p>
+                <Link
+                  className="join-link"
+                  replace={false}
+                  to="/spirit/sessions/10/view"
+                >
+                  <button
+                    className="session-result-button"
+                    onClick={[Function]}
+                  >
+                    RESULTS
+                  </button>
+                </Link>
+              </div>,
+            ],
+            <div
+              className="button-holder"
+            >
+              <button
+                className="create-session-button"
+                onClick={[Function]}
+              >
+                Create New Session
+              </button>
+            </div>,
+          ],
+          "className": "sessions-main-holder",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sessions",
+            },
+            "ref": null,
+            "rendered": "Sessions",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": "10",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="compare-button-holder"
+                >
+                  <label
+                    className="compare-button-holder"
+                  >
+                    <input
+                      checked={false}
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                    <span
+                      className="checkmark"
+                    />
+                  </label>
+                </div>,
+                <p
+                  className="session-number"
+                >
+                  Session 
+                  10
+                </p>,
+                <p
+                  className="session-date"
+                >
+                  <span
+                    className="date-span"
+                  >
+                    Last update: 
+                  </span>
+                  February 20, 2018
+                </p>,
+                <p
+                  className="session-status"
+                >
+                  Completed
+                </p>,
+                false,
+                <Link
+                  className="join-link"
+                  replace={false}
+                  to="/spirit/sessions/10/view"
+                >
+                  <button
+                    className="session-result-button"
+                    onClick={[Function]}
+                  >
+                    RESULTS
+                  </button>
+                </Link>,
+              ],
+              "className": "session",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <label
+                    className="compare-button-holder"
+                  >
+                    <input
+                      checked={false}
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                    <span
+                      className="checkmark"
+                    />
+                  </label>,
+                  "className": "compare-button-holder",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="checkbox"
+                      />,
+                      <span
+                        className="checkmark"
+                      />,
+                    ],
+                    "className": "compare-button-holder",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "onChange": [Function],
+                        "type": "checkbox",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "checkmark",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
+                    },
+                  ],
+                  "type": "label",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Session ",
+                    10,
+                  ],
+                  "className": "session-number",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Session ",
+                  10,
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      className="date-span"
+                    >
+                      Last update: 
+                    </span>,
+                    "February 20, 2018",
+                  ],
+                  "className": "session-date",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Last update: ",
+                      "className": "date-span",
+                    },
+                    "ref": null,
+                    "rendered": "Last update: ",
+                    "type": "span",
+                  },
+                  "February 20, 2018",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Completed",
+                  "className": "session-status",
+                },
+                "ref": null,
+                "rendered": "Completed",
+                "type": "p",
+              },
+              false,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <button
+                    className="session-result-button"
+                    onClick={[Function]}
+                  >
+                    RESULTS
+                  </button>,
+                  "className": "join-link",
+                  "replace": false,
+                  "to": "/spirit/sessions/10/view",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "RESULTS",
+                    "className": "session-result-button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "RESULTS",
+                  "type": "button",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="create-session-button"
+                  onClick={[Function]}
+                >
+                  Create New Session
+                </button>,
+                undefined,
+              ],
+              "className": "button-holder",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Create New Session",
+                  "className": "create-session-button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Create New Session",
+                "type": "button",
+              },
+              undefined,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="goals-chart"
+            >
+              <Connect(Component) />
+            </div>,
+            <Connect(Component) />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(Component) />,
+              "className": "goals-chart",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="sessions-main-holder"
+          >
+            <h2>
+              Sessions
+            </h2>
+            <div
+              className="session"
+            >
+              <div
+                className="compare-button-holder"
+              >
+                <label
+                  className="compare-button-holder"
+                >
+                  <input
+                    checked={false}
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <span
+                    className="checkmark"
+                  />
+                </label>
+              </div>
+              <p
+                className="session-number"
+              >
+                Session 
+                10
+              </p>
+              <p
+                className="session-date"
+              >
+                <span
+                  className="date-span"
+                >
+                  Last update: 
+                </span>
+                February 20, 2018
+              </p>
+              <p
+                className="session-status"
+              >
+                Completed
+              </p>
+              <Link
+                className="join-link"
+                replace={false}
+                to="/spirit/sessions/10/view"
+              >
+                <button
+                  className="session-result-button"
+                  onClick={[Function]}
+                >
+                  RESULTS
+                </button>
+              </Link>
+            </div>
+            <div
+              className="button-holder"
+            >
+              <button
+                className="create-session-button"
+                onClick={[Function]}
+              >
+                Create New Session
+              </button>
+            </div>
+          </div>,
+          <div>
+            <div
+              className="goals-chart"
+            >
+              <Connect(Component) />
+            </div>
+            <Connect(Component) />
+          </div>,
+        ],
+        "className": "Sessions",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Sessions
+              </h2>,
+              Array [
+                <div
+                  className="session"
+                >
+                  <div
+                    className="compare-button-holder"
+                  >
+                    <label
+                      className="compare-button-holder"
+                    >
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="checkmark"
+                      />
+                    </label>
+                  </div>
+                  <p
+                    className="session-number"
+                  >
+                    Session 
+                    10
+                  </p>
+                  <p
+                    className="session-date"
+                  >
+                    <span
+                      className="date-span"
+                    >
+                      Last update: 
+                    </span>
+                    February 20, 2018
+                  </p>
+                  <p
+                    className="session-status"
+                  >
+                    Completed
+                  </p>
+                  <Link
+                    className="join-link"
+                    replace={false}
+                    to="/spirit/sessions/10/view"
+                  >
+                    <button
+                      className="session-result-button"
+                      onClick={[Function]}
+                    >
+                      RESULTS
+                    </button>
+                  </Link>
+                </div>,
+              ],
+              <div
+                className="button-holder"
+              >
+                <button
+                  className="create-session-button"
+                  onClick={[Function]}
+                >
+                  Create New Session
+                </button>
+              </div>,
+            ],
+            "className": "sessions-main-holder",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sessions",
+              },
+              "ref": null,
+              "rendered": "Sessions",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": "10",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="compare-button-holder"
+                  >
+                    <label
+                      className="compare-button-holder"
+                    >
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="checkmark"
+                      />
+                    </label>
+                  </div>,
+                  <p
+                    className="session-number"
+                  >
+                    Session 
+                    10
+                  </p>,
+                  <p
+                    className="session-date"
+                  >
+                    <span
+                      className="date-span"
+                    >
+                      Last update: 
+                    </span>
+                    February 20, 2018
+                  </p>,
+                  <p
+                    className="session-status"
+                  >
+                    Completed
+                  </p>,
+                  false,
+                  <Link
+                    className="join-link"
+                    replace={false}
+                    to="/spirit/sessions/10/view"
+                  >
+                    <button
+                      className="session-result-button"
+                      onClick={[Function]}
+                    >
+                      RESULTS
+                    </button>
+                  </Link>,
+                ],
+                "className": "session",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <label
+                      className="compare-button-holder"
+                    >
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="checkbox"
+                      />
+                      <span
+                        className="checkmark"
+                      />
+                    </label>,
+                    "className": "compare-button-holder",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          checked={false}
+                          onChange={[Function]}
+                          type="checkbox"
+                        />,
+                        <span
+                          className="checkmark"
+                        />,
+                      ],
+                      "className": "compare-button-holder",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "checked": false,
+                          "onChange": [Function],
+                          "type": "checkbox",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "checkmark",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Session ",
+                      10,
+                    ],
+                    "className": "session-number",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Session ",
+                    10,
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="date-span"
+                      >
+                        Last update: 
+                      </span>,
+                      "February 20, 2018",
+                    ],
+                    "className": "session-date",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Last update: ",
+                        "className": "date-span",
+                      },
+                      "ref": null,
+                      "rendered": "Last update: ",
+                      "type": "span",
+                    },
+                    "February 20, 2018",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Completed",
+                    "className": "session-status",
+                  },
+                  "ref": null,
+                  "rendered": "Completed",
+                  "type": "p",
+                },
+                false,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <button
+                      className="session-result-button"
+                      onClick={[Function]}
+                    >
+                      RESULTS
+                    </button>,
+                    "className": "join-link",
+                    "replace": false,
+                    "to": "/spirit/sessions/10/view",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "RESULTS",
+                      "className": "session-result-button",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "RESULTS",
+                    "type": "button",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <button
+                    className="create-session-button"
+                    onClick={[Function]}
+                  >
+                    Create New Session
+                  </button>,
+                  undefined,
+                ],
+                "className": "button-holder",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Create New Session",
+                    "className": "create-session-button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Create New Session",
+                  "type": "button",
+                },
+                undefined,
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="goals-chart"
+              >
+                <Connect(Component) />
+              </div>,
+              <Connect(Component) />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(Component) />,
+                "className": "goals-chart",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

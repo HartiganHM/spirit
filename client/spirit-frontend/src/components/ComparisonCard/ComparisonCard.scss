@@ -1,0 +1,49 @@
+@import '../../variables.scss';
+
+.ComparisonCard {
+  background-color: $grey1;
+  width: 100px;
+  padding: 10px;
+  margin: 5px 5px;
+
+
+  h5 {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    height: 35px;
+    overflow: scroll;
+    word-break: break-word;
+  }
+
+  hr {
+    border: .5px solid $grey2;
+  }
+
+  .card-body {
+    display: flex;
+    margin: auto;
+    width: 72px;
+  }
+
+  .card-dates {
+    margin-right: 10px;
+
+    p {
+      margin: 0;
+      position: relative;
+      font-size: 10px;
+      color: $grey3;
+      line-height: 2.2;
+    }
+  }
+
+  .card-values {
+    p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  }
+
+} 

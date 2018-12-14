@@ -1,0 +1,848 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Finish tests Should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Finish
+    selectedConcern={
+      Object {
+        "created_at": "2018-02-20T20:08:19.142Z",
+        "description": "Concern 1",
+        "domain_1": true,
+        "domain_2": true,
+        "domain_3": false,
+        "domain_4": true,
+        "domain_5": false,
+        "domain_6": false,
+        "id": 5,
+        "notes": "Some notes.",
+        "patient_id": 5,
+        "updated_at": "2018-02-20T20:08:19.142Z",
+      }
+    }
+    selectedSession={
+      Object {
+        "completed": true,
+        "concern_id": 5,
+        "created_at": "2018-02-20T21:25:45.411Z",
+        "id": 10,
+        "updated_at": "2018-02-20T21:25:45.411Z",
+      }
+    }
+    updateSession={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="finish-button-holder"
+        >
+          <p>
+            We recommend reviewing your session results before writing plans and goals
+            <span
+              className="arrow-right"
+            >
+              ➡
+            </span>
+          </p>
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="join-link"
+            to="/spirit/sessions/10/view"
+          >
+            <button
+              className="session-result-button"
+            >
+              SEE SESSION RESULTS
+            </button>
+          </NavLink>
+        </div>,
+        <h2
+          className="finish-headings"
+        >
+          Treatment Plans
+        </h2>,
+        <div
+          className="dividing-line"
+        />,
+        <h5
+          className="finish-sub-headings"
+        >
+          S.T.E.P.S.I. ©
+        </h5>,
+        <TreatmentPlans />,
+        <h2
+          className="finish-headings"
+        >
+          Therapy Goals
+        </h2>,
+        <div
+          className="dividing-line"
+        />,
+        <h5
+          className="finish-sub-headings"
+        >
+          Modified from the C.O.P.M.
+        </h5>,
+        <Connect(TherapyGoals)
+          category="modulation_"
+          number="1"
+          title="Modulation"
+        />,
+        <Connect(TherapyGoals)
+          category="posture_"
+          number="2"
+          title="Postural"
+        />,
+        <Connect(TherapyGoals)
+          category="sensory_discrimination_"
+          number="3"
+          title="Sensory Discrimination"
+        />,
+        <Connect(TherapyGoals)
+          category="social_emotional_"
+          number="4"
+          title="Social/Emotional Development"
+        />,
+        <Connect(TherapyGoals)
+          category="executive_functioning_"
+          number="5"
+          title="Executive Functioning"
+        />,
+        <div
+          className="finish-button-holder"
+        >
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="join-link"
+            to="/spirit/sessions/10/view"
+          >
+            <button
+              className="session-result-button"
+            >
+              SEE SESSION RESULTS
+            </button>
+          </NavLink>
+        </div>,
+      ],
+      "className": "Finish",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              We recommend reviewing your session results before writing plans and goals
+              <span
+                className="arrow-right"
+              >
+                ➡
+              </span>
+            </p>,
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="join-link"
+              to="/spirit/sessions/10/view"
+            >
+              <button
+                className="session-result-button"
+              >
+                SEE SESSION RESULTS
+              </button>
+            </NavLink>,
+          ],
+          "className": "finish-button-holder",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "We recommend reviewing your session results before writing plans and goals",
+                <span
+                  className="arrow-right"
+                >
+                  ➡
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "We recommend reviewing your session results before writing plans and goals",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "➡",
+                  "className": "arrow-right",
+                },
+                "ref": null,
+                "rendered": "➡",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": <button
+                className="session-result-button"
+              >
+                SEE SESSION RESULTS
+              </button>,
+              "className": "join-link",
+              "to": "/spirit/sessions/10/view",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "SEE SESSION RESULTS",
+                "className": "session-result-button",
+              },
+              "ref": null,
+              "rendered": "SEE SESSION RESULTS",
+              "type": "button",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Treatment Plans",
+          "className": "finish-headings",
+        },
+        "ref": null,
+        "rendered": "Treatment Plans",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "dividing-line",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "S.T.E.P.S.I. ©",
+          "className": "finish-sub-headings",
+        },
+        "ref": null,
+        "rendered": "S.T.E.P.S.I. ©",
+        "type": "h5",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Therapy Goals",
+          "className": "finish-headings",
+        },
+        "ref": null,
+        "rendered": "Therapy Goals",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "dividing-line",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Modified from the C.O.P.M.",
+          "className": "finish-sub-headings",
+        },
+        "ref": null,
+        "rendered": "Modified from the C.O.P.M.",
+        "type": "h5",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "category": "modulation_",
+          "number": "1",
+          "title": "Modulation",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "category": "posture_",
+          "number": "2",
+          "title": "Postural",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "category": "sensory_discrimination_",
+          "number": "3",
+          "title": "Sensory Discrimination",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "category": "social_emotional_",
+          "number": "4",
+          "title": "Social/Emotional Development",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "category": "executive_functioning_",
+          "number": "5",
+          "title": "Executive Functioning",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="join-link"
+            to="/spirit/sessions/10/view"
+          >
+            <button
+              className="session-result-button"
+            >
+              SEE SESSION RESULTS
+            </button>
+          </NavLink>,
+          "className": "finish-button-holder",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": <button
+              className="session-result-button"
+            >
+              SEE SESSION RESULTS
+            </button>,
+            "className": "join-link",
+            "to": "/spirit/sessions/10/view",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "SEE SESSION RESULTS",
+              "className": "session-result-button",
+            },
+            "ref": null,
+            "rendered": "SEE SESSION RESULTS",
+            "type": "button",
+          },
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="finish-button-holder"
+          >
+            <p>
+              We recommend reviewing your session results before writing plans and goals
+              <span
+                className="arrow-right"
+              >
+                ➡
+              </span>
+            </p>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="join-link"
+              to="/spirit/sessions/10/view"
+            >
+              <button
+                className="session-result-button"
+              >
+                SEE SESSION RESULTS
+              </button>
+            </NavLink>
+          </div>,
+          <h2
+            className="finish-headings"
+          >
+            Treatment Plans
+          </h2>,
+          <div
+            className="dividing-line"
+          />,
+          <h5
+            className="finish-sub-headings"
+          >
+            S.T.E.P.S.I. ©
+          </h5>,
+          <TreatmentPlans />,
+          <h2
+            className="finish-headings"
+          >
+            Therapy Goals
+          </h2>,
+          <div
+            className="dividing-line"
+          />,
+          <h5
+            className="finish-sub-headings"
+          >
+            Modified from the C.O.P.M.
+          </h5>,
+          <Connect(TherapyGoals)
+            category="modulation_"
+            number="1"
+            title="Modulation"
+          />,
+          <Connect(TherapyGoals)
+            category="posture_"
+            number="2"
+            title="Postural"
+          />,
+          <Connect(TherapyGoals)
+            category="sensory_discrimination_"
+            number="3"
+            title="Sensory Discrimination"
+          />,
+          <Connect(TherapyGoals)
+            category="social_emotional_"
+            number="4"
+            title="Social/Emotional Development"
+          />,
+          <Connect(TherapyGoals)
+            category="executive_functioning_"
+            number="5"
+            title="Executive Functioning"
+          />,
+          <div
+            className="finish-button-holder"
+          >
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="join-link"
+              to="/spirit/sessions/10/view"
+            >
+              <button
+                className="session-result-button"
+              >
+                SEE SESSION RESULTS
+              </button>
+            </NavLink>
+          </div>,
+        ],
+        "className": "Finish",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                We recommend reviewing your session results before writing plans and goals
+                <span
+                  className="arrow-right"
+                >
+                  ➡
+                </span>
+              </p>,
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="join-link"
+                to="/spirit/sessions/10/view"
+              >
+                <button
+                  className="session-result-button"
+                >
+                  SEE SESSION RESULTS
+                </button>
+              </NavLink>,
+            ],
+            "className": "finish-button-holder",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "We recommend reviewing your session results before writing plans and goals",
+                  <span
+                    className="arrow-right"
+                  >
+                    ➡
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "We recommend reviewing your session results before writing plans and goals",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "➡",
+                    "className": "arrow-right",
+                  },
+                  "ref": null,
+                  "rendered": "➡",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": <button
+                  className="session-result-button"
+                >
+                  SEE SESSION RESULTS
+                </button>,
+                "className": "join-link",
+                "to": "/spirit/sessions/10/view",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "SEE SESSION RESULTS",
+                  "className": "session-result-button",
+                },
+                "ref": null,
+                "rendered": "SEE SESSION RESULTS",
+                "type": "button",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Treatment Plans",
+            "className": "finish-headings",
+          },
+          "ref": null,
+          "rendered": "Treatment Plans",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "dividing-line",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "S.T.E.P.S.I. ©",
+            "className": "finish-sub-headings",
+          },
+          "ref": null,
+          "rendered": "S.T.E.P.S.I. ©",
+          "type": "h5",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Therapy Goals",
+            "className": "finish-headings",
+          },
+          "ref": null,
+          "rendered": "Therapy Goals",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "dividing-line",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Modified from the C.O.P.M.",
+            "className": "finish-sub-headings",
+          },
+          "ref": null,
+          "rendered": "Modified from the C.O.P.M.",
+          "type": "h5",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "category": "modulation_",
+            "number": "1",
+            "title": "Modulation",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "category": "posture_",
+            "number": "2",
+            "title": "Postural",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "category": "sensory_discrimination_",
+            "number": "3",
+            "title": "Sensory Discrimination",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "category": "social_emotional_",
+            "number": "4",
+            "title": "Social/Emotional Development",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "category": "executive_functioning_",
+            "number": "5",
+            "title": "Executive Functioning",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="join-link"
+              to="/spirit/sessions/10/view"
+            >
+              <button
+                className="session-result-button"
+              >
+                SEE SESSION RESULTS
+              </button>
+            </NavLink>,
+            "className": "finish-button-holder",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": <button
+                className="session-result-button"
+              >
+                SEE SESSION RESULTS
+              </button>,
+              "className": "join-link",
+              "to": "/spirit/sessions/10/view",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "SEE SESSION RESULTS",
+                "className": "session-result-button",
+              },
+              "ref": null,
+              "rendered": "SEE SESSION RESULTS",
+              "type": "button",
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

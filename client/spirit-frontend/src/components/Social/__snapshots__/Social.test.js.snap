@@ -1,0 +1,887 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Social tests Should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Social />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SessionHeader
+          databaseNamesArray={Array []}
+          headings={Array []}
+          title="Social/Emotional Developmental Capacities"
+        />,
+        <div
+          className="category-content"
+        >
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "soc_1_regulation",
+                "soc_1_engagement",
+                "soc_1_reciprocity",
+                "soc_1_problem",
+                "soc_1_representation",
+                "soc_1_triangular",
+                "soc_1_comparative",
+                "soc_1_reflective",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Regulation",
+                "Engagement",
+                "Reciprocity",
+                "Problem Solving",
+                "Representational/Symbolic Thinking",
+                "Triangular Thinking",
+                "Comparative Thinking",
+                "Reflective",
+              ]
+            }
+            title="DIR FEDLS's"
+          />
+          <CategorySliders
+            databaseNamesArray={Array []}
+            slidersArray={Array []}
+            title="Implicit/Explicit"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "soc_2_self_awareness",
+                "soc_2_joint",
+                "soc_2_social_referencing",
+                "soc_2_imitation",
+                "soc_2_inferential",
+                "soc_2_contingent",
+                "soc_2_theory",
+                "soc_2_central",
+                "soc_2_mentalizing",
+                "soc_2_empathy",
+                "soc_2_social_perspective",
+                "soc_2_social_motivators",
+                "soc_2_pro_social",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Self/Other Awareness",
+                "Joint Attention",
+                "Social Referencing",
+                "Imitation",
+                "Inferential Thinking/Intention",
+                "Contingent Interaction/Reciprocal Actions",
+                "Theory of Mind",
+                "Central Coherence",
+                "Mentalizing",
+                "Empathy",
+                "Social Perspective",
+                "Social Motivators AAAA",
+                "Pro-Social Motivation - Moral",
+              ]
+            }
+            title="Social Cognition Core Components"
+          />
+          <CategorySliders
+            databaseNamesArray={
+              Array [
+                "soc_3_affective",
+                "soc_3_emotional_contagion",
+                "soc_3_activation_low",
+                "soc_3_emotional_cascade",
+                "soc_3_activation_high",
+                "soc_3_emotional_differentiation",
+                "soc_3_emotional_association",
+                "soc_3_self_control",
+                "soc_3_self_regulation",
+                "soc_3_self_compassion",
+              ]
+            }
+            slidersArray={
+              Array [
+                "Affective/Valence Response",
+                "Emotional Contagion",
+                "Activation of Low-Routes",
+                "Emotional Cascade",
+                "Activation of High-Routes",
+                "Emotional Differentiation",
+                "Emotional Association and Memory",
+                "Self-Control",
+                "Self-Regulation",
+                "Self-Compassion",
+              ]
+            }
+            title="Emotional Processing"
+          />
+          <YesNoQuestions
+            databaseNamesArray={
+              Array [
+                "soc_4_mental",
+                "soc_4_thoughts",
+                "soc_4_attachments",
+                "soc_4_trauma",
+              ]
+            }
+            questionsArray={
+              Array [
+                "Mental Health Support Indicated?",
+                "Thoughts and/or emotions require intervention or medication?",
+                "Attachment related care needed?",
+                "Trauma informed care needed?",
+              ]
+            }
+            title="Other Questions"
+          />
+        </div>,
+      ],
+      "className": "Social",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "databaseNamesArray": Array [],
+          "headings": Array [],
+          "title": "Social/Emotional Developmental Capacities",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "soc_1_regulation",
+                  "soc_1_engagement",
+                  "soc_1_reciprocity",
+                  "soc_1_problem",
+                  "soc_1_representation",
+                  "soc_1_triangular",
+                  "soc_1_comparative",
+                  "soc_1_reflective",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Regulation",
+                  "Engagement",
+                  "Reciprocity",
+                  "Problem Solving",
+                  "Representational/Symbolic Thinking",
+                  "Triangular Thinking",
+                  "Comparative Thinking",
+                  "Reflective",
+                ]
+              }
+              title="DIR FEDLS's"
+            />,
+            <CategorySliders
+              databaseNamesArray={Array []}
+              slidersArray={Array []}
+              title="Implicit/Explicit"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "soc_2_self_awareness",
+                  "soc_2_joint",
+                  "soc_2_social_referencing",
+                  "soc_2_imitation",
+                  "soc_2_inferential",
+                  "soc_2_contingent",
+                  "soc_2_theory",
+                  "soc_2_central",
+                  "soc_2_mentalizing",
+                  "soc_2_empathy",
+                  "soc_2_social_perspective",
+                  "soc_2_social_motivators",
+                  "soc_2_pro_social",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Self/Other Awareness",
+                  "Joint Attention",
+                  "Social Referencing",
+                  "Imitation",
+                  "Inferential Thinking/Intention",
+                  "Contingent Interaction/Reciprocal Actions",
+                  "Theory of Mind",
+                  "Central Coherence",
+                  "Mentalizing",
+                  "Empathy",
+                  "Social Perspective",
+                  "Social Motivators AAAA",
+                  "Pro-Social Motivation - Moral",
+                ]
+              }
+              title="Social Cognition Core Components"
+            />,
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "soc_3_affective",
+                  "soc_3_emotional_contagion",
+                  "soc_3_activation_low",
+                  "soc_3_emotional_cascade",
+                  "soc_3_activation_high",
+                  "soc_3_emotional_differentiation",
+                  "soc_3_emotional_association",
+                  "soc_3_self_control",
+                  "soc_3_self_regulation",
+                  "soc_3_self_compassion",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Affective/Valence Response",
+                  "Emotional Contagion",
+                  "Activation of Low-Routes",
+                  "Emotional Cascade",
+                  "Activation of High-Routes",
+                  "Emotional Differentiation",
+                  "Emotional Association and Memory",
+                  "Self-Control",
+                  "Self-Regulation",
+                  "Self-Compassion",
+                ]
+              }
+              title="Emotional Processing"
+            />,
+            <YesNoQuestions
+              databaseNamesArray={
+                Array [
+                  "soc_4_mental",
+                  "soc_4_thoughts",
+                  "soc_4_attachments",
+                  "soc_4_trauma",
+                ]
+              }
+              questionsArray={
+                Array [
+                  "Mental Health Support Indicated?",
+                  "Thoughts and/or emotions require intervention or medication?",
+                  "Attachment related care needed?",
+                  "Trauma informed care needed?",
+                ]
+              }
+              title="Other Questions"
+            />,
+          ],
+          "className": "category-content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "soc_1_regulation",
+                "soc_1_engagement",
+                "soc_1_reciprocity",
+                "soc_1_problem",
+                "soc_1_representation",
+                "soc_1_triangular",
+                "soc_1_comparative",
+                "soc_1_reflective",
+              ],
+              "slidersArray": Array [
+                "Regulation",
+                "Engagement",
+                "Reciprocity",
+                "Problem Solving",
+                "Representational/Symbolic Thinking",
+                "Triangular Thinking",
+                "Comparative Thinking",
+                "Reflective",
+              ],
+              "title": "DIR FEDLS's",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [],
+              "slidersArray": Array [],
+              "title": "Implicit/Explicit",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "soc_2_self_awareness",
+                "soc_2_joint",
+                "soc_2_social_referencing",
+                "soc_2_imitation",
+                "soc_2_inferential",
+                "soc_2_contingent",
+                "soc_2_theory",
+                "soc_2_central",
+                "soc_2_mentalizing",
+                "soc_2_empathy",
+                "soc_2_social_perspective",
+                "soc_2_social_motivators",
+                "soc_2_pro_social",
+              ],
+              "slidersArray": Array [
+                "Self/Other Awareness",
+                "Joint Attention",
+                "Social Referencing",
+                "Imitation",
+                "Inferential Thinking/Intention",
+                "Contingent Interaction/Reciprocal Actions",
+                "Theory of Mind",
+                "Central Coherence",
+                "Mentalizing",
+                "Empathy",
+                "Social Perspective",
+                "Social Motivators AAAA",
+                "Pro-Social Motivation - Moral",
+              ],
+              "title": "Social Cognition Core Components",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "soc_3_affective",
+                "soc_3_emotional_contagion",
+                "soc_3_activation_low",
+                "soc_3_emotional_cascade",
+                "soc_3_activation_high",
+                "soc_3_emotional_differentiation",
+                "soc_3_emotional_association",
+                "soc_3_self_control",
+                "soc_3_self_regulation",
+                "soc_3_self_compassion",
+              ],
+              "slidersArray": Array [
+                "Affective/Valence Response",
+                "Emotional Contagion",
+                "Activation of Low-Routes",
+                "Emotional Cascade",
+                "Activation of High-Routes",
+                "Emotional Differentiation",
+                "Emotional Association and Memory",
+                "Self-Control",
+                "Self-Regulation",
+                "Self-Compassion",
+              ],
+              "title": "Emotional Processing",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "databaseNamesArray": Array [
+                "soc_4_mental",
+                "soc_4_thoughts",
+                "soc_4_attachments",
+                "soc_4_trauma",
+              ],
+              "questionsArray": Array [
+                "Mental Health Support Indicated?",
+                "Thoughts and/or emotions require intervention or medication?",
+                "Attachment related care needed?",
+                "Trauma informed care needed?",
+              ],
+              "title": "Other Questions",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SessionHeader
+            databaseNamesArray={Array []}
+            headings={Array []}
+            title="Social/Emotional Developmental Capacities"
+          />,
+          <div
+            className="category-content"
+          >
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "soc_1_regulation",
+                  "soc_1_engagement",
+                  "soc_1_reciprocity",
+                  "soc_1_problem",
+                  "soc_1_representation",
+                  "soc_1_triangular",
+                  "soc_1_comparative",
+                  "soc_1_reflective",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Regulation",
+                  "Engagement",
+                  "Reciprocity",
+                  "Problem Solving",
+                  "Representational/Symbolic Thinking",
+                  "Triangular Thinking",
+                  "Comparative Thinking",
+                  "Reflective",
+                ]
+              }
+              title="DIR FEDLS's"
+            />
+            <CategorySliders
+              databaseNamesArray={Array []}
+              slidersArray={Array []}
+              title="Implicit/Explicit"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "soc_2_self_awareness",
+                  "soc_2_joint",
+                  "soc_2_social_referencing",
+                  "soc_2_imitation",
+                  "soc_2_inferential",
+                  "soc_2_contingent",
+                  "soc_2_theory",
+                  "soc_2_central",
+                  "soc_2_mentalizing",
+                  "soc_2_empathy",
+                  "soc_2_social_perspective",
+                  "soc_2_social_motivators",
+                  "soc_2_pro_social",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Self/Other Awareness",
+                  "Joint Attention",
+                  "Social Referencing",
+                  "Imitation",
+                  "Inferential Thinking/Intention",
+                  "Contingent Interaction/Reciprocal Actions",
+                  "Theory of Mind",
+                  "Central Coherence",
+                  "Mentalizing",
+                  "Empathy",
+                  "Social Perspective",
+                  "Social Motivators AAAA",
+                  "Pro-Social Motivation - Moral",
+                ]
+              }
+              title="Social Cognition Core Components"
+            />
+            <CategorySliders
+              databaseNamesArray={
+                Array [
+                  "soc_3_affective",
+                  "soc_3_emotional_contagion",
+                  "soc_3_activation_low",
+                  "soc_3_emotional_cascade",
+                  "soc_3_activation_high",
+                  "soc_3_emotional_differentiation",
+                  "soc_3_emotional_association",
+                  "soc_3_self_control",
+                  "soc_3_self_regulation",
+                  "soc_3_self_compassion",
+                ]
+              }
+              slidersArray={
+                Array [
+                  "Affective/Valence Response",
+                  "Emotional Contagion",
+                  "Activation of Low-Routes",
+                  "Emotional Cascade",
+                  "Activation of High-Routes",
+                  "Emotional Differentiation",
+                  "Emotional Association and Memory",
+                  "Self-Control",
+                  "Self-Regulation",
+                  "Self-Compassion",
+                ]
+              }
+              title="Emotional Processing"
+            />
+            <YesNoQuestions
+              databaseNamesArray={
+                Array [
+                  "soc_4_mental",
+                  "soc_4_thoughts",
+                  "soc_4_attachments",
+                  "soc_4_trauma",
+                ]
+              }
+              questionsArray={
+                Array [
+                  "Mental Health Support Indicated?",
+                  "Thoughts and/or emotions require intervention or medication?",
+                  "Attachment related care needed?",
+                  "Trauma informed care needed?",
+                ]
+              }
+              title="Other Questions"
+            />
+          </div>,
+        ],
+        "className": "Social",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "databaseNamesArray": Array [],
+            "headings": Array [],
+            "title": "Social/Emotional Developmental Capacities",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "soc_1_regulation",
+                    "soc_1_engagement",
+                    "soc_1_reciprocity",
+                    "soc_1_problem",
+                    "soc_1_representation",
+                    "soc_1_triangular",
+                    "soc_1_comparative",
+                    "soc_1_reflective",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Regulation",
+                    "Engagement",
+                    "Reciprocity",
+                    "Problem Solving",
+                    "Representational/Symbolic Thinking",
+                    "Triangular Thinking",
+                    "Comparative Thinking",
+                    "Reflective",
+                  ]
+                }
+                title="DIR FEDLS's"
+              />,
+              <CategorySliders
+                databaseNamesArray={Array []}
+                slidersArray={Array []}
+                title="Implicit/Explicit"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "soc_2_self_awareness",
+                    "soc_2_joint",
+                    "soc_2_social_referencing",
+                    "soc_2_imitation",
+                    "soc_2_inferential",
+                    "soc_2_contingent",
+                    "soc_2_theory",
+                    "soc_2_central",
+                    "soc_2_mentalizing",
+                    "soc_2_empathy",
+                    "soc_2_social_perspective",
+                    "soc_2_social_motivators",
+                    "soc_2_pro_social",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Self/Other Awareness",
+                    "Joint Attention",
+                    "Social Referencing",
+                    "Imitation",
+                    "Inferential Thinking/Intention",
+                    "Contingent Interaction/Reciprocal Actions",
+                    "Theory of Mind",
+                    "Central Coherence",
+                    "Mentalizing",
+                    "Empathy",
+                    "Social Perspective",
+                    "Social Motivators AAAA",
+                    "Pro-Social Motivation - Moral",
+                  ]
+                }
+                title="Social Cognition Core Components"
+              />,
+              <CategorySliders
+                databaseNamesArray={
+                  Array [
+                    "soc_3_affective",
+                    "soc_3_emotional_contagion",
+                    "soc_3_activation_low",
+                    "soc_3_emotional_cascade",
+                    "soc_3_activation_high",
+                    "soc_3_emotional_differentiation",
+                    "soc_3_emotional_association",
+                    "soc_3_self_control",
+                    "soc_3_self_regulation",
+                    "soc_3_self_compassion",
+                  ]
+                }
+                slidersArray={
+                  Array [
+                    "Affective/Valence Response",
+                    "Emotional Contagion",
+                    "Activation of Low-Routes",
+                    "Emotional Cascade",
+                    "Activation of High-Routes",
+                    "Emotional Differentiation",
+                    "Emotional Association and Memory",
+                    "Self-Control",
+                    "Self-Regulation",
+                    "Self-Compassion",
+                  ]
+                }
+                title="Emotional Processing"
+              />,
+              <YesNoQuestions
+                databaseNamesArray={
+                  Array [
+                    "soc_4_mental",
+                    "soc_4_thoughts",
+                    "soc_4_attachments",
+                    "soc_4_trauma",
+                  ]
+                }
+                questionsArray={
+                  Array [
+                    "Mental Health Support Indicated?",
+                    "Thoughts and/or emotions require intervention or medication?",
+                    "Attachment related care needed?",
+                    "Trauma informed care needed?",
+                  ]
+                }
+                title="Other Questions"
+              />,
+            ],
+            "className": "category-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "soc_1_regulation",
+                  "soc_1_engagement",
+                  "soc_1_reciprocity",
+                  "soc_1_problem",
+                  "soc_1_representation",
+                  "soc_1_triangular",
+                  "soc_1_comparative",
+                  "soc_1_reflective",
+                ],
+                "slidersArray": Array [
+                  "Regulation",
+                  "Engagement",
+                  "Reciprocity",
+                  "Problem Solving",
+                  "Representational/Symbolic Thinking",
+                  "Triangular Thinking",
+                  "Comparative Thinking",
+                  "Reflective",
+                ],
+                "title": "DIR FEDLS's",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [],
+                "slidersArray": Array [],
+                "title": "Implicit/Explicit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "soc_2_self_awareness",
+                  "soc_2_joint",
+                  "soc_2_social_referencing",
+                  "soc_2_imitation",
+                  "soc_2_inferential",
+                  "soc_2_contingent",
+                  "soc_2_theory",
+                  "soc_2_central",
+                  "soc_2_mentalizing",
+                  "soc_2_empathy",
+                  "soc_2_social_perspective",
+                  "soc_2_social_motivators",
+                  "soc_2_pro_social",
+                ],
+                "slidersArray": Array [
+                  "Self/Other Awareness",
+                  "Joint Attention",
+                  "Social Referencing",
+                  "Imitation",
+                  "Inferential Thinking/Intention",
+                  "Contingent Interaction/Reciprocal Actions",
+                  "Theory of Mind",
+                  "Central Coherence",
+                  "Mentalizing",
+                  "Empathy",
+                  "Social Perspective",
+                  "Social Motivators AAAA",
+                  "Pro-Social Motivation - Moral",
+                ],
+                "title": "Social Cognition Core Components",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "soc_3_affective",
+                  "soc_3_emotional_contagion",
+                  "soc_3_activation_low",
+                  "soc_3_emotional_cascade",
+                  "soc_3_activation_high",
+                  "soc_3_emotional_differentiation",
+                  "soc_3_emotional_association",
+                  "soc_3_self_control",
+                  "soc_3_self_regulation",
+                  "soc_3_self_compassion",
+                ],
+                "slidersArray": Array [
+                  "Affective/Valence Response",
+                  "Emotional Contagion",
+                  "Activation of Low-Routes",
+                  "Emotional Cascade",
+                  "Activation of High-Routes",
+                  "Emotional Differentiation",
+                  "Emotional Association and Memory",
+                  "Self-Control",
+                  "Self-Regulation",
+                  "Self-Compassion",
+                ],
+                "title": "Emotional Processing",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "databaseNamesArray": Array [
+                  "soc_4_mental",
+                  "soc_4_thoughts",
+                  "soc_4_attachments",
+                  "soc_4_trauma",
+                ],
+                "questionsArray": Array [
+                  "Mental Health Support Indicated?",
+                  "Thoughts and/or emotions require intervention or medication?",
+                  "Attachment related care needed?",
+                  "Trauma informed care needed?",
+                ],
+                "title": "Other Questions",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
