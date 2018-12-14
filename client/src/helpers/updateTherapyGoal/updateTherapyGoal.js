@@ -1,10 +1,9 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const updateTherapyGoal = async (therapyGoalId, updatedTherapyGoal) => {
   try {
     const fetchedTherapyGoal = await fetch(
-      `${apiRoot}/api/v1/therapy-goals/${therapyGoalId}`,
+      `/api/v1/therapy-goals/${therapyGoalId}`,
       {
         method: 'PUT',
         headers: {

@@ -1,4 +1,3 @@
-import apiRoot from '../apiRoot';
 import loadClinic from './loadClinic';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 
@@ -19,7 +18,7 @@ describe('loadClinic tests', () => {
 
   it('loadClinic is called with the correct params', async () => {
     const expected = [
-      `${apiRoot}/api/v1/clinics/1`,
+      `/api/v1/clinics/1`,
       {
         method: 'GET',
         headers: {

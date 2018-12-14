@@ -1,4 +1,3 @@
-import apiRoot from '../apiRoot';
 import loadSession from './loadSession';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 
@@ -19,7 +18,7 @@ describe('loadSession tests', () => {
 
   it('loadSession is called with the correct params', async () => {
     const expected = [
-      `${apiRoot}/api/v1/sessions/1`,
+      `/api/v1/sessions/1`,
       {
         method: 'GET',
         headers: {

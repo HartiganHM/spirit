@@ -1,4 +1,3 @@
-import apiRoot from '../apiRoot';
 import loadTreatmentPlanBySession from './loadTreatmentPlanBySession';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 
@@ -19,7 +18,7 @@ describe('loadTreatmentPlanBySession tests', () => {
 
   it('loadTreatmentPlanBySession is called with the correct params', async () => {
     const expected = [
-      `${apiRoot}/api/v1/sessions/1/treatment-plans`,
+      `/api/v1/sessions/1/treatment-plans`,
       {
         method: 'GET',
         headers: {

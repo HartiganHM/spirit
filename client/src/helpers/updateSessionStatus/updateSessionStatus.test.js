@@ -1,4 +1,3 @@
-import apiRoot from '../apiRoot';
 import updateSessionStatus from './updateSessionStatus';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 
@@ -19,7 +18,7 @@ describe('updateSessionStatus tests', () => {
 
   it('updateSessionStatus is called with the correct params', async () => {
     const expected = [
-      `${apiRoot}/api/v1/sessions/1`,
+      `/api/v1/sessions/1`,
       {
         method: 'PUT',
         headers: {

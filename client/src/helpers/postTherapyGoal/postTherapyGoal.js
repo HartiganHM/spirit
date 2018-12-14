@@ -1,10 +1,9 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const postTherapyGoal = async sessionId => {
   try {
     const fetchedTherapyGoalId = await fetch(
-      `${apiRoot}/api/v1/sessions/${sessionId}/therapy-goals`,
+      `/api/v1/sessions/${sessionId}/therapy-goals`,
       {
         method: 'POST',
         headers: {

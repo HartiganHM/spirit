@@ -1,9 +1,8 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const postClinic = async clinicObject => {
   try {
-    const clinicId = await fetch(`${apiRoot}/api/v1/clinics`, {
+    const clinicId = await fetch(`/api/v1/clinics`, {
       method: 'POST',
       headers: {
         'x-token': getKeyFromLS(),

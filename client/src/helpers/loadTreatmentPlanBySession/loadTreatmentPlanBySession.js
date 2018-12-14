@@ -1,10 +1,9 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const loadTreatmentPlanBySession = async sessionId => {
   try {
     const fetchedTreatmentPlan = await fetch(
-      `${apiRoot}/api/v1/sessions/${sessionId}/treatment-plans`,
+      `/api/v1/sessions/${sessionId}/treatment-plans`,
       {
         method: 'GET',
         headers: {

@@ -1,4 +1,3 @@
-import apiRoot from '../apiRoot';
 import loadPatientConcernById from './loadPatientConcernById';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 
@@ -19,7 +18,7 @@ describe('loadPatientConcernById tests', () => {
 
   it('loadPatientConcernById is called with the correct params', async () => {
     const expected = [
-      `${apiRoot}/api/v1/primary-concerns/1`,
+      `/api/v1/primary-concerns/1`,
       {
         method: 'GET',
         headers: {

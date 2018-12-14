@@ -1,10 +1,9 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const loadProcessById = async processId => {
   try {
     const fetchedProcess = await fetch(
-      `${apiRoot}/api/v1/processes/${processId}`,
+      `/api/v1/processes/${processId}`,
       {
         method: 'GET',
         headers: {

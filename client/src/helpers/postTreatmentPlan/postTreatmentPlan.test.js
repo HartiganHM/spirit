@@ -1,4 +1,3 @@
-import apiRoot from '../apiRoot';
 import postTreatmentPlan from './postTreatmentPlan';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 
@@ -19,7 +18,7 @@ describe('postTreatmentPlan tests', () => {
 
   it('postTreatmentPlan is called with the correct params', async () => {
     const expected = [
-      `${apiRoot}/api/v1/sessions/1/treatment-plans`,
+      `/api/v1/sessions/1/treatment-plans`,
       {
         method: 'POST',
         headers: {

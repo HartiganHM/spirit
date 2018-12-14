@@ -1,9 +1,8 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const loadPatient = async id => {
   try {
-    const patient = await fetch(`${apiRoot}/api/v1/patients/${id}`, {
+    const patient = await fetch(`/api/v1/patients/${id}`, {
       method: 'GET',
       headers: {
         'x-token': getKeyFromLS(),

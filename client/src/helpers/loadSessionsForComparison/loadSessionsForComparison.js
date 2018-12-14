@@ -1,10 +1,9 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const loadSessionsForComparison = async (idArray) => {
   try {
     const fetchedSessions = await fetch(
-      `${apiRoot}/api/v1/therapy-goals/compare`,
+      `/api/v1/therapy-goals/compare`,
       {
         method: 'POST',
         headers: {

@@ -1,4 +1,3 @@
-import apiRoot from '../apiRoot';
 import postSession from './postSession';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 
@@ -19,7 +18,7 @@ describe('postSession tests', () => {
 
   it('postSession is called with the correct params', async () => {
     const expected = [
-      `${apiRoot}/api/v1/primary-concerns/1/sessions`,
+      `/api/v1/primary-concerns/1/sessions`,
       {
         method: 'POST',
         headers: {

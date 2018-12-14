@@ -1,10 +1,9 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const updateProcess = async (processId, updatedProcess) => {
   try {
     const fetchedProcess = await fetch(
-      `${apiRoot}/api/v1/processes/${processId}`,
+      `/api/v1/processes/${processId}`,
       {
         method: 'PUT',
         headers: {

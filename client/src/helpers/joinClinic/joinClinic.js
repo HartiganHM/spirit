@@ -1,10 +1,9 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const joinClinic = async (passcode, userId) => {
   try {
     const clinicObject = await fetch(
-      `${apiRoot}/api/v1/users/${userId}/join`,
+      `/api/v1/users/${userId}/join`,
       {
         method: 'PUT',
         headers: {

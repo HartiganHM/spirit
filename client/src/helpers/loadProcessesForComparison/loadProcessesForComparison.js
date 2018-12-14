@@ -1,10 +1,9 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const loadProcessesForComparison = async (idArray) => {
   try {
     const fetchedProcesses = await fetch(
-      `${apiRoot}/api/v1/processes/compare`,
+      `/api/v1/processes/compare`,
       {
         method: 'POST',
         headers: {

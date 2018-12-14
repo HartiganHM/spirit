@@ -1,4 +1,3 @@
-import apiRoot from '../apiRoot';
 import loadSessionsList from './loadSessionsList';
 import { mockSession } from '../../data/mockData/mockSession';
 
@@ -19,7 +18,7 @@ describe('loadSessionsList tests', () => {
 
   it('loadSessionsList is called with the correct params', async () => {
     const expected = [
-      `${apiRoot}/api/v1/primary-concerns/1/sessions`,
+      `/api/v1/primary-concerns/1/sessions`,
       {
         method: 'GET',
         headers: {

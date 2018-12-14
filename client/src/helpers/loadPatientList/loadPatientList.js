@@ -1,10 +1,9 @@
-import apiRoot from '../apiRoot';
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const loadPatientList = async id => {
   try {
     const patientList = await fetch(
-      `${apiRoot}/api/v1/users/${id}/patients`,
+      `/api/v1/users/${id}/patients`,
       {
         method: 'GET',
         headers: {
