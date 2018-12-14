@@ -17,14 +17,16 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "git+https://github.com/chaijs/chai-http.git#3ea4524",
+    "concurrently": "^4.1.0",
     "eslint": "^4.17.0",
     "mocha": "^5.2.0"
   },
   "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "test": "mocha --exit",
-    "start": "nodemon server.js",
     "eslint": "./node_modules/eslint/bin/eslint.js ./*.js ./db/*.js ./db/*/*.js ./db/*/*/*.js ./test/*.js",
-    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
