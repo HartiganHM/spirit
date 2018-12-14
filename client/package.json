@@ -2,6 +2,7 @@
   "name": "spirit-frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000/",
   "dependencies": {
     "build-css": "^0.2.0",
     "generate-password": "^1.4.0",
