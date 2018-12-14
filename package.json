@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "knexfile.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "test:client": "cd client && npm run test",
+    "test:server": "mocha --exit",
+    "build:client": "cd client && npm run build",
+    "eslint": "./node_modules/eslint/bin/eslint.js ./*.js ./db/*.js ./db/*/*.js ./db/*/*/*.js ./test/*.js ./client/src/*.js ./client/src/*/*.js ./client/src/*/*/*.js"
+  },
   "dependencies": {
     "babel-eslint": "^8.2.1",
     "body-parser": "^1.18.2",
@@ -20,13 +29,6 @@
     "concurrently": "^4.1.0",
     "eslint": "^4.17.0",
     "mocha": "^5.2.0"
-  },
-  "scripts": {
-    "client": "cd client && npm start",
-    "server": "nodemon server.js",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
-    "test": "mocha --exit",
-    "eslint": "./node_modules/eslint/bin/eslint.js ./*.js ./db/*.js ./db/*/*.js ./db/*/*/*.js ./test/*.js"
   },
   "repository": {
     "type": "git",
