@@ -11,7 +11,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "start-js": "PORT=3001 react-scripts start",
     "test": "react-scripts test --env=jsdom",
-    "test:ci": "CI=true react-scripts test --env=jsdom",
+    "test:ci": "CI=true react-scripts test",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
   },
   "dependencies": {
