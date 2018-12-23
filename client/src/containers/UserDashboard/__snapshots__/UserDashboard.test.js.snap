@@ -2,7 +2,6 @@
 
 exports[`UserDashboard tests Should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <UserDashboard
     patientList={
@@ -17,7 +16,7 @@ ShallowWrapper {
         },
       ]
     }
-    savePatient={[Function]}
+    savePatient={[MockFunction]}
     user={
       Object {
         "admin": false,
@@ -33,12 +32,25 @@ ShallowWrapper {
         "updated_at": "2018-02-19T03:41:23.701Z",
       }
     }
-    wipeStoreFromUserDashboard={[Function]}
+    wipeStoreFromUserDashboard={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -60,7 +72,7 @@ ShallowWrapper {
         <div
           className="user-dashboard-content"
         >
-          <UNDEFINED>
+          <React.Fragment>
             <h3>
               New Patients
             </h3>
@@ -105,14 +117,14 @@ ShallowWrapper {
                 Please keep this abstracted name in your personal patient records for future reference.
               </p>
             </InstructionWrapper>
-          </UNDEFINED>
+          </React.Fragment>
           <div>
             <h3
               className="current-patients"
             >
               Current Patients
             </h3>
-            <Connect(Component) />
+            <Connect(PatientList) />
           </div>
         </div>,
       ],
@@ -154,7 +166,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             false,
-            <UNDEFINED>
+            <React.Fragment>
               <h3>
                 New Patients
               </h3>
@@ -199,14 +211,14 @@ ShallowWrapper {
                   Please keep this abstracted name in your personal patient records for future reference.
                 </p>
               </InstructionWrapper>
-            </UNDEFINED>,
+            </React.Fragment>,
             <div>
               <h3
                 className="current-patients"
               >
                 Current Patients
               </h3>
-              <Connect(Component) />
+              <Connect(PatientList) />
             </div>,
           ],
           "className": "user-dashboard-content",
@@ -430,7 +442,7 @@ ShallowWrapper {
                 >
                   Current Patients
                 </h3>,
-                <Connect(Component) />,
+                <Connect(PatientList) />,
               ],
             },
             "ref": null,
@@ -484,7 +496,7 @@ ShallowWrapper {
           <div
             className="user-dashboard-content"
           >
-            <UNDEFINED>
+            <React.Fragment>
               <h3>
                 New Patients
               </h3>
@@ -529,14 +541,14 @@ ShallowWrapper {
                   Please keep this abstracted name in your personal patient records for future reference.
                 </p>
               </InstructionWrapper>
-            </UNDEFINED>
+            </React.Fragment>
             <div>
               <h3
                 className="current-patients"
               >
                 Current Patients
               </h3>
-              <Connect(Component) />
+              <Connect(PatientList) />
             </div>
           </div>,
         ],
@@ -578,7 +590,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               false,
-              <UNDEFINED>
+              <React.Fragment>
                 <h3>
                   New Patients
                 </h3>
@@ -623,14 +635,14 @@ ShallowWrapper {
                     Please keep this abstracted name in your personal patient records for future reference.
                   </p>
                 </InstructionWrapper>
-              </UNDEFINED>,
+              </React.Fragment>,
               <div>
                 <h3
                   className="current-patients"
                 >
                   Current Patients
                 </h3>
-                <Connect(Component) />
+                <Connect(PatientList) />
               </div>,
             ],
             "className": "user-dashboard-content",
@@ -854,7 +866,7 @@ ShallowWrapper {
                   >
                     Current Patients
                   </h3>,
-                  <Connect(Component) />,
+                  <Connect(PatientList) />,
                 ],
               },
               "ref": null,
@@ -894,6 +906,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

@@ -2,13 +2,13 @@
 
 exports[`Modulation tests Should match snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Modulation />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -83,7 +83,6 @@ ShallowWrapper {
                 "mod_2_arousability",
               ]
             }
-            reminder={undefined}
             reminderAsterisk={
               Array [
                 null,
@@ -116,8 +115,6 @@ ShallowWrapper {
                 "mod_3_prosocial",
               ]
             }
-            reminder={undefined}
-            reminderAsterisk={undefined}
             slidersArray={
               Array [
                 "Physiological",
@@ -140,8 +137,6 @@ ShallowWrapper {
                 "mod_4a_adaptive",
               ]
             }
-            reminder={undefined}
-            reminderAsterisk={undefined}
             slidersArray={
               Array [
                 "Passive",
@@ -161,8 +156,6 @@ ShallowWrapper {
                 "mod_4b_maladaptive",
               ]
             }
-            reminder={undefined}
-            reminderAsterisk={undefined}
             slidersArray={
               Array [
                 "Active",
@@ -251,7 +244,6 @@ ShallowWrapper {
                   "mod_2_arousability",
                 ]
               }
-              reminder={undefined}
               reminderAsterisk={
                 Array [
                   null,
@@ -284,8 +276,6 @@ ShallowWrapper {
                   "mod_3_prosocial",
                 ]
               }
-              reminder={undefined}
-              reminderAsterisk={undefined}
               slidersArray={
                 Array [
                   "Physiological",
@@ -308,8 +298,6 @@ ShallowWrapper {
                   "mod_4a_adaptive",
                 ]
               }
-              reminder={undefined}
-              reminderAsterisk={undefined}
               slidersArray={
                 Array [
                   "Passive",
@@ -329,8 +317,6 @@ ShallowWrapper {
                   "mod_4b_maladaptive",
                 ]
               }
-              reminder={undefined}
-              reminderAsterisk={undefined}
               slidersArray={
                 Array [
                   "Active",
@@ -569,7 +555,6 @@ ShallowWrapper {
                   "mod_2_arousability",
                 ]
               }
-              reminder={undefined}
               reminderAsterisk={
                 Array [
                   null,
@@ -602,8 +587,6 @@ ShallowWrapper {
                   "mod_3_prosocial",
                 ]
               }
-              reminder={undefined}
-              reminderAsterisk={undefined}
               slidersArray={
                 Array [
                   "Physiological",
@@ -626,8 +609,6 @@ ShallowWrapper {
                   "mod_4a_adaptive",
                 ]
               }
-              reminder={undefined}
-              reminderAsterisk={undefined}
               slidersArray={
                 Array [
                   "Passive",
@@ -647,8 +628,6 @@ ShallowWrapper {
                   "mod_4b_maladaptive",
                 ]
               }
-              reminder={undefined}
-              reminderAsterisk={undefined}
               slidersArray={
                 Array [
                   "Active",
@@ -737,7 +716,6 @@ ShallowWrapper {
                     "mod_2_arousability",
                   ]
                 }
-                reminder={undefined}
                 reminderAsterisk={
                   Array [
                     null,
@@ -770,8 +748,6 @@ ShallowWrapper {
                     "mod_3_prosocial",
                   ]
                 }
-                reminder={undefined}
-                reminderAsterisk={undefined}
                 slidersArray={
                   Array [
                     "Physiological",
@@ -794,8 +770,6 @@ ShallowWrapper {
                     "mod_4a_adaptive",
                   ]
                 }
-                reminder={undefined}
-                reminderAsterisk={undefined}
                 slidersArray={
                   Array [
                     "Passive",
@@ -815,8 +789,6 @@ ShallowWrapper {
                     "mod_4b_maladaptive",
                   ]
                 }
-                reminder={undefined}
-                reminderAsterisk={undefined}
                 slidersArray={
                   Array [
                     "Active",
@@ -988,6 +960,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

@@ -2,13 +2,13 @@
 
 exports[`Social tests Should match snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Social />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -126,7 +126,7 @@ ShallowWrapper {
             }
             title="Emotional Processing"
           />
-          <CategorySliders
+          <YesNoQuestions
             databaseNamesArray={
               Array [
                 "soc_4_mental",
@@ -135,7 +135,7 @@ ShallowWrapper {
                 "soc_4_trauma",
               ]
             }
-            slidersArray={
+            questionsArray={
               Array [
                 "Mental Health Support Indicated?",
                 "Thoughts and/or emotions require intervention or medication?",
@@ -270,7 +270,7 @@ ShallowWrapper {
               }
               title="Emotional Processing"
             />,
-            <CategorySliders
+            <YesNoQuestions
               databaseNamesArray={
                 Array [
                   "soc_4_mental",
@@ -279,7 +279,7 @@ ShallowWrapper {
                   "soc_4_trauma",
                 ]
               }
-              slidersArray={
+              questionsArray={
                 Array [
                   "Mental Health Support Indicated?",
                   "Thoughts and/or emotions require intervention or medication?",
@@ -327,7 +327,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "",
             "nodeType": "function",
             "props": Object {
               "databaseNamesArray": Array [],
@@ -425,7 +425,7 @@ ShallowWrapper {
                 "soc_4_attachments",
                 "soc_4_trauma",
               ],
-              "slidersArray": Array [
+              "questionsArray": Array [
                 "Mental Health Support Indicated?",
                 "Thoughts and/or emotions require intervention or medication?",
                 "Attachment related care needed?",
@@ -558,7 +558,7 @@ ShallowWrapper {
               }
               title="Emotional Processing"
             />
-            <CategorySliders
+            <YesNoQuestions
               databaseNamesArray={
                 Array [
                   "soc_4_mental",
@@ -567,7 +567,7 @@ ShallowWrapper {
                   "soc_4_trauma",
                 ]
               }
-              slidersArray={
+              questionsArray={
                 Array [
                   "Mental Health Support Indicated?",
                   "Thoughts and/or emotions require intervention or medication?",
@@ -702,7 +702,7 @@ ShallowWrapper {
                 }
                 title="Emotional Processing"
               />,
-              <CategorySliders
+              <YesNoQuestions
                 databaseNamesArray={
                   Array [
                     "soc_4_mental",
@@ -711,7 +711,7 @@ ShallowWrapper {
                     "soc_4_trauma",
                   ]
                 }
-                slidersArray={
+                questionsArray={
                   Array [
                     "Mental Health Support Indicated?",
                     "Thoughts and/or emotions require intervention or medication?",
@@ -759,7 +759,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "",
               "nodeType": "function",
               "props": Object {
                 "databaseNamesArray": Array [],
@@ -857,7 +857,7 @@ ShallowWrapper {
                   "soc_4_attachments",
                   "soc_4_trauma",
                 ],
-                "slidersArray": Array [
+                "questionsArray": Array [
                   "Mental Health Support Indicated?",
                   "Thoughts and/or emotions require intervention or medication?",
                   "Attachment related care needed?",
@@ -880,6 +880,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

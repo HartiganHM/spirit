@@ -2,10 +2,9 @@
 
 exports[`Sessions tests Should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Sessions
-    compareSessionData={[Function]}
+    compareSessionData={[MockFunction]}
     comparisonData={
       Array [
         Object {
@@ -90,8 +89,8 @@ ShallowWrapper {
         },
       ]
     }
-    createSession={[Function]}
-    getSession={[Function]}
+    createSession={[MockFunction]}
+    getSession={[MockFunction]}
     selectedConcern={
       Object {
         "created_at": "2018-02-20T20:08:19.142Z",
@@ -119,12 +118,25 @@ ShallowWrapper {
         },
       ]
     }
-    wipeStoreFromSessions={[Function]}
+    wipeStoreFromSessions={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -208,9 +220,9 @@ ShallowWrapper {
           <div
             className="goals-chart"
           >
-            <Connect(Component) />
+            <Connect(GoalsChart) />
           </div>
-          <Connect(Component) />
+          <Connect(SessionsComparison) />
         </div>,
       ],
       "className": "Sessions",
@@ -581,9 +593,9 @@ ShallowWrapper {
             <div
               className="goals-chart"
             >
-              <Connect(Component) />
+              <Connect(GoalsChart) />
             </div>,
-            <Connect(Component) />,
+            <Connect(SessionsComparison) />,
           ],
         },
         "ref": null,
@@ -593,7 +605,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <Connect(Component) />,
+              "children": <Connect(GoalsChart) />,
               "className": "goals-chart",
             },
             "ref": null,
@@ -704,9 +716,9 @@ ShallowWrapper {
             <div
               className="goals-chart"
             >
-              <Connect(Component) />
+              <Connect(GoalsChart) />
             </div>
-            <Connect(Component) />
+            <Connect(SessionsComparison) />
           </div>,
         ],
         "className": "Sessions",
@@ -1077,9 +1089,9 @@ ShallowWrapper {
               <div
                 className="goals-chart"
               >
-                <Connect(Component) />
+                <Connect(GoalsChart) />
               </div>,
-              <Connect(Component) />,
+              <Connect(SessionsComparison) />,
             ],
           },
           "ref": null,
@@ -1089,7 +1101,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <Connect(Component) />,
+                "children": <Connect(GoalsChart) />,
                 "className": "goals-chart",
               },
               "ref": null,
@@ -1124,6 +1136,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
