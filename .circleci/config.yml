@@ -38,8 +38,8 @@ jobs:
       - run: knex migrate:latest --env test
 
       # run tests
-      - run: npm test:server
-      - run: npm test:client
+      - run: npm run test:server
+      - run: npm run test:client
 
       # run eslint
       - run: npm run eslint:server
