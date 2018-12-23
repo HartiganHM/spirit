@@ -43,5 +43,4 @@ jobs:
       - run: npm run test:client:ci
 
       # run eslint
-      - run: npm run eslint:server
       - run: npm run eslint:client
