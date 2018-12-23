@@ -8,6 +8,7 @@
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "test:client": "cd client && npm run test",
+    "test:client:ci": "cd client && npm run test:ci",
     "test:server": "mocha --exit",
     "build:client": "cd client && npm run build",
     "eslint:client": "./client/node_modules/eslint/bin/eslint.js ./client/src/*.js ./client/src/*/*.js ./client/src/*/*/*.js",
