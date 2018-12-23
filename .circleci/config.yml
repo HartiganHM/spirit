@@ -41,7 +41,7 @@ jobs:
       # run tests
       - run: npm run test:server
       - run: cd client && npm install jest-junit jest-cli jest
-      - run: npm jest
+      - run: jest
       - run: cd client && npm run test:ci
 
       # run eslint
