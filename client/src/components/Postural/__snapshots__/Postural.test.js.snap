@@ -298,7 +298,7 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "pos_1_outer,pos_1_inner",
             "nodeType": "function",
             "props": Object {
               "databaseNamesArray": Array [
@@ -317,7 +317,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "pos_2_stability,pos_2_mobility,pos_2_tonic,pos_2_phasic,pos_2_muscle",
             "nodeType": "function",
             "props": Object {
               "databaseNamesArray": Array [
@@ -342,7 +342,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "pos_3_sagittal,pos_3_frontal,pos_3_transverse,pos_3_midlines",
             "nodeType": "function",
             "props": Object {
               "databaseNamesArray": Array [
@@ -365,7 +365,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "body_diagram",
             "nodeType": "class",
             "props": Object {},
             "ref": null,
@@ -374,7 +374,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "pos_5_suck,pos_5_ocular,pos_5_antigravity,pos_5_reflex,pos_5_alignment_COG,pos_5_alignment_orient,pos_5_anticipatory,pos_5_interactive",
             "nodeType": "function",
             "props": Object {
               "databaseNamesArray": Array [
@@ -405,7 +405,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "pos_6_push,pos_6_bilateral,pos_6_grasp,pos_6_strength,pos_6_effortful",
             "nodeType": "function",
             "props": Object {
               "databaseNamesArray": Array [
@@ -721,7 +721,7 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "pos_1_outer,pos_1_inner",
               "nodeType": "function",
               "props": Object {
                 "databaseNamesArray": Array [
@@ -740,7 +740,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "pos_2_stability,pos_2_mobility,pos_2_tonic,pos_2_phasic,pos_2_muscle",
               "nodeType": "function",
               "props": Object {
                 "databaseNamesArray": Array [
@@ -765,7 +765,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "pos_3_sagittal,pos_3_frontal,pos_3_transverse,pos_3_midlines",
               "nodeType": "function",
               "props": Object {
                 "databaseNamesArray": Array [
@@ -788,7 +788,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "body_diagram",
               "nodeType": "class",
               "props": Object {},
               "ref": null,
@@ -797,7 +797,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "pos_5_suck,pos_5_ocular,pos_5_antigravity,pos_5_reflex,pos_5_alignment_COG,pos_5_alignment_orient,pos_5_anticipatory,pos_5_interactive",
               "nodeType": "function",
               "props": Object {
                 "databaseNamesArray": Array [
@@ -828,7 +828,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "pos_6_push,pos_6_bilateral,pos_6_grasp,pos_6_strength,pos_6_effortful",
               "nodeType": "function",
               "props": Object {
                 "databaseNamesArray": Array [

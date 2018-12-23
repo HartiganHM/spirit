@@ -1,6 +1,5 @@
 /*eslint-disable max-len*/
 /*eslint-disable camelcase*/
-import authLogin from '../helpers/authLogin';
 
 import loadUser from '../helpers/loadUser/loadUser';
 import loadDefinitions from '../helpers/loadDefinitions/loadDefinitions';
@@ -43,13 +42,17 @@ export const getUser = () => async dispatch => {
       dispatch(patientToStore(patient));
     }
   } catch (error) {
-    window.location = authLogin;
+    throw new Error(`Error unable to get current user: ${error}`);
   }
 };
 
 export const userToStore = user => ({
   type: 'USER_TO_STORE',
   user
+});
+
+export const clearCurrentUser = () => ({
+  type: 'CLEAR_CURRENT_USER'
 });
 
 export const getPatientConcerns = id => async dispatch => {

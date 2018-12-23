@@ -25,6 +25,14 @@ describe('Actions tests', () => {
     expect(actions.userToStore(user)).toEqual(expected);
   });
 
+  it('clearCurrentUser should have a type of CLEAR_CURRENT_USER', () => {
+    const expected = {
+      type: 'CLEAR_CURRENT_USER'
+    };
+
+    expect(actions.clearCurrentUser()).toEqual(expected);
+  });
+
   it('currentPatientToStore should have a type of CURRENT_PATIENT_TO_STORE', () => {
     const patient = mockPatient;
     const expected = {

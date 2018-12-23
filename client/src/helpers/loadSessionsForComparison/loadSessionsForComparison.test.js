@@ -1,3 +1,4 @@
+  
 import loadSessionsForComparison from './loadSessionsForComparison';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 

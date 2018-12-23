@@ -89,6 +89,8 @@ p {
   .ViewSession .view-processes-section {
     display: flex;
     flex-wrap: wrap; }
+  .ViewSession .view-processes-title {
+    text-transform: capitalize; }
   .ViewSession .view-therapy {
     display: flex;
     flex-wrap: wrap; }

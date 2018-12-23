@@ -1,3 +1,4 @@
+  
 import joinClinic from './joinClinic';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 

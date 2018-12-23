@@ -68,7 +68,7 @@ ShallowWrapper {
             onMouseEnter={[Function]}
             onMouseOut={[Function]}
           >
-            SELECT
+            Start Process
           </button>
         </Link>,
       ],
@@ -226,7 +226,7 @@ ShallowWrapper {
             onMouseEnter={[Function]}
             onMouseOut={[Function]}
           >
-            SELECT
+            Start Process
           </button>,
           "replace": false,
           "to": "/spirit/concerns/undefined/sessions",
@@ -237,14 +237,14 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "SELECT",
+            "children": "Start Process",
             "className": "select-concern-button",
             "onClick": [Function],
             "onMouseEnter": [Function],
             "onMouseOut": [Function],
           },
           "ref": null,
-          "rendered": "SELECT",
+          "rendered": "Start Process",
           "type": "button",
         },
         "type": [Function],
@@ -307,7 +307,7 @@ ShallowWrapper {
               onMouseEnter={[Function]}
               onMouseOut={[Function]}
             >
-              SELECT
+              Start Process
             </button>
           </Link>,
         ],
@@ -465,7 +465,7 @@ ShallowWrapper {
               onMouseEnter={[Function]}
               onMouseOut={[Function]}
             >
-              SELECT
+              Start Process
             </button>,
             "replace": false,
             "to": "/spirit/concerns/undefined/sessions",
@@ -476,14 +476,14 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "SELECT",
+              "children": "Start Process",
               "className": "select-concern-button",
               "onClick": [Function],
               "onMouseEnter": [Function],
               "onMouseOut": [Function],
             },
             "ref": null,
-            "rendered": "SELECT",
+            "rendered": "Start Process",
             "type": "button",
           },
           "type": [Function],

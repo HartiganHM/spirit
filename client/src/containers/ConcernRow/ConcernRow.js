@@ -76,7 +76,7 @@ export class ConcernRow extends Component {
             onMouseEnter={() => this.selectEnter()}
             onMouseOut={() => this.selectLeave()}
           >
-            SELECT
+            Start Process
           </button>
         </Link>
       </div>

@@ -63,14 +63,6 @@ export class UserDashboard extends Component {
           <h3 className={`user-dashboard-name`}>
             {userDashboard.otDash(name)}
           </h3>
-
-          {clinic && (
-            <div>
-              <Link className="clinic-link" to={`/spirit/users/${id}/create`}>
-                {userDashboard.seeClinic}
-              </Link>
-            </div>
-          )}
         </div>
 
         <div className="user-dashboard-content">

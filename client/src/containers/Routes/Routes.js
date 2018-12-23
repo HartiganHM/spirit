@@ -6,7 +6,6 @@ import { Route, Switch } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
 import * as actions from '../../actions';
 
-import authLogin from '../../helpers/authLogin';
 import PatientDashboard from '../PatientDashboard/PatientDashboard';
 import Sensory from '../../components/Sensory/Sensory';
 import Modulation from '../../components/Modulation/Modulation';
@@ -30,9 +29,12 @@ import Finish from '../Finish/Finish';
 
 export class Routes extends Component {
   componentDidMount = async () => {
-    await this.checkForKey();
-    await this.props.getUser();
-    await this.props.getDefinitions();
+    const hasExistingUser = await this.checkForKey();
+
+    if (hasExistingUser) {
+      await this.props.getUser();
+      await this.props.getDefinitions();
+    }
   };
 
   checkForKey = () => {
@@ -40,12 +42,12 @@ export class Routes extends Component {
     if (window.location.search.length > 200) {
       const token = this.getToken();
       localStorage.setItem('spirit-token-987', token);
+      return true;
     } else if (key) {
-      return;
+      return true;
     } else {
       clearLocalStorage();
-      window.location = authLogin;
-      return;
+      return false;
     }
   };
 
@@ -102,7 +104,7 @@ export class Routes extends Component {
             component={Finish}
           />
 
-          <Route 
+          <Route
             path="/spirit/sessions/:session_id/view"
             component={ViewSession}
           />
@@ -149,7 +151,10 @@ export const mapDispatchToProps = dispatch => ({
   }
 });
 
-export default connect(null, mapDispatchToProps)(Routes);
+export default connect(
+  null,
+  mapDispatchToProps
+)(Routes);
 
 Routes.propTypes = {
   getUser: PropTypes.func,

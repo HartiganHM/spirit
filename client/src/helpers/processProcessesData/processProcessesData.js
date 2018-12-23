@@ -1,7 +1,7 @@
 /*eslint-disable camelcase*/
 /*eslint-disable id-length*/
 
-const processProcessesData = processData => {
+const processProcessesData = (processData, withFilterSort) => {
   processData = processData.sort((a, b) => a.id - b.id);
 
   let cleanExecutive = [
@@ -357,12 +357,56 @@ const processProcessesData = processData => {
   });
 
   return {
-    executive: cleanExecutive,
-    modulation: cleanModulation,
-    postural: cleanPostural,
-    sensory: cleanSensory,
-    social: cleanSocial
+    executive: withFilterSort
+      ? sortProcessValues(filterProcessValues(cleanExecutive))
+      : cleanExecutive,
+    modulation: withFilterSort
+      ? sortProcessValues(filterProcessValues(cleanModulation))
+      : cleanModulation,
+    postural: withFilterSort
+      ? sortProcessValues(filterProcessValues(cleanPostural))
+      : cleanPostural,
+    sensory: withFilterSort
+      ? sortProcessValues(filterProcessValues(cleanSensory))
+      : cleanSensory,
+    social: withFilterSort
+      ? sortProcessValues(filterProcessValues(cleanSocial))
+      : cleanSocial
   };
+};
+
+const sortProcessValues = processArray => {
+  const sortingOrder = ['R', 'I', 'A', 'F', 'Yes', 'No'];
+
+  const sortedArray = [];
+
+  sortingOrder.forEach(order => {
+    processArray.forEach(process => {
+      if (process.values[0].includes(order)) {
+        sortedArray.push(process);
+      }
+    });
+  });
+
+  return sortedArray;
+};
+
+const filterProcessValues = processArray => {
+  const filteredArray = processArray.filter(process => {
+    if (process.values[0] !== null && process.dbName !== 'created_at') {
+      if (process.values[0] === true || process.values[0] === 'true') {
+        process.values[0] = 'Yes';
+      } else if (process.values[0] === false || process.values[0] === 'false') {
+        process.values[0] = 'No';
+      }
+
+      return true;
+    }
+
+    return false;
+  });
+
+  return filteredArray;
 };
 
 export default processProcessesData;

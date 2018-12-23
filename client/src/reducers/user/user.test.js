@@ -12,6 +12,14 @@ describe('User reducer tests', () => {
   it('Should return a new store with a user', () => {
     const expected = mockUserData;
 
-    expect(user(undefined, actions.userToStore(mockUserData))).toEqual(expected);
+    expect(user(undefined, actions.userToStore(mockUserData))).toEqual(
+      expected
+    );
+  });
+
+  it('Should return an empty object when clearing the user', () => {
+    const expected = {};
+
+    expect(user(undefined, actions.clearCurrentUser())).toEqual(expected);
   });
 });

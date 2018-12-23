@@ -14,7 +14,6 @@
     "eslint:server": "./node_modules/eslint/bin/eslint.js ./*.js ./db/*.js ./db/*/*.js ./db/*/*/*.js ./test/*.js"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.1",
     "body-parser": "^1.18.2",
     "dotenv": "^5.0.0",
     "express": "^4.16.3",
@@ -28,7 +27,6 @@
     "chai": "^4.1.2",
     "chai-http": "git+https://github.com/chaijs/chai-http.git#3ea4524",
     "concurrently": "^4.1.0",
-    "eslint": "^4.17.0",
     "mocha": "^5.2.0"
   },
   "repository": {

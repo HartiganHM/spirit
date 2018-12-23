@@ -24,11 +24,6 @@ export const ViewSession = props => {
     ids,
     concern,
     processValues,
-    processValuesExec,
-    processValuesMod,
-    processValuesPos,
-    processValuesSen,
-    processValuesSoc,
     treatmentPlan,
     therapyGoal;
 
@@ -104,65 +99,10 @@ export const ViewSession = props => {
         <p className="view-concern-notes">{props.selectedConcern.notes}</p>
       </div>
     );
-    processValues = processProcessesData([props.selectedProcess]);
+    processValues = processProcessesData([props.selectedProcess], true);
     treatmentPlan = formatTreatmentPlanData([props.selectedTreatmentPlan]);
     therapyGoal = formatTherapyGoalData([props.selectedTherapyGoal]);
-    processValuesExec = processValues.executive.map((object, index) => {
-      if (object.values[0] !== null && object.dbName !== 'created_at') {
-        return (
-          <div key={index} className="data-holder">
-            <p className="text-small">{object.title}:</p>
-            <p>{object.values[0]}</p>
-          </div>
-        );
-      }
-    });
-    processValuesMod = processValues.modulation.map((object, index) => {
-      if (object.values[0] !== null && object.dbName !== 'created_at') {
-        return (
-          <div key={index} className="data-holder">
-            <p className="text-small">{object.title}: </p>
-            <p>{object.values[0]}</p>
-          </div>
-        );
-      }
-    });
-    processValuesPos = processValues.postural.map((object, index) => {
-      if (object.values[0] !== null && object.dbName !== 'created_at') {
-        object.values[0] === 'true' ? (object.values[0] = 'Yes') : null;
-        object.values[0] === 'false' ? (object.values[0] = 'No') : null;
-        object.values[0] === true ? (object.values[0] = 'Yes') : null;
-        object.values[0] === false ? (object.values[0] = 'No') : null;
-        return (
-          <div key={index} className="data-holder">
-            <p className="text-small">{object.title}: </p>
-            <p>{object.values[0]}</p>
-          </div>
-        );
-      }
-    });
-    processValuesSen = processValues.sensory.map((object, index) => {
-      if (object.values[0] !== null && object.dbName !== 'created_at') {
-        return (
-          <div key={index} className="data-holder">
-            <p className="text-small">{object.title}: </p>
-            <p>{object.values[0]}</p>
-          </div>
-        );
-      }
-    });
-    processValuesSoc = processValues.social.map((object, index) => {
-      if (object.values[0] !== null && object.dbName !== 'created_at') {
-        object.values[0] === true ? (object.values[0] = 'Yes') : null;
-        object.values[0] === false ? (object.values[0] = 'No') : null;
-        return (
-          <div key={index} className="data-holder">
-            <p className="text-small">{object.title}: </p>
-            <p>{object.values[0]}</p>
-          </div>
-        );
-      }
-    });
+
     treatmentPlan = treatmentPlan.map((object, index) => {
       if (object.value !== null && object.dbName !== 'created_at') {
         return (
@@ -247,30 +187,19 @@ export const ViewSession = props => {
 
       <div className="view-processes">
         <h3>Processes</h3>
-        <div className="view-section-container">
-          <h4>Modulation:</h4>
-          <div className="view-processes-section">{processValuesMod}</div>
-        </div>
-
-        <div className="view-section-container">
-          <h4>Postural:</h4>
-          <div className="view-processes-section">{processValuesPos}</div>
-        </div>
-
-        <div className="view-section-container">
-          <h4>Executive:</h4>
-          <div className="view-processes-section">{processValuesExec}</div>
-        </div>
-
-        <div className="view-section-container">
-          <h4>Sensory:</h4>
-          <div className="view-processes-section">{processValuesSen}</div>
-        </div>
-
-        <div className="view-section-container">
-          <h4>Social:</h4>
-          <div className="view-processes-section">{processValuesSoc}</div>
-        </div>
+        {Object.keys(processValues).map((value, index) => (
+          <div key={`${value}-${index}`} className="view-section-container">
+            <h4 className="view-processes-title">{value}</h4>
+            <div className="view-processes-section">
+              {processValues[value].map((object, index) => (
+                <div key={index} className="data-holder">
+                  <p className="text-small">{object.title}: </p>
+                  <p>{object.values[0]}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
 
       <div className="view-section-container">
@@ -311,7 +240,10 @@ export const mapDispatchToProps = dispatch => ({
   }
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(ViewSession);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(ViewSession);
 
 ViewSession.propTypes = {
   currentPatient: PropTypes.object,

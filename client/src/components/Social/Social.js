@@ -22,12 +22,14 @@ const Social = () => {
 
           if (type) {
             if (type === 'YesNo') {
-              <YesNoQuestions
-                key={db}
-                title={title}
-                questionsArray={terms}
-                databaseNamesArray={db}
-              />;
+              return (
+                <YesNoQuestions
+                  key={db}
+                  title={title}
+                  questionsArray={terms}
+                  databaseNamesArray={db}
+                />
+              );
             }
           }
 

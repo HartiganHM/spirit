@@ -5,6 +5,10 @@ const user = (store = {}, action) => {
     return updatedUser;
   }
 
+  case 'CLEAR_CURRENT_USER': {
+    return store = {};
+  }
+
   case "UPDATE_USER_STORE": {
     let newStore = Object.assign({}, store);
     const keys = Object.keys(action.clinicData);

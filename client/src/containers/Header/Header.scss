@@ -10,7 +10,7 @@
     width: 150px;
   }
 
-  .header-welcome-user, .login-link {
+  .login-link {
     position: absolute;
     right: 20px;
     top: -9px;
@@ -31,5 +31,76 @@
     top: 15px;
     color: $white1;
     font-weight: 400;
+  }
+
+  .nav-icon {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+    &.close {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .burger-line {
+    height: 4px;
+    width: 30px;
+    margin: 3px;
+    background-color: $purple6;
+    border-radius: 2px;
+    transition: all 0.25s;
+    &.close {
+      background-color: $white1;
+      position: absolute;
+      top: 10px;
+    }
+    &.one {
+      transform: rotate(135deg);
+    }
+    &.two {
+      transform: rotate(-135deg);
+    }
+    &.remove {
+      display: none;
+    }
+  }
+  .navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    z-index: 2;
+  }
+
+  .header-welcome-user {
+    margin: 0;
+    padding: 15px 10px;
+    color: $white1;
+    background-color: $purple7;
+    box-shadow: rgba(0,0,0,0.3) -3px 3px 5px;
+    font-weight: 400;
+  }
+
+  .nav-link {
+    padding: 10px;
+    box-shadow: rgba(0,0,0,0.3) -3px 3px 5px;
+    color: $white1;
+    background-color: $purple3;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      background-color: $purple4;
+    }
+    &.selected {
+      background-color: $purple5;
+      cursor: default;
+      pointer-events: none;
+    }
   }
 }

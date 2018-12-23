@@ -107,61 +107,63 @@ ShallowWrapper {
               className="sam-big-image"
               src="/assets/sam-w-labels.svg"
             />,
-            <Link
-              replace={false}
-              to="modulation"
-            >
-              <p
-                className="sam-session-dots session-dots-1"
+            Array [
+              <Link
+                replace={false}
+                to="modulation"
               >
-                1
-              </p>
-            </Link>,
-            <Link
-              replace={false}
-              to="social"
-            >
-              <p
-                className="sam-session-dots session-dots-2"
+                <p
+                  className="sam-session-dots session-dots-1"
+                >
+                  1
+                </p>
+              </Link>,
+              <Link
+                replace={false}
+                to="social"
               >
-                2
-              </p>
-            </Link>,
-            <Link
-              replace={false}
-              to="postural"
-            >
-              <p
-                className="sam-session-dots session-dots-3"
+                <p
+                  className="sam-session-dots session-dots-2"
+                >
+                  2
+                </p>
+              </Link>,
+              <Link
+                replace={false}
+                to="postural"
               >
-                3
-              </p>
-            </Link>,
-            <Link
-              replace={false}
-              to="sensory"
-            >
-              <p
-                className="sam-session-dots session-dots-4"
+                <p
+                  className="sam-session-dots session-dots-3"
+                >
+                  3
+                </p>
+              </Link>,
+              <Link
+                replace={false}
+                to="sensory"
               >
-                4
-              </p>
-            </Link>,
-            <Link
-              replace={false}
-              to="executive"
-            >
-              <p
-                className="sam-session-dots session-dots-5"
+                <p
+                  className="sam-session-dots session-dots-4"
+                >
+                  4
+                </p>
+              </Link>,
+              <Link
+                replace={false}
+                to="executive"
               >
-                5
-              </p>
-            </Link>,
-            <p
-              className="sam-session-dots session-dots-6"
-            >
-              6
-            </p>,
+                <p
+                  className="sam-session-dots session-dots-5"
+                >
+                  5
+                </p>
+              </Link>,
+              <p
+                className="sam-session-dots session-dots-6"
+              >
+                6
+              </p>,
+            ],
           ],
           "className": "sam-image-holder",
         },
@@ -182,7 +184,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "modulation",
             "nodeType": "class",
             "props": Object {
               "children": <p
@@ -199,18 +201,18 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "1",
+                "children": 1,
                 "className": "sam-session-dots session-dots-1",
               },
               "ref": null,
-              "rendered": "1",
+              "rendered": 1,
               "type": "p",
             },
             "type": [Function],
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "social",
             "nodeType": "class",
             "props": Object {
               "children": <p
@@ -227,18 +229,18 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "2",
+                "children": 2,
                 "className": "sam-session-dots session-dots-2",
               },
               "ref": null,
-              "rendered": "2",
+              "rendered": 2,
               "type": "p",
             },
             "type": [Function],
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "postural",
             "nodeType": "class",
             "props": Object {
               "children": <p
@@ -255,18 +257,18 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "3",
+                "children": 3,
                 "className": "sam-session-dots session-dots-3",
               },
               "ref": null,
-              "rendered": "3",
+              "rendered": 3,
               "type": "p",
             },
             "type": [Function],
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "sensory",
             "nodeType": "class",
             "props": Object {
               "children": <p
@@ -283,18 +285,18 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "4",
+                "children": 4,
                 "className": "sam-session-dots session-dots-4",
               },
               "ref": null,
-              "rendered": "4",
+              "rendered": 4,
               "type": "p",
             },
             "type": [Function],
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "executive",
             "nodeType": "class",
             "props": Object {
               "children": <p
@@ -311,25 +313,25 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "5",
+                "children": 5,
                 "className": "sam-session-dots session-dots-5",
               },
               "ref": null,
-              "rendered": "5",
+              "rendered": 5,
               "type": "p",
             },
             "type": [Function],
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "6",
             "nodeType": "host",
             "props": Object {
-              "children": "6",
+              "children": 6,
               "className": "sam-session-dots session-dots-6",
             },
             "ref": null,
-            "rendered": "6",
+            "rendered": 6,
             "type": "p",
           },
         ],
@@ -462,61 +464,63 @@ ShallowWrapper {
                 className="sam-big-image"
                 src="/assets/sam-w-labels.svg"
               />,
-              <Link
-                replace={false}
-                to="modulation"
-              >
-                <p
-                  className="sam-session-dots session-dots-1"
+              Array [
+                <Link
+                  replace={false}
+                  to="modulation"
                 >
-                  1
-                </p>
-              </Link>,
-              <Link
-                replace={false}
-                to="social"
-              >
-                <p
-                  className="sam-session-dots session-dots-2"
+                  <p
+                    className="sam-session-dots session-dots-1"
+                  >
+                    1
+                  </p>
+                </Link>,
+                <Link
+                  replace={false}
+                  to="social"
                 >
-                  2
-                </p>
-              </Link>,
-              <Link
-                replace={false}
-                to="postural"
-              >
-                <p
-                  className="sam-session-dots session-dots-3"
+                  <p
+                    className="sam-session-dots session-dots-2"
+                  >
+                    2
+                  </p>
+                </Link>,
+                <Link
+                  replace={false}
+                  to="postural"
                 >
-                  3
-                </p>
-              </Link>,
-              <Link
-                replace={false}
-                to="sensory"
-              >
-                <p
-                  className="sam-session-dots session-dots-4"
+                  <p
+                    className="sam-session-dots session-dots-3"
+                  >
+                    3
+                  </p>
+                </Link>,
+                <Link
+                  replace={false}
+                  to="sensory"
                 >
-                  4
-                </p>
-              </Link>,
-              <Link
-                replace={false}
-                to="executive"
-              >
-                <p
-                  className="sam-session-dots session-dots-5"
+                  <p
+                    className="sam-session-dots session-dots-4"
+                  >
+                    4
+                  </p>
+                </Link>,
+                <Link
+                  replace={false}
+                  to="executive"
                 >
-                  5
-                </p>
-              </Link>,
-              <p
-                className="sam-session-dots session-dots-6"
-              >
-                6
-              </p>,
+                  <p
+                    className="sam-session-dots session-dots-5"
+                  >
+                    5
+                  </p>
+                </Link>,
+                <p
+                  className="sam-session-dots session-dots-6"
+                >
+                  6
+                </p>,
+              ],
             ],
             "className": "sam-image-holder",
           },
@@ -537,7 +541,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "modulation",
               "nodeType": "class",
               "props": Object {
                 "children": <p
@@ -554,18 +558,18 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "1",
+                  "children": 1,
                   "className": "sam-session-dots session-dots-1",
                 },
                 "ref": null,
-                "rendered": "1",
+                "rendered": 1,
                 "type": "p",
               },
               "type": [Function],
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "social",
               "nodeType": "class",
               "props": Object {
                 "children": <p
@@ -582,18 +586,18 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "2",
+                  "children": 2,
                   "className": "sam-session-dots session-dots-2",
                 },
                 "ref": null,
-                "rendered": "2",
+                "rendered": 2,
                 "type": "p",
               },
               "type": [Function],
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "postural",
               "nodeType": "class",
               "props": Object {
                 "children": <p
@@ -610,18 +614,18 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "3",
+                  "children": 3,
                   "className": "sam-session-dots session-dots-3",
                 },
                 "ref": null,
-                "rendered": "3",
+                "rendered": 3,
                 "type": "p",
               },
               "type": [Function],
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "sensory",
               "nodeType": "class",
               "props": Object {
                 "children": <p
@@ -638,18 +642,18 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "4",
+                  "children": 4,
                   "className": "sam-session-dots session-dots-4",
                 },
                 "ref": null,
-                "rendered": "4",
+                "rendered": 4,
                 "type": "p",
               },
               "type": [Function],
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "executive",
               "nodeType": "class",
               "props": Object {
                 "children": <p
@@ -666,25 +670,25 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "5",
+                  "children": 5,
                   "className": "sam-session-dots session-dots-5",
                 },
                 "ref": null,
-                "rendered": "5",
+                "rendered": 5,
                 "type": "p",
               },
               "type": [Function],
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "6",
               "nodeType": "host",
               "props": Object {
-                "children": "6",
+                "children": 6,
                 "className": "sam-session-dots session-dots-6",
               },
               "ref": null,
-              "rendered": "6",
+              "rendered": 6,
               "type": "p",
             },
           ],

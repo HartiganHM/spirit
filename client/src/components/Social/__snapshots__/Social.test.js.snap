@@ -51,7 +51,7 @@ ShallowWrapper {
                 "Reflective",
               ]
             }
-            title="DIR FEDLS's"
+            title="DIR FEDLS's ©"
           />
           <CategorySliders
             databaseNamesArray={Array []}
@@ -126,7 +126,7 @@ ShallowWrapper {
             }
             title="Emotional Processing"
           />
-          <YesNoQuestions
+          <CategorySliders
             databaseNamesArray={
               Array [
                 "soc_4_mental",
@@ -135,7 +135,7 @@ ShallowWrapper {
                 "soc_4_trauma",
               ]
             }
-            questionsArray={
+            slidersArray={
               Array [
                 "Mental Health Support Indicated?",
                 "Thoughts and/or emotions require intervention or medication?",
@@ -195,7 +195,7 @@ ShallowWrapper {
                   "Reflective",
                 ]
               }
-              title="DIR FEDLS's"
+              title="DIR FEDLS's ©"
             />,
             <CategorySliders
               databaseNamesArray={Array []}
@@ -270,7 +270,7 @@ ShallowWrapper {
               }
               title="Emotional Processing"
             />,
-            <YesNoQuestions
+            <CategorySliders
               databaseNamesArray={
                 Array [
                   "soc_4_mental",
@@ -279,7 +279,7 @@ ShallowWrapper {
                   "soc_4_trauma",
                 ]
               }
-              questionsArray={
+              slidersArray={
                 Array [
                   "Mental Health Support Indicated?",
                   "Thoughts and/or emotions require intervention or medication?",
@@ -296,7 +296,7 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "soc_1_regulation,soc_1_engagement,soc_1_reciprocity,soc_1_problem,soc_1_representation,soc_1_triangular,soc_1_comparative,soc_1_reflective",
             "nodeType": "function",
             "props": Object {
               "databaseNamesArray": Array [
@@ -319,7 +319,7 @@ ShallowWrapper {
                 "Comparative Thinking",
                 "Reflective",
               ],
-              "title": "DIR FEDLS's",
+              "title": "DIR FEDLS's ©",
             },
             "ref": null,
             "rendered": null,
@@ -340,7 +340,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "soc_2_self_awareness,soc_2_joint,soc_2_social_referencing,soc_2_imitation,soc_2_inferential,soc_2_contingent,soc_2_theory,soc_2_central,soc_2_mentalizing,soc_2_empathy,soc_2_social_perspective,soc_2_social_motivators,soc_2_pro_social",
             "nodeType": "function",
             "props": Object {
               "databaseNamesArray": Array [
@@ -381,7 +381,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "soc_3_affective,soc_3_emotional_contagion,soc_3_activation_low,soc_3_emotional_cascade,soc_3_activation_high,soc_3_emotional_differentiation,soc_3_emotional_association,soc_3_self_control,soc_3_self_regulation,soc_3_self_compassion",
             "nodeType": "function",
             "props": Object {
               "databaseNamesArray": Array [
@@ -416,7 +416,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "soc_4_mental,soc_4_thoughts,soc_4_attachments,soc_4_trauma",
             "nodeType": "function",
             "props": Object {
               "databaseNamesArray": Array [
@@ -425,7 +425,7 @@ ShallowWrapper {
                 "soc_4_attachments",
                 "soc_4_trauma",
               ],
-              "questionsArray": Array [
+              "slidersArray": Array [
                 "Mental Health Support Indicated?",
                 "Thoughts and/or emotions require intervention or medication?",
                 "Attachment related care needed?",
@@ -483,7 +483,7 @@ ShallowWrapper {
                   "Reflective",
                 ]
               }
-              title="DIR FEDLS's"
+              title="DIR FEDLS's ©"
             />
             <CategorySliders
               databaseNamesArray={Array []}
@@ -558,7 +558,7 @@ ShallowWrapper {
               }
               title="Emotional Processing"
             />
-            <YesNoQuestions
+            <CategorySliders
               databaseNamesArray={
                 Array [
                   "soc_4_mental",
@@ -567,7 +567,7 @@ ShallowWrapper {
                   "soc_4_trauma",
                 ]
               }
-              questionsArray={
+              slidersArray={
                 Array [
                   "Mental Health Support Indicated?",
                   "Thoughts and/or emotions require intervention or medication?",
@@ -627,7 +627,7 @@ ShallowWrapper {
                     "Reflective",
                   ]
                 }
-                title="DIR FEDLS's"
+                title="DIR FEDLS's ©"
               />,
               <CategorySliders
                 databaseNamesArray={Array []}
@@ -702,7 +702,7 @@ ShallowWrapper {
                 }
                 title="Emotional Processing"
               />,
-              <YesNoQuestions
+              <CategorySliders
                 databaseNamesArray={
                   Array [
                     "soc_4_mental",
@@ -711,7 +711,7 @@ ShallowWrapper {
                     "soc_4_trauma",
                   ]
                 }
-                questionsArray={
+                slidersArray={
                   Array [
                     "Mental Health Support Indicated?",
                     "Thoughts and/or emotions require intervention or medication?",
@@ -728,7 +728,7 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "soc_1_regulation,soc_1_engagement,soc_1_reciprocity,soc_1_problem,soc_1_representation,soc_1_triangular,soc_1_comparative,soc_1_reflective",
               "nodeType": "function",
               "props": Object {
                 "databaseNamesArray": Array [
@@ -751,7 +751,7 @@ ShallowWrapper {
                   "Comparative Thinking",
                   "Reflective",
                 ],
-                "title": "DIR FEDLS's",
+                "title": "DIR FEDLS's ©",
               },
               "ref": null,
               "rendered": null,
@@ -772,7 +772,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "soc_2_self_awareness,soc_2_joint,soc_2_social_referencing,soc_2_imitation,soc_2_inferential,soc_2_contingent,soc_2_theory,soc_2_central,soc_2_mentalizing,soc_2_empathy,soc_2_social_perspective,soc_2_social_motivators,soc_2_pro_social",
               "nodeType": "function",
               "props": Object {
                 "databaseNamesArray": Array [
@@ -813,7 +813,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "soc_3_affective,soc_3_emotional_contagion,soc_3_activation_low,soc_3_emotional_cascade,soc_3_activation_high,soc_3_emotional_differentiation,soc_3_emotional_association,soc_3_self_control,soc_3_self_regulation,soc_3_self_compassion",
               "nodeType": "function",
               "props": Object {
                 "databaseNamesArray": Array [
@@ -848,7 +848,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "soc_4_mental,soc_4_thoughts,soc_4_attachments,soc_4_trauma",
               "nodeType": "function",
               "props": Object {
                 "databaseNamesArray": Array [
@@ -857,7 +857,7 @@ ShallowWrapper {
                   "soc_4_attachments",
                   "soc_4_trauma",
                 ],
-                "questionsArray": Array [
+                "slidersArray": Array [
                   "Mental Health Support Indicated?",
                   "Thoughts and/or emotions require intervention or medication?",
                   "Attachment related care needed?",

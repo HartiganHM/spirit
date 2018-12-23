@@ -1,3 +1,4 @@
+  
 import postClinic from './postClinic';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 import { mockClinicData } from '../../data/mockData/mockClinicData';

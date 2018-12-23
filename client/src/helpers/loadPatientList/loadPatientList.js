@@ -1,3 +1,4 @@
+  
 import getKeyFromLS from '../getKeyFromLS/getKeyFromLS';
 
 const loadPatientList = async id => {

@@ -1,3 +1,4 @@
+  
 import loadSessionsList from './loadSessionsList';
 import { mockSession } from '../../data/mockData/mockSession';
 

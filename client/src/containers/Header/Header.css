@@ -46,7 +46,7 @@ p {
   .Header .header-wordmark {
     margin: 0;
     width: 150px; }
-  .Header .header-welcome-user, .Header .login-link {
+  .Header .login-link {
     position: absolute;
     right: 20px;
     top: -9px;
@@ -63,3 +63,59 @@ p {
     top: 15px;
     color: #F9F9F9;
     font-weight: 400; }
+  .Header .nav-icon {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3; }
+    .Header .nav-icon.close {
+      width: 30px;
+      height: 30px; }
+  .Header .burger-line {
+    height: 4px;
+    width: 30px;
+    margin: 3px;
+    background-color: #5E378C;
+    border-radius: 2px;
+    transition: all 0.25s; }
+    .Header .burger-line.close {
+      background-color: #F9F9F9;
+      position: absolute;
+      top: 10px; }
+    .Header .burger-line.one {
+      transform: rotate(135deg); }
+    .Header .burger-line.two {
+      transform: rotate(-135deg); }
+    .Header .burger-line.remove {
+      display: none; }
+  .Header .navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    z-index: 2; }
+  .Header .header-welcome-user {
+    margin: 0;
+    padding: 15px 10px;
+    color: #F9F9F9;
+    background-color: #462A69;
+    box-shadow: rgba(0, 0, 0, 0.3) -3px 3px 5px;
+    font-weight: 400; }
+  .Header .nav-link {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) -3px 3px 5px;
+    color: #F9F9F9;
+    background-color: #BFAFD0;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease-in-out; }
+    .Header .nav-link:hover {
+      background-color: #9E87BA; }
+    .Header .nav-link.selected {
+      background-color: #7F60A4;
+      cursor: default;
+      pointer-events: none; }

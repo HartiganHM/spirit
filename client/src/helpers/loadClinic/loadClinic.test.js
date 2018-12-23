@@ -1,3 +1,4 @@
+  
 import loadClinic from './loadClinic';
 import { mockApiResponse } from '../../data/mockData/mockApiResponse';
 
