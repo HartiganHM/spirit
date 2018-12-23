@@ -40,7 +40,7 @@ jobs:
 
       # run tests
       - run: npm run test:server
-      - run: npm run test:client:ci
+      - run: npm run test:client -- --bail --ci
 
       # run eslint
       - run: npm run eslint
