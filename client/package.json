@@ -4,15 +4,15 @@
   "private": true,
   "proxy": "http://localhost:5000/",
   "scripts": {
+    "build": "react-scripts build",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "eject": "react-scripts eject",
+    "eslint": "./node_modules/eslint/bin/eslint.js ./*.js ./src/*.js ./src/*/*.js ./src/*/*/*.js",
     "start": "npm-run-all -p watch-css start-js",
     "start-js": "PORT=3001 react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "test:ci": "CI=true react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "eslint": "./node_modules/eslint/bin/eslint.js ./*.js ./src/*.js ./src/*/*.js ./src/*/*/*.js"
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
   },
   "dependencies": {
     "build-css": "^0.2.0",
